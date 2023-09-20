@@ -1,12 +1,12 @@
-# Deploy your first [ENTITY] using Deck
+# Deploy your first Consumer using Deck
 
-## Video on how to create [ENTITY] using Deck
+## Video on how to create Consumer using Deck
 
 <!--
-[![Adding new [ENTITY] using Deck](./images/)](https://youtu.be/ "Adding new [ENTITY] using Deck")
+[![Adding new Consumer using Deck](./images/)](https://youtu.be/ "Adding new Consumer using Deck")
 -->
 
-## Deploy your first [ENTITY] using Deck
+## Deploy your first Consumer using Deck
 
 **Pre-Requisites**
 
