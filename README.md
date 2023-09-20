@@ -80,10 +80,6 @@ This section gives a breakdown of plugins and how to configure them.
 - [ ] [Overview of API Products](./api-products/api-products-overview/)
 - [ ] [Creating an API product](./api-products/creating-api-product/)
 
-## Konnect Mesh
-
-COMING SOON
-
 ## How to guides
 
 COMING SOON

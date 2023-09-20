@@ -1,0 +1,6 @@
+_format_version: "3.0"
+consumers:
+- custom_id: first-consumer-id
+  tags:
+  - test-consumer
+  username: first-consumer
