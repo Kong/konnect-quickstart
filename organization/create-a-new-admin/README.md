@@ -4,9 +4,9 @@
 [How to create a new Admin in Konnect](#How-to-create-a-new-Admin-in-Konnect)
 
 ## Watch the video to create a new Admin
-
+<!--
 [![Create a new Admin](./images/activate.png)](https://youtu.be/ "Create a new Admin")
-
+-->
 ## How to create a new Admin in Konnect
 
 1. Log in to Konnect: `https://cloud.konghq.com/login`
