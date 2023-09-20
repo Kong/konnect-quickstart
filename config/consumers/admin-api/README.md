@@ -1,12 +1,12 @@
-# Deploy your first [ENTITY] using the Admin API
+# Deploy your first Consumer using the Admin API
 
-## Video on how to create [ENTITY] using Deck
+## Video on how to create Consumer using Deck
 
 <!--
-[![Adding new [ENTITY] using the Admin API](./images/)](https://youtu.be/ "Adding new [ENTITY] using the Admin API")
+[![Adding new Consumer using the Admin API](./images/)](https://youtu.be/ "Adding new Consumer using the Admin API")
 -->
 
-## Deploy your first [ENTITY] using the Admin API
+## Deploy your first Consumer using the Admin API
 
 **Pre-Requisites**
 
@@ -20,9 +20,13 @@
 2. Search for `Consumer" 
 3. Run the following command to create a consumer:
 
-[Create Consumer](../../images/create-consumer.png)
+![Create Consumer](../../images/create-consumer.png)
 
-4. This is the example of what a curl command would look like:
+4. Once it's created, you will see the consumer in Konnect
+
+![Consumer in Konnect](../../images/consumer-konnect.png)
+
+5. This is the example of what a curl command would look like:
 
 ```
 curl --request POST \
