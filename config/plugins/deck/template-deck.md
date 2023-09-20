@@ -43,5 +43,5 @@ Successfully Konnected to the Kong organization!
 
 ![Test to see plugin enforced](../../images/test-plugin.png)
 
-6. We can see the rate limiting headers being applied `X-RateLimit-Limit-Minute` and `X-RateLimit-Remaining-Minute`
+1. We can see the rate limiting headers being applied `X-RateLimit-Limit-Minute` and `X-RateLimit-Remaining-Minute`
 
