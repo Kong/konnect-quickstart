@@ -39,6 +39,8 @@ Successfully Konnected to the Kong organization!
 
 `deck sync --konnect-token-file konnect.key --konnect-runtime-group-name Konnect --select-tag first-plugin`
 
+![Plugin Sync](../../images/plugin-sync.png)
+
 5.  Go back to the proxy request
 
 ![Test to see plugin enforced](../../images/test-plugin-rl.png)
