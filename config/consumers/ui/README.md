@@ -1,14 +1,11 @@
 # Add your first Consumer in the Konnect UI
 
 ## Video on how to create Consumer in the Konnect UI
-
-
-## Add your first Consumer using the Admin API
 <!--
 [![Adding new Consumer in KIC](./images/)](https://youtu.be/ "Adding new Consumerin KIC")
 -->
 
-## Add your first Consumer using the Admin API
+## Add your first Consumer using the the UI
 
 **Pre-Requisites**
 
