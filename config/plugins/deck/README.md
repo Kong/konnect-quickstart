@@ -41,7 +41,7 @@ Successfully Konnected to the Kong organization!
 
 5.  Go back to the proxy request
 
-![404](../../images/404.png)
+![Test to see plugin enforced](../../images/test-plugin-rl.png)
 
 6. We can see the rate limiting headers being applied `X-RateLimit-Limit-Minute` and `X-RateLimit-Remaining-Minute`
 
