@@ -34,11 +34,11 @@ In this walkthrough we are going to use the Rate limiting plugin to showcase how
 
 ![Add route](../../images/add-route.png)
 
-9. Configure your route, we will expose the service over /api like
+1. Configure your route, we will expose the service over `/api`
 
 ![Configure Route](../../images/configure-route.png)  
 
-10. Go to your proxy endpoint
+10. Go to your proxy endpoint to test service and route work
 
 ![Test Proxy](../../images/test-proxy.png)
 
@@ -54,8 +54,8 @@ In this walkthrough we are going to use the Rate limiting plugin to showcase how
 
 ![Configure Plugin](../../images/config-plugin.png)
 
-14. Go back to the rate limiting 
+14. Go back to the proxy request
 
-![Test to see plugin enforced]()
+![Test to see plugin enforced](../../images/test-plugin-rl.png)
 
 15. We can see the rate limiting headers being applied `X-RateLimit-Limit-Minute` and `X-RateLimit-Remaining-Minute`
