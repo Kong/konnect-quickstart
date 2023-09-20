@@ -1,9 +1,9 @@
-# Add your first [ENTITY] in the Konnect UI
+# Add your first Plugin in the Konnect UI
 
-## Video on how to create [ENTITY] in the Konnect UI
+## Video on how to create Plugin in the Konnect UI
 
 <!--
-[![Adding new [ENTITY] in KIC](./images/)](https://youtu.be/ "Adding new [ENTITY] in KIC")
+[![Adding new Plugin in KIC](./images/)](https://youtu.be/ "Adding new Plugin in KIC")
 -->
 
 
