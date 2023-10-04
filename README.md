@@ -4,11 +4,11 @@
 
 | Topic           | Content       | Video         | Status          | 
 |-----------------|---------------|---------------|----------------|
-| [Useful Resources](./getting-started/useful-resources/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>   | In progress
-| [Overview of Kong Konnect](./getting-started/overview-konnect/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>   | In progress
-| [Architecture](./getting-started/konnect-architecture/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>   | In progress
-| [Register for Kong Konnect + Pricing tiers](./getting-started/register-for-konnect/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>   | In progress
-| [Product walk-through](./getting-started/product-walk-through/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>   | In progress
+| [Useful Resources](./getting-started/useful-resources/) | <ul><li>  [ ]  </li>     | <ul><li>  [x]  </li>   | In progress
+| [Overview of Kong Konnect](./getting-started/overview-konnect/) | <ul><li>  [ ]  </li>     | <ul><li>  [x]  </li>   | In progress
+| [Architecture](./getting-started/konnect-architecture/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
+| [Register for Kong Konnect + Pricing tiers](./getting-started/register-for-konnect/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   |  Not started
+| [Product walk-through](./getting-started/product-walk-through/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
 
 ## Organization
 
