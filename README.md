@@ -2,13 +2,12 @@
 
 ## Getting started with Kong Konnect
 
-| Content         | Video         | Status        | Topic          | 
+| Topic           | Content       | Video         | Status          | 
 |-----------------|---------------|---------------|----------------|
-| <ul><li>[x] </li>  | > 5 hours     | in progress   | <ul><li>[x]</li>
-| Object Cache   | > 5 hours     | in progress   | <ul><li>[x] item1</li>
+| [Useful Resources](./getting-started/useful-resources/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>   | In progress
 
 
-- [ ] [Useful Resources](./getting-started/useful-resources/)
+- [ ] 
 - [ ] [Overview of Kong Konnect](./getting-started/overview-konnect/)
 - [ ] [Architecture](./getting-started/konnect-architecture/)
 - [ ] [Register for Kong Konnect + Pricing tiers](./getting-started/register-for-konnect/)
