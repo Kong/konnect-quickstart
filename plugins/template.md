@@ -8,7 +8,10 @@
 
 ## Watch the video on how to use the [PLUGIN NAME] plugin
 
-[![Create a new Admin](./images/activate.png)](https://youtu.be/ "Create a new Admin")
+<!--
+[![First [PLUGIN NAME]](./images/activate.png)](https://youtu.be/ "First [PLUGIN NAME]")
+-->
+
 
 ## Step by step guide on how to use the [] plugin
 
