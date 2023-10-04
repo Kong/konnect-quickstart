@@ -4,39 +4,48 @@
 
 | Topic           | Content       | Slides        | Videos         | Status         |
 |-----------------|---------------|---------------|----------------|----------------|
-| [Useful Resources](./getting-started/useful-resources/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [x]  </li>   | In progress
+| [Useful Resources](./getting-started/useful-resources/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | In progress
 | [Overview of Kong Konnect](./getting-started/overview-konnect/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | <ul><li>  [ ]  </li>     | In progress
-| [Architecture](./getting-started/konnect-architecture/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | <ul><li>  [x]  </li>  | Not started
+| [Architecture](./getting-started/konnect-architecture/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | <ul><li>  [ ]  </li>  | Not started
 | [Register for Kong Konnect + Pricing tiers](./getting-started/register-for-konnect/) | <ul><li>  [ ]  </li>    | <ul><li>  [ ]  </li>   | <ul><li>  [ ]  </li>   |  Not started
 | [Product walk-through](./getting-started/product-walk-through/) | <ul><li>  [ ]  </li>    | <ul><li>  [ ]  </li>   | <ul><li>  [ ]  </li>   |  Not started
 
 ## Organization
 
-- [ ] [Overview of Organization](./organization/overview-of-organization/)
-- [ ] [How to get your Organization ID](./organization/get-konnect-org-id/)
-- [ ] [Create a new admin in Konnect](./organization/create-a-new-admin/)
-- [ ] [Sign up with SSO (OKTA)](./organization/sso-okta/)
+
+| Topic           | Content       | Slides        | Videos         | Status         |
+|-----------------|---------------|---------------|----------------|----------------|
+| [Overview of Organization](./organization/overview-of-organization/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
+| [How to get your Organization ID](./organization/get-konnect-org-id/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
+| [Create a new admin in Konnect](./organization/create-a-new-admin/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
+| [Sign up with SSO (OKTA)](./organization/sso-okta/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
 
 ## Runtime Groups and Runtime instances
 
-- [ ] [Overview of Runtime Groups](./runtime-groups-runtime-instances/overview-runtime-groups/)
-- [ ] [How to create a Runtime group](./runtime-groups-runtime-instances/get-runtime-group-id/)
-- [ ] [How to get your Runtime Group ID](./runtime-groups-runtime-instances/get-runtime-group-id/)
+| Topic           | Content       | Slides        | Videos         | Status         |
+|-----------------|---------------|---------------|----------------|----------------|
+| [Overview of Runtime Groups](./runtime-groups-runtime-instances/overview-runtime-groups/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | In progress
+| [How to create a Runtime group](./runtime-groups-runtime-instances/get-runtime-group-id/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | In progress
+| [How to get your Runtime Group ID](./runtime-groups-runtime-instances/get-runtime-group-id/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | In progress
 
 ## Konnect Gateway Install
 
-- [ ] [Quick install (Docker)](./install/quickstart-install/)
-- [ ] [Docker Compose Install](./install/docker-compose/)
-- [ ] [Install on VM (EC2)](./install/vm-install/)
-- [ ] [Install on Kubernetes (EKS)](./install/kubernetes-install/)
-- [ ] [KIC install](./install/kic-install/)
+| Topic           | Content       | Slides        | Videos         | Status         |
+|-----------------|---------------|---------------|----------------|----------------|
+| [Quick install (Docker)](./install/quickstart-install/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | In progress
+| [Docker Compose Install](./install/docker-compose/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | In progress
+| [Install on VM (EC2)](./install/vm-install/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | In progress
+| [Install on Kubernetes (EKS)](./install/kubernetes-install/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | In progress
+| [KIC install](./install/kic-install/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | In progress
 
 ## Basic Config
 
-- [ ] [Service and Routes in Konnect](./config/services-and-routes/)
-- [ ] [Upstreams and targets](./config/upstreams-targets/)
-- [ ] [Consumers](./config/consumers/)
-- [ ] [Plugins](./config/plugins/)
+| Topic           | Content       | Slides        | Videos         | Status         |
+|-----------------|---------------|---------------|----------------|----------------|
+| [Service and Routes in Konnect](./config/services-and-routes/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | In progress
+| [Upstreams and targets](./config/upstreams-targets/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | In progress
+| [Consumers](./config/consumers/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | In progress
+| [Plugins](./config/plugins/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | In progress
 
 ## Plugins
 
@@ -44,40 +53,66 @@ This section gives a breakdown of plugins and how to configure them.
 
 ### Authentication plugins
 
-- [ ] [Key Authentication](./plugins/authentication/key-authentication/)
-- [ ] [Basic Authentication](./plugins/authentication/basic-authentication/)
+| Topic           | Content       | Slides        | Videos         | Status         |
+|-----------------|---------------|---------------|----------------|----------------|
+| [Key Authentication](./plugins/authentication/key-authentication/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
+| [Basic Authentication](./plugins/authentication/basic-authentication/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
 
 ### Security plugins
 
-- [ ] [Rate Limiting](./plugins/security/rate-limiting/)
-- [ ] [Rate limiting advanced](./plugins/security/rate-limiting-adv/)
-- [ ] [IP Restriction](./plugins/security/ip-restriction/)
+| Topic           | Content       | Slides        | Videos         | Status         |
+|-----------------|---------------|---------------|----------------|----------------|
+| [Rate Limiting](./plugins/security/rate-limiting/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
+| [Rate limiting advanced](./plugins/security/rate-limiting-adv/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
+| [IP Restriction](./plugins/security/ip-restriction/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
 
 ### Traffic Control
 
-- [ ] [ACL](./plugins/traffic-control/acl/)
-- [ ] [Canary](./plugins/traffic-control/canary/)
+| Topic           | Content       | Slides        | Videos         | Status         |
+|-----------------|---------------|---------------|----------------|----------------|
+| [ACL](./plugins/traffic-control/acl/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
+| [Canary](./plugins/traffic-control/canary/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
+
 
 ### Analytics & Monitoring
 
-- [ ] [Prometheus](./plugins/analytics-monitoring/prometheus/)
+| Topic           | Content       | Slides        | Videos         | Status         |
+|-----------------|---------------|---------------|----------------|----------------|
+| [Prometheus](./plugins/analytics-monitoring/prometheus/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
 
 ### Transformation
 
-- [ ] [Correlation ID](./plugins/transformation/correlation-id/)
-- [ ] [Request Transformer](./plugins/transformation/req-transformer/)
+| Topic           | Content       | Slides        | Videos         | Status         |
+|-----------------|---------------|---------------|----------------|----------------|
+| [Correlation ID](./plugins/transformation/correlation-id/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
+| [Request Transformer](./plugins/transformation/req-transformer/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
 
 ### Logging
+
+| Topic           | Content       | Slides        | Videos         | Status         |
+|-----------------|---------------|---------------|----------------|----------------|
+|  | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
+|  | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
 
 - [ ] [File Log](./plugins/logging/file-log/)
 - [ ] [HTTP log](./plugins/logging/http-log/)
 
 ## Analytics
 
+| Topic           | Content       | Slides        | Videos         | Status         |
+|-----------------|---------------|---------------|----------------|----------------|
+|  | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
+|  | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
+
 - [ ] [Overview of Analytics](./analytics/overview-analytics/)
 - [ ] [Create a report](./analytics/create-report/)
 
 ## API Products
+
+| Topic           | Content       | Slides        | Videos         | Status         |
+|-----------------|---------------|---------------|----------------|----------------|
+|  | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
+|  | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
 
 - [ ] [Overview of API Products](./api-products/api-products-overview/)
 - [ ] [Creating an API product](./api-products/creating-api-product/)
