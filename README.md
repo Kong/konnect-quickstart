@@ -4,7 +4,7 @@
 
 | Content         | Video         | Status        | Topic          | 
 |-----------------|---------------|---------------|----------------|
-| <ul><li>[x]</li>  | > 5 hours     | in progress   | <ul><li>[x]</li>
+| <ul><li>[x] </li>  | > 5 hours     | in progress   | <ul><li>[x]</li>
 | Object Cache   | > 5 hours     | in progress   | <ul><li>[x] item1</li>
 
 
