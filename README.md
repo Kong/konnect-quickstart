@@ -8,7 +8,7 @@
 | [Overview of Kong Konnect](./getting-started/overview-konnect/) | <ul><li>  [ ]  </li>     | <ul><li>  [x]  </li>   | <ul><li>  [ ]  </li>     | In progress
 | [Architecture](./getting-started/konnect-architecture/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | <ul><li>  [x]  </li>  | Not started
 | [Register for Kong Konnect + Pricing tiers](./getting-started/register-for-konnect/) | <ul><li>  [ ]  </li>    | <ul><li>  [x]  </li>   | <ul><li>  [ ]  </li>   |  Not started
-| [Product walk-through](./getting-started/product-walk-through/) | <ul><li>  [ ]  </li>     | <ul><li>  | <ul><li>  [x]  </li>  [ ]  </li>   | Not started
+| [Product walk-through](./getting-started/product-walk-through/) | <ul><li>  [ ]  </li>    | <ul><li>  [x]  </li>   | <ul><li>  [ ]  </li>   |  Not started
 
 ## Organization
 
