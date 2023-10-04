@@ -91,31 +91,23 @@ This section gives a breakdown of plugins and how to configure them.
 
 | Topic           | Content       | Slides        | Videos         | Status         |
 |-----------------|---------------|---------------|----------------|----------------|
-|  | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
-|  | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
+| [File Log](./plugins/logging/file-log/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
+| [HTTP log](./plugins/logging/http-log/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
 
-- [ ] [File Log](./plugins/logging/file-log/)
-- [ ] [HTTP log](./plugins/logging/http-log/)
 
 ## Analytics
 
 | Topic           | Content       | Slides        | Videos         | Status         |
 |-----------------|---------------|---------------|----------------|----------------|
-|  | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
-|  | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
-
-- [ ] [Overview of Analytics](./analytics/overview-analytics/)
-- [ ] [Create a report](./analytics/create-report/)
+| [Overview of Analytics](./analytics/overview-analytics/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
+| [Create a report](./analytics/create-report/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
 
 ## API Products
 
 | Topic           | Content       | Slides        | Videos         | Status         |
 |-----------------|---------------|---------------|----------------|----------------|
-|  | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
-|  | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
-
-- [ ] [Overview of API Products](./api-products/api-products-overview/)
-- [ ] [Creating an API product](./api-products/creating-api-product/)
+| [Overview of API Products](./api-products/api-products-overview/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
+| [Creating an API product](./api-products/creating-api-product/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
 
 ## How to guides
 
