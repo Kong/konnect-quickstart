@@ -4,8 +4,8 @@
 
 | Topic           | Content       | Slides        | Videos         | Status         |
 |-----------------|---------------|---------------|----------------|----------------|
-| [Useful Resources](./getting-started/useful-resources/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | In progress
-| [Overview of Kong Konnect](./getting-started/overview-konnect/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | <ul><li>  [ ]  </li>     | In progress
+| [Useful Resources](./getting-started/useful-resources/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
+| [Overview of Kong Konnect](./getting-started/overview-konnect/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | <ul><li>  [ ]  </li>     | Not started
 | [Architecture](./getting-started/konnect-architecture/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | <ul><li>  [ ]  </li>  | Not started
 | [Register for Kong Konnect + Pricing tiers](./getting-started/register-for-konnect/) | <ul><li>  [ ]  </li>    | <ul><li>  [ ]  </li>   | <ul><li>  [ ]  </li>   |  Not started
 | [Product walk-through](./getting-started/product-walk-through/) | <ul><li>  [ ]  </li>    | <ul><li>  [ ]  </li>   | <ul><li>  [ ]  </li>   |  Not started
@@ -24,28 +24,28 @@
 
 | Topic           | Content       | Slides        | Videos         | Status         |
 |-----------------|---------------|---------------|----------------|----------------|
-| [Overview of Runtime Groups](./runtime-groups-runtime-instances/overview-runtime-groups/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | In progress
-| [How to create a Runtime group](./runtime-groups-runtime-instances/get-runtime-group-id/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | In progress
-| [How to get your Runtime Group ID](./runtime-groups-runtime-instances/get-runtime-group-id/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | In progress
+| [Overview of Runtime Groups](./runtime-groups-runtime-instances/overview-runtime-groups/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
+| [How to create a Runtime group](./runtime-groups-runtime-instances/get-runtime-group-id/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
+| [How to get your Runtime Group ID](./runtime-groups-runtime-instances/get-runtime-group-id/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
 
 ## Konnect Gateway Install
 
 | Topic           | Content       | Slides        | Videos         | Status         |
 |-----------------|---------------|---------------|----------------|----------------|
-| [Quick install (Docker)](./install/quickstart-install/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | In progress
-| [Docker Compose Install](./install/docker-compose/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | In progress
-| [Install on VM (EC2)](./install/vm-install/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | In progress
-| [Install on Kubernetes (EKS)](./install/kubernetes-install/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | In progress
-| [KIC install](./install/kic-install/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | In progress
+| [Quick install (Docker)](./install/quickstart-install/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
+| [Docker Compose Install](./install/docker-compose/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
+| [Install on VM (EC2)](./install/vm-install/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
+| [Install on Kubernetes (EKS)](./install/kubernetes-install/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
+| [KIC install](./install/kic-install/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
 
 ## Basic Config
 
 | Topic           | Content       | Slides        | Videos         | Status         |
 |-----------------|---------------|---------------|----------------|----------------|
-| [Service and Routes in Konnect](./config/services-and-routes/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | In progress
-| [Upstreams and targets](./config/upstreams-targets/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | In progress
-| [Consumers](./config/consumers/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | In progress
-| [Plugins](./config/plugins/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | In progress
+| [Service and Routes in Konnect](./config/services-and-routes/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
+| [Upstreams and targets](./config/upstreams-targets/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
+| [Consumers](./config/consumers/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
+| [Plugins](./config/plugins/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
 
 ## Plugins
 
