@@ -4,10 +4,10 @@
 
 | Topic           | Content       | Slides        | Videos         | Status         |
 |-----------------|---------------|---------------|----------------|----------------|
-| [Useful Resources](./getting-started/useful-resources/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
-| [Overview of Kong Konnect](./getting-started/overview-konnect/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | <ul><li>  [ ]  </li>     | Not started
+| [Useful Resources](./getting-started/useful-resources/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [x]  </li>   | In progress
+| [Overview of Kong Konnect](./getting-started/overview-konnect/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | <ul><li>  [x]  </li>     | In progress
 | [Architecture](./getting-started/konnect-architecture/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | <ul><li>  [ ]  </li>  | Not started
-| [Register for Kong Konnect + Pricing tiers](./getting-started/register-for-konnect/) | <ul><li>  [ ]  </li>    | <ul><li>  [ ]  </li>   | <ul><li>  [ ]  </li>   |  Not started
+| [Register for Kong Konnect + Pricing tiers](./getting-started/register-for-konnect/) | <ul><li>  [ ]  </li>    | <ul><li>  [ ]  </li>   | <ul><li>  [x]  </li>   |  In progress
 | [Product walk-through](./getting-started/product-walk-through/) | <ul><li>  [ ]  </li>    | <ul><li>  [ ]  </li>   | <ul><li>  [ ]  </li>   |  Not started
 
 ## Organization
@@ -15,9 +15,9 @@
 
 | Topic           | Content       | Slides        | Videos         | Status         |
 |-----------------|---------------|---------------|----------------|----------------|
-| [Overview of Organization](./organization/overview-of-organization/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
-| [How to get your Organization ID](./organization/get-konnect-org-id/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
-| [Create a new admin in Konnect](./organization/create-a-new-admin/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
+| [Overview of Organization](./organization/overview-of-organization/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [x]  </li>   | In progress
+| [How to get your Organization ID](./organization/get-konnect-org-id/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [x]  </li>   | In progress
+| [Create a new admin in Konnect](./organization/create-a-new-admin/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [x]  </li>   | In progress
 | [Sign up with SSO (OKTA)](./organization/sso-okta/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
 
 ## Runtime Groups and Runtime instances
@@ -36,7 +36,7 @@
 | [Docker Compose Install](./install/docker-compose/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
 | [Install on VM (EC2)](./install/vm-install/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
 | [Install on Kubernetes (EKS)](./install/kubernetes-install/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
-| [KIC install](./install/kic-install/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
+| [KIC install](./install/kic-install/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [x]  </li>   | Not started
 
 ## Basic Config
 
