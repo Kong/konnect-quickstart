@@ -1,5 +1,11 @@
 # Overview of Kong Konnect
 
+## Watch video on Overview of Konnect
+
+<!---
+[![Useful resource links](./images/docs.png)](https://youtu.be/ "Useful resource links")
+-->
+
 ## What is Kong Konnect?
 
 Kong Konnect is the unified, cloud-native API lifecycle platform to optimize any environment. Kong Konnect empowers organizations to efficiently publish, consume, secure, analyze and manage APIs and services across modern and legacy applications on any cloud, platform, protocol or architecture. 
@@ -31,15 +37,9 @@ Kong Konnect includes a control plane and data planes. The global control plane 
 
 This video offers an introduction to the Konnect Control plane and gives an overview of each module or component. There are 6 major components:
 
-- Gateway Manager
-- API Products
-- Developer Portal
-- Analytics
-- Mesh Manager
-- Service Hub
-
-## Watch Overview of Konnect
-
-<!---
-[![Useful resource links](./images/docs.png)](https://youtu.be/ "Useful resource links")
--->
+1. *Gateway Manager:* Catalog, connect to, and monitor the status of all control planes and instances in one place, as well as manage group configuration.
+2. *API Products:* Get insights into user behavior for informed decision making and efficient troubleshooting through detailed and near-real time record of the requests made to your APIs.
+3. *Developer Portal:* Browse APIs, reference documentation, test endpoints, and register to create applications using specific APIs through a customizable and unified API portal for developers. 
+4. *Analytics:* Get a real-time and historical centralized view of all your services with the ability to export to existing security and analytics tools. Monitor golden signals such as traffic, error rate and latency for each service and route to gain deep insights into your API products.
+5. *Mesh Manager:* Identify mesh services, manage policies, view relevant metadata (mesh, zone, etc.) and access the service's details
+6. *Service Hub:* Coming soon
