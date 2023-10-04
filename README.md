@@ -5,13 +5,10 @@
 | Topic           | Content       | Video         | Status          | 
 |-----------------|---------------|---------------|----------------|
 | [Useful Resources](./getting-started/useful-resources/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>   | In progress
-
-
-- [ ] 
-- [ ] [Overview of Kong Konnect](./getting-started/overview-konnect/)
-- [ ] [Architecture](./getting-started/konnect-architecture/)
-- [ ] [Register for Kong Konnect + Pricing tiers](./getting-started/register-for-konnect/)
-- [ ] [Product walk-through](./getting-started/product-walk-through/)
+| [Overview of Kong Konnect](./getting-started/overview-konnect/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>   | In progress
+| [Architecture](./getting-started/konnect-architecture/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>   | In progress
+| [Register for Kong Konnect + Pricing tiers](./getting-started/register-for-konnect/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>   | In progress
+| [Product walk-through](./getting-started/product-walk-through/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>   | In progress
 
 ## Organization
 
