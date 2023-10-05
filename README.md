@@ -51,6 +51,8 @@
 
 This section gives a breakdown of plugins and how to configure them. 
 
+Here is the [slide deck](https://docs.google.com/presentation/d/1Rl_bCmI0dSlw-ydvprb3UkZCFhllkkorwwOGqHc5At4/edit?usp=sharing) for this plugin section.
+
 ### Authentication plugins
 
 | Topic           | Content       | Slides        | Videos         | Status         |
