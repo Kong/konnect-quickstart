@@ -47,6 +47,20 @@
 | [Consumers](./config/consumers/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
 | [Plugins](./config/plugins/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
 
+## Analytics
+
+| Topic           | Content       | Slides        | Videos         | Status         |
+|-----------------|---------------|---------------|----------------|----------------|
+| [Overview of Analytics](./analytics/overview-analytics/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
+| [Create a report](./analytics/create-report/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
+
+## API Products
+
+| Topic           | Content       | Slides        | Videos         | Status         |
+|-----------------|---------------|---------------|----------------|----------------|
+| [Overview of API Products](./api-products/api-products-overview/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
+| [Creating an API product](./api-products/creating-api-product/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
+
 ## Plugins
 
 This section gives a breakdown of plugins and how to configure them. 
@@ -96,20 +110,6 @@ Here is the [slide deck](https://docs.google.com/presentation/d/1Rl_bCmI0dSlw-yd
 | [File Log](./plugins/logging/file-log/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
 | [HTTP log](./plugins/logging/http-log/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
 
-
-## Analytics
-
-| Topic           | Content       | Slides        | Videos         | Status         |
-|-----------------|---------------|---------------|----------------|----------------|
-| [Overview of Analytics](./analytics/overview-analytics/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
-| [Create a report](./analytics/create-report/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
-
-## API Products
-
-| Topic           | Content       | Slides        | Videos         | Status         |
-|-----------------|---------------|---------------|----------------|----------------|
-| [Overview of API Products](./api-products/api-products-overview/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
-| [Creating an API product](./api-products/creating-api-product/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
 
 ## How to guides
 
