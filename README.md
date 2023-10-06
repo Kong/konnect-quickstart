@@ -1,4 +1,4 @@
-# Kong Konnect Guides and Material
+# Kong Konnect POC Guides and Material
 
 ## Getting started with Kong Konnect
 
@@ -63,9 +63,19 @@
 
 ## Plugins
 
-This section gives a breakdown of plugins and how to configure them. 
+Plugins extend the functionality of the Kong Gateway. Plugins allow you to easily add new features and functionality to your API. The offer the ability to do things like: 
 
-Here is the [slide deck](https://docs.google.com/presentation/d/1Rl_bCmI0dSlw-ydvprb3UkZCFhllkkorwwOGqHc5At4/edit?usp=sharing) for this plugin section.
+- Authentication
+- Rate Limiting
+- Security
+- Transformations
+- And more…
+
+Plugins can be applied globally or scoped to specific services, consumers or routes. This section gives a breakdown of plugins and how to configure them. 
+
+- Here is a link to our [plugin hub](https://docs.konghq.com/hub/) which has documentation for all available plugins
+- Here is the [slide deck](https://docs.google.com/presentation/d/1Rl_bCmI0dSlw-ydvprb3UkZCFhllkkorwwOGqHc5At4/edit?usp=sharing) for this plugin section.
+- Here is the link to the [insomnia collection]() when configuring using the Admin API
 
 ### Authentication plugins
 
