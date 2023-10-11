@@ -60,7 +60,7 @@ You can leverage the insomnia collection [here](https://github.com/irishtek-solu
 
 | Topic           | Content       | Slides        | Videos         | Insomnia       | KIC            |Deck           |Status         |
 |-----------------|---------------|---------------|----------------|----------------|----------------|---------------|---------------|
-| [Prometheus](./analytics-monitoring/prometheus/) | <ul><li>  [ ]  </li>     | <ul><li>  [x]  </li>     |  <ul><li>  [ ]  </li>  |<ul><li>  [ ]  </li>     | <ul><li>  [x]  </li>     |<ul><li>  [ ]  </li>   | In progress
+| [Prometheus](./analytics-monitoring/prometheus/) | <ul><li>  [ ]  </li>     | <ul><li>  [x]  </li>     |  <ul><li>  [ ]  </li>  |<ul><li>  [x]  </li>     | <ul><li>  [ ]  </li>     |<ul><li>  [ ]  </li>   | In progress
 
 ### Transformation
 
