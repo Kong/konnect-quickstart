@@ -18,4 +18,10 @@
 
 ## Installation using Admin API
 
+You can leverage the insomnia repository [here]()
+
+## Installation using KIC
+
+
+
 ## Installation using KIC 

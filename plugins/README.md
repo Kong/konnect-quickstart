@@ -35,43 +35,43 @@ You can leverage the insomnia collection [here](https://github.com/irishtek-solu
 
 ### Authentication plugins
 
-| Topic           | Content       | Slides        | Videos         | Status         |
-|-----------------|---------------|---------------|----------------|----------------|
-| [Key Authentication](./authentication/key-authentication/) | <ul><li>  [ ]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [ ]  </li>   | Not started
-| [Basic Authentication](./authentication/basic-authentication/) | <ul><li>  [ ]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [ ]  </li>   | Not started
+| Topic           | Content       | Slides        | Videos         | Insomnia       | Status         |
+|-----------------|---------------|---------------|----------------|----------------|----------------|
+| [Key Authentication](./authentication/key-authentication/) | <ul><li>  [ ]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [ ]  </li>   | <ul><li>  [ ]  </li>   |Not started
+| [Basic Authentication](./authentication/basic-authentication/) | <ul><li>  [ ]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [ ]  </li>   | <ul><li>  [ ]  </li>   | Not started
 
 ### Security plugins
 
-| Topic           | Content       | Slides        | Videos         | Status         |
-|-----------------|---------------|---------------|----------------|----------------|
-| [Rate Limiting](./security/rate-limiting/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
-| [Rate limiting advanced](./security/rate-limiting-adv/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
-| [IP Restriction](./security/ip-restriction/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
+| Topic           | Content       | Slides        | Videos         |Insomnia        |  Status         |
+|-----------------|---------------|---------------|----------------|----------------|----------------|
+| [Rate Limiting](./security/rate-limiting/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     |<ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
+| [Rate limiting advanced](./security/rate-limiting-adv/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     |<ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
+| [IP Restriction](./security/ip-restriction/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
 
 ### Traffic Control
 
-| Topic           | Content       | Slides        | Videos         | Status         |
-|-----------------|---------------|---------------|----------------|----------------|
-| [ACL](./traffic-control/acl/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
-| [Canary](./traffic-control/canary/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
+| Topic           | Content       | Slides        | Videos         | Insomnia       | Status         |
+|-----------------|---------------|---------------|----------------|----------------|----------------|
+| [ACL](./traffic-control/acl/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
+| [Canary](./traffic-control/canary/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     |<ul><li>  [ ]  </li>   | Not started
 
 
 ### Analytics & Monitoring
 
-| Topic           | Content       | Slides        | Videos         | Status         |
-|-----------------|---------------|---------------|----------------|----------------|
-| [Prometheus](./analytics-monitoring/prometheus/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
+| Topic           | Content       | Slides        | Videos         | Insomnia       | Status         |
+|-----------------|---------------|---------------|----------------|----------------|----------------|
+| [Prometheus](./analytics-monitoring/prometheus/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     |<ul><li>  [ ]  </li>   | Not started
 
 ### Transformation
 
-| Topic           | Content       | Slides        | Videos         | Status         |
-|-----------------|---------------|---------------|----------------|----------------|
-| [Correlation ID](./transformation/correlation-id/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
-| [Request Transformer](./transformation/req-transformer/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
+| Topic           | Content       | Slides        | Videos         | Insomnia       | Status         |
+|-----------------|---------------|---------------|----------------|----------------|----------------|
+| [Correlation ID](./transformation/correlation-id/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
+| [Request Transformer](./transformation/req-transformer/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
 
 ### Logging
 
-| Topic           | Content       | Slides        | Videos         | Status         |
-|-----------------|---------------|---------------|----------------|----------------|
-| [File Log](./logging/file-log/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
-| [HTTP log](./logging/http-log/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
+| Topic           | Content       | Slides        | Videos         | Insomnia       | Status         |
+|-----------------|---------------|---------------|----------------|----------------|----------------|
+| [File Log](./logging/file-log/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
+| [HTTP log](./logging/http-log/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
