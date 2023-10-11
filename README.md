@@ -63,9 +63,9 @@
 
 ## Plugins
 
-Plugins is such a huge part of the Kong Konnect, it has its own [section](./plugins/).
+Plugins are such a huge part of the Kong Konnect, it has its own [section](./plugins/).
 
-Plugins extend the functionality of the Kong Gateway. Plugins allow you to easily add new features and functionality to your API. The offer the ability to do things like: 
+Plugins extend the functionality of the Kong Gateway. Plugins allow you to easily add new features and functionality to your API. They offer the ability to do things like: 
 
 - Authentication
 - Rate Limiting
