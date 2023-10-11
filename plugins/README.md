@@ -2,13 +2,15 @@
 
 If you don't have a data plane installed, now is a good time to do that. You can the documentation [here](https://docs.konghq.com/konnect/gateway-manager/data-plane-nodes) on how to do that or also in this github repository there are videos and documentation on how to set it up, just click [here](../install/) to go to the install section.
 
-This section of this Kong Konnect github repository will walk you through how to use the Kong Konnect Plugins.
+This section of the Kong Konnect github repository will walk you through how to use the Kong Konnect Plugins.
 Each plugin has its own directory showing you how to configure the plugin in different ways. For the majority of the plugins it will contain the following:
 
 - A video walking you through
-- A `deck file` that allows you to import an example configuration
+- A `deck file` that allows you to import an example configuration quickly
+- Link to Insomnia collection on how to use the Admin API to configure plugins with examples
+- A Kubernetes manifest file that will allow you to apply the configuration using Kubernetes resources
 
-Plugins extend the functionality of the Kong Gateway. Plugins allow you to easily add new features and functionality to your API. The offer the ability to do things like: 
+Plugins extend the functionality of the Kong Gateway. Plugins allow you to easily add new features and functionality to your API. They offer the ability to do things like: 
 
 - Authentication
 - Rate Limiting
@@ -30,3 +32,46 @@ You can leverage the insomnia collection [here](https://github.com/irishtek-solu
 <!--
 [![Using Insomnia](./images/activate.png)](https://youtu.be/ "First [PLUGIN NAME]")
 -->
+
+### Authentication plugins
+
+| Topic           | Content       | Slides        | Videos         | Status         |
+|-----------------|---------------|---------------|----------------|----------------|
+| [Key Authentication](./authentication/key-authentication/) | <ul><li>  [ ]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [ ]  </li>   | Not started
+| [Basic Authentication](./authentication/basic-authentication/) | <ul><li>  [ ]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [ ]  </li>   | Not started
+
+### Security plugins
+
+| Topic           | Content       | Slides        | Videos         | Status         |
+|-----------------|---------------|---------------|----------------|----------------|
+| [Rate Limiting](./security/rate-limiting/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
+| [Rate limiting advanced](./security/rate-limiting-adv/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
+| [IP Restriction](./security/ip-restriction/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
+
+### Traffic Control
+
+| Topic           | Content       | Slides        | Videos         | Status         |
+|-----------------|---------------|---------------|----------------|----------------|
+| [ACL](./traffic-control/acl/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
+| [Canary](./traffic-control/canary/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
+
+
+### Analytics & Monitoring
+
+| Topic           | Content       | Slides        | Videos         | Status         |
+|-----------------|---------------|---------------|----------------|----------------|
+| [Prometheus](./analytics-monitoring/prometheus/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
+
+### Transformation
+
+| Topic           | Content       | Slides        | Videos         | Status         |
+|-----------------|---------------|---------------|----------------|----------------|
+| [Correlation ID](./transformation/correlation-id/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
+| [Request Transformer](./transformation/req-transformer/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
+
+### Logging
+
+| Topic           | Content       | Slides        | Videos         | Status         |
+|-----------------|---------------|---------------|----------------|----------------|
+| [File Log](./logging/file-log/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
+| [HTTP log](./logging/http-log/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started

@@ -63,6 +63,8 @@
 
 ## Plugins
 
+Plugins is such a huge part of the Kong Konnect, it has its own [section](./plugins/).
+
 Plugins extend the functionality of the Kong Gateway. Plugins allow you to easily add new features and functionality to your API. The offer the ability to do things like: 
 
 - Authentication
@@ -76,50 +78,6 @@ Plugins can be applied globally or scoped to specific services, consumers or rou
 - Here is a link to our [plugin hub](https://docs.konghq.com/hub/) which has documentation for all available plugins
 - Here is the [slide deck](https://docs.google.com/presentation/d/1Rl_bCmI0dSlw-ydvprb3UkZCFhllkkorwwOGqHc5At4/edit?usp=sharing) for this plugin section.
 - Here is the link to the [insomnia collection]() when configuring using the Admin API
-
-### Authentication plugins
-
-| Topic           | Content       | Slides        | Videos         | Status         |
-|-----------------|---------------|---------------|----------------|----------------|
-| [Key Authentication](./plugins/authentication/key-authentication/) | <ul><li>  [ ]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [ ]  </li>   | Not started
-| [Basic Authentication](./plugins/authentication/basic-authentication/) | <ul><li>  [ ]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [ ]  </li>   | Not started
-
-### Security plugins
-
-| Topic           | Content       | Slides        | Videos         | Status         |
-|-----------------|---------------|---------------|----------------|----------------|
-| [Rate Limiting](./plugins/security/rate-limiting/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
-| [Rate limiting advanced](./plugins/security/rate-limiting-adv/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
-| [IP Restriction](./plugins/security/ip-restriction/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
-
-### Traffic Control
-
-| Topic           | Content       | Slides        | Videos         | Status         |
-|-----------------|---------------|---------------|----------------|----------------|
-| [ACL](./plugins/traffic-control/acl/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
-| [Canary](./plugins/traffic-control/canary/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
-
-
-### Analytics & Monitoring
-
-| Topic           | Content       | Slides        | Videos         | Status         |
-|-----------------|---------------|---------------|----------------|----------------|
-| [Prometheus](./plugins/analytics-monitoring/prometheus/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
-
-### Transformation
-
-| Topic           | Content       | Slides        | Videos         | Status         |
-|-----------------|---------------|---------------|----------------|----------------|
-| [Correlation ID](./plugins/transformation/correlation-id/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
-| [Request Transformer](./plugins/transformation/req-transformer/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
-
-### Logging
-
-| Topic           | Content       | Slides        | Videos         | Status         |
-|-----------------|---------------|---------------|----------------|----------------|
-| [File Log](./plugins/logging/file-log/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
-| [HTTP log](./plugins/logging/http-log/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
-
 
 ## How to guides
 
