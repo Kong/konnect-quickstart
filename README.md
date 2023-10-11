@@ -81,4 +81,4 @@ Plugins can be applied globally or scoped to specific services, consumers or rou
 
 ## How to guides
 
-COMING SOON
+COMING SOON...
