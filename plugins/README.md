@@ -35,43 +35,43 @@ You can leverage the insomnia collection [here](https://github.com/irishtek-solu
 
 ### Authentication plugins
 
-| Topic           | Content       | Slides        | Videos         | Insomnia       | KIC           | Status         |
+| Topic           | Content       | Slides        | Videos         | Insomnia       | KIC           | Deck           |Status         |
 |-----------------|---------------|---------------|----------------|----------------|---------------|----------------|
-| [Key Authentication](./authentication/key-authentication/) | <ul><li>  [ ]  </li>  |  <ul><li>  [ ]  </li>  | <ul><li>  [x]  </li>     | <ul><li>  [ ]  </li>   | <ul><li>  [ ]  </li>   |Not started
-| [Basic Authentication](./authentication/basic-authentication/) | <ul><li>  [ ]  </li>     | <ul><li>  [x]  </li>  | <ul><li>  [x]  </li>   | <ul><li>  [ ]  </li>   | <ul><li>  [ ]  </li>   | Not started
+| [Key Authentication](./authentication/key-authentication/) | <ul><li>  [ ]  </li>  |  <ul><li>  [x]  </li>  | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | <ul><li>  [ ]  </li>   |In progress
+| [Basic Authentication](./authentication/basic-authentication/) | <ul><li>  [ ]  </li>     | <ul><li>  [x]  </li>  | <ul><li>  [ ]  </li>   | <ul><li>  [ ]  </li>   | <ul><li>  [ ]  </li>   | In progress
 
 ### Security plugins
 
-| Topic           | Content       | Slides        | Videos         |Insomnia        | KIC           | Status         |
-|-----------------|---------------|---------------|----------------|----------------|---------------|----------------|
-| [Rate Limiting](./security/rate-limiting/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     |  <ul><li>  [ ]  </li>  | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
-| [Rate limiting advanced](./security/rate-limiting-adv/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     |  <ul><li>  [ ]  </li>  | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
-| [IP Restriction](./security/ip-restriction/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [x]  </li>| <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
+| Topic           | Content       | Slides        | Videos         |Insomnia        | KIC           |Deck           | Status         |
+|-----------------|---------------|---------------|----------------|----------------|---------------|---------------|----------------|
+| [Rate Limiting](./security/rate-limiting/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     |  <ul><li>  [ ]  </li>  | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | In progress
+| [Rate limiting advanced](./security/rate-limiting-adv/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     |  <ul><li>  [ ]  </li>  | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | In progress
+| [IP Restriction](./security/ip-restriction/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [x]  </li>| <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | In progress
 
 ### Traffic Control
 
-| Topic           | Content       | Slides        | Videos         | Insomnia       | KIC            |Status         |
-|-----------------|---------------|---------------|----------------|----------------|----------------|---------------|
-| [ACL](./traffic-control/acl/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     |  <ul><li>  [ ]  </li>  |<ul><li>  [ ]  </li>   | Not started
-| [Canary](./traffic-control/canary/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     |  <ul><li>  [ ]  </li>  | <ul><li>  [ ]  </li>     |<ul><li>  [ ]  </li>   | Not started
+| Topic           | Content       | Slides        | Videos         | Insomnia       | KIC            |Deck           |Status         |
+|-----------------|---------------|---------------|----------------|----------------|----------------|---------------|---------------|
+| [ACL](./traffic-control/acl/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     |  <ul><li>  [ ]  </li>  |<ul><li>  [ ]  </li>   | In progress
+| [Canary](./traffic-control/canary/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     |  <ul><li>  [ ]  </li>  | <ul><li>  [ ]  </li>     |<ul><li>  [ ]  </li>   | In progress
 
 
 ### Analytics & Monitoring
 
-| Topic           | Content       | Slides        | Videos         | Insomnia       | KIC            |Status         |
-|-----------------|---------------|---------------|----------------|----------------|----------------|---------------|
-| [Prometheus](./analytics-monitoring/prometheus/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     |  <ul><li>  [ ]  </li>  | <ul><li>  [ ]  </li>     |<ul><li>  [ ]  </li>   | Not started
+| Topic           | Content       | Slides        | Videos         | Insomnia       | KIC            |Deck           |Status         |
+|-----------------|---------------|---------------|----------------|----------------|----------------|---------------|---------------|
+| [Prometheus](./analytics-monitoring/prometheus/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     |  <ul><li>  [ ]  </li>  | <ul><li>  [ ]  </li>     |<ul><li>  [ ]  </li>   | In progress
 
 ### Transformation
 
-| Topic           | Content       | Slides        | Videos         | Insomnia       | KIC            |Status         |
-|-----------------|---------------|---------------|----------------|----------------|----------------|---------------|
-| [Correlation ID](./transformation/correlation-id/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     |  <ul><li>  [ ]  </li>  |<ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
-| [Request Transformer](./transformation/req-transformer/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     |  <ul><li>  [ ]  </li>  | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
+| Topic           | Content       | Slides        | Videos         | Insomnia       | KIC            |Deck           |Status         |
+|-----------------|---------------|---------------|----------------|----------------|----------------|---------------|---------------|
+| [Correlation ID](./transformation/correlation-id/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     |  <ul><li>  [ ]  </li>  |<ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | In progress
+| [Request Transformer](./transformation/req-transformer/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     |  <ul><li>  [ ]  </li>  | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | In progress
 
 ### Logging
 
-| Topic           | Content       | Slides        | Videos         | Insomnia       | KIC            | Status         |
-|-----------------|---------------|---------------|----------------|----------------|----------------|----------------|
-| [File Log](./logging/file-log/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     |  <ul><li>  [ ]  </li>  |<ul><li>  [ ]  </li>   | Not started
-| [HTTP log](./logging/http-log/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     |  <ul><li>  [ ]  </li>  | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
+| Topic           | Content       | Slides        | Videos         | Insomnia       | KIC            |Deck           | Status         |
+|-----------------|---------------|---------------|----------------|----------------|----------------|---------------|----------------|
+| [File Log](./logging/file-log/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     |  <ul><li>  [ ]  </li>  |<ul><li>  [ ]  </li>   | In progress
+| [HTTP log](./logging/http-log/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     |  <ul><li>  [ ]  </li>  | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | In progress
