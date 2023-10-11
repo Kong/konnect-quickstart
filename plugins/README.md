@@ -46,7 +46,7 @@ You can leverage the insomnia collection [here](https://github.com/irishtek-solu
 |-----------------|---------------|---------------|----------------|----------------|---------------|---------------|----------------|
 | [Rate Limiting](./security/rate-limiting/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     |  <ul><li>  [ ]  </li>  | <ul><li>  [ ]  </li>     |<ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | In progress
 | [Rate limiting advanced](./security/rate-limiting-adv/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     |  <ul><li>  [ ]  </li>     |<ul><li>  [ ]  </li>  | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | In progress
-| [IP Restriction](./security/ip-restriction/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [x]  <ul>  </li>  |</li>| <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | In progress
+| [IP Restriction](./security/ip-restriction/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [x]  <ul>  </li>  |</li>| <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | <ul><li>  [ ]  </li>   | In progress
 
 ### Traffic Control
 
