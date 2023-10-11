@@ -38,7 +38,7 @@ You can leverage the insomnia collection [here](https://github.com/irishtek-solu
 | Topic           | Content       | Slides        | Videos         | Insomnia       | KIC           | Status         |
 |-----------------|---------------|---------------|----------------|----------------|---------------|----------------|
 | [Key Authentication](./authentication/key-authentication/) | <ul><li>  [ ]  </li>  |  <ul><li>  [ ]  </li>  | <ul><li>  [x]  </li>     | <ul><li>  [ ]  </li>   | <ul><li>  [ ]  </li>   |Not started
-| [Basic Authentication](./authentication/basic-authentication/) | <ul><li>  [ ]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [ ]  </li>   | <ul><li>  [ ]  </li>   | Not started
+| [Basic Authentication](./authentication/basic-authentication/) | <ul><li>  [ ]  </li>     | <ul><li>  [x]  </li>  | <ul><li>  [x]  </li>   | <ul><li>  [ ]  </li>   | <ul><li>  [ ]  </li>   | Not started
 
 ### Security plugins
 
@@ -46,7 +46,7 @@ You can leverage the insomnia collection [here](https://github.com/irishtek-solu
 |-----------------|---------------|---------------|----------------|----------------|---------------|----------------|
 | [Rate Limiting](./security/rate-limiting/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     |  <ul><li>  [ ]  </li>  | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
 | [Rate limiting advanced](./security/rate-limiting-adv/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     |  <ul><li>  [ ]  </li>  | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
-| [IP Restriction](./security/ip-restriction/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
+| [IP Restriction](./security/ip-restriction/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [x]  </li>| <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
 
 ### Traffic Control
 
