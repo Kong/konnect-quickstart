@@ -39,8 +39,8 @@ You can leverage the insomnia collection [here](https://github.com/irishtek-solu
 
 | Topic           | Content       | Slides        | Videos         | Insomnia       | KIC           | Deck           |Status         |
 |-----------------|---------------|---------------|----------------|----------------|---------------|----------------|---------------|
-| [Key Authentication](./authentication/key-authentication/) | <ul><li>  [ ]  </li>  |  <ul><li>  [x]  </li>  | <ul><li>  [ ]  </li>     | <ul><li>  [x]  </li>     |<ul><li>  [ ]  </li>   | <ul><li>  [x]  </li>   |In progress
-| [Basic Authentication](./authentication/basic-authentication/) | <ul><li>  [ ]  </li>     | <ul><li>  [x]  </li>  | <ul><li>  [ ]  </li>     |<ul><li>  [x]  </li>   | <ul><li>  [ ]  </li>   | <ul><li>  [x]  </li>   | In progress
+| [Key Authentication](./authentication/key-authentication/) | <ul><li>  [x]  </li>  |  <ul><li>  [x]  </li>  | <ul><li>  [ ]  </li>     | <ul><li>  [x]  </li>     |<ul><li>  [ ]  </li>   | <ul><li>  [x]  </li>   |In progress
+| [Basic Authentication](./authentication/basic-authentication/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>  | <ul><li>  [ ]  </li>     |<ul><li>  [x]  </li>   | <ul><li>  [ ]  </li>   | <ul><li>  [x]  </li>   | In progress
 
 ### Security plugins
 
