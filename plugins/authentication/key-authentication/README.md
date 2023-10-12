@@ -1,10 +1,11 @@
 # How to Use the Key Authentication Plugin
 
-[What is Key Authentication](#what-is-the-Key-Authentication) 
-[Watch the video on how to use the Key Authentication plugin](#watch-the-video-on-how-to-use-the-Key-Authentication-plugin) 
-[Installation using Deck](Installation-using-Deck) 
-[Installation using Admin API](Installation-using-Admin-API) 
-[Installation using KIC](Installation-using-KIC) 
+- [How to Use the Key Authentication Plugin](#how-to-use-the-key-authentication-plugin)
+  - [What is the Key Authentication?](#what-is-the-key-authentication)
+  - [Watch the video on how to use the Key Authentication plugin](#watch-the-video-on-how-to-use-the-key-authentication-plugin)
+  - [Installation using Deck](#installation-using-deck)
+  - [Installation using Admin API](#installation-using-admin-api)
+  - [Installation using KIC](#installation-using-kic)
 
 ## What is the Key Authentication?
 
