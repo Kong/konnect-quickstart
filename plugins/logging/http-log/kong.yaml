@@ -1,0 +1,60 @@
+_format_version: "3.0"
+_info:
+  defaults: {}
+  select_tags:
+  - http-log-example
+_konnect:
+  runtime_group_name: default
+services:
+- connect_timeout: 60000
+  enabled: true
+  host: mockbin.org
+  name: http-log-service
+  path: /requests
+  plugins:
+  - config:
+      content_type: application/json
+      custom_fields_by_lua: null
+      flush_timeout: null
+      headers:
+        api-key: apikey
+      http_endpoint: http://example.com/logging-endpoint
+      keepalive: 60000
+      method: POST
+      queue:
+        initial_retry_delay: 0.01
+        max_batch_size: 1
+        max_bytes: null
+        max_coalescing_delay: 1
+        max_entries: 10000
+        max_retry_delay: 60
+        max_retry_time: 60
+      queue_size: null
+      retry_count: null
+      timeout: 10000
+    enabled: true
+    name: http-log
+    protocols:
+    - grpc
+    - grpcs
+    - http
+    - https
+  port: 443
+  protocol: https
+  read_timeout: 60000
+  retries: 5
+  routes:
+  - https_redirect_status_code: 426
+    name: http-log-route
+    path_handling: v0
+    paths:
+    - /http-log
+    preserve_host: false
+    protocols:
+    - http
+    - https
+    regex_priority: 0
+    request_buffering: true
+    response_buffering: true
+    strip_path: true
+  write_timeout: 60000

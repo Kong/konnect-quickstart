@@ -1,0 +1,76 @@
+_format_version: "3.0"
+_info:
+  defaults: {}
+  select_tags:
+  - acl-example
+_konnect:
+  runtime_group_name: default
+consumers:
+- acls:
+  - group: internal-group
+  custom_id: engineer-id
+  keyauth_credentials:
+  - key: engineer-key
+  username: engineer
+- acls:
+  - group: external-group
+  custom_id: partner-id
+  keyauth_credentials:
+  - key: partner-key
+  username: partner
+services:
+- connect_timeout: 60000
+  enabled: true
+  host: mockbin.org
+  name: acl-service
+  path: /requests
+  plugins:
+  - config:
+      allow:
+      - internal-group
+      deny: null
+      hide_groups_header: false
+    enabled: true
+    name: acl
+    protocols:
+    - grpc
+    - grpcs
+    - http
+    - https
+  - config:
+      anonymous: null
+      hide_credentials: false
+      key_in_body: false
+      key_in_header: true
+      key_in_query: true
+      key_names:
+      - apikey
+      run_on_preflight: true
+    enabled: true
+    name: key-auth
+    protocols:
+    - grpc
+    - grpcs
+    - http
+    - https
+    - ws
+    - wss
+  port: 443
+  protocol: https
+  read_timeout: 60000
+  retries: 5
+  routes:
+  - https_redirect_status_code: 426
+    name: acl-route
+    path_handling: v0
+    paths:
+    - /acl
+    preserve_host: false
+    protocols:
+    - http
+    - https
+    regex_priority: 0
+    request_buffering: true
+    response_buffering: true
+    strip_path: true
+  write_timeout: 60000

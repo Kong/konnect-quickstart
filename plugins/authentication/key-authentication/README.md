@@ -29,7 +29,7 @@ To install this using deck:
 
 ## Installation using Admin API
 
-You can leverage the insomnia repository [here](https://github.com/irishtek-solutions/kong-konnect-inso)
+You can leverage the insomnia repository [here](https://github.com/irishtek-solutions/kong-konnect-inso) for Admin API usage.
 
 ## Installation using KIC
 

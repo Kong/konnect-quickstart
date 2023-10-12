@@ -1,0 +1,65 @@
+_format_version: "3.0"
+_info:
+  defaults: {}
+  select_tags:
+  - request-transformer-example
+_konnect:
+  runtime_group_name: default
+services:
+- connect_timeout: 60000
+  enabled: true
+  host: mockbin.org
+  name: request-transformer-service
+  path: /requests
+  plugins:
+  - config:
+      add:
+        body: []
+        headers:
+        - kong-header:jungle-header
+        querystring:
+        - kong-querystring:jungle-querystring
+      append:
+        body: []
+        headers: []
+        querystring: []
+      http_method: null
+      remove:
+        body: []
+        headers: []
+        querystring: []
+      rename:
+        body: []
+        headers: []
+        querystring: []
+      replace:
+        body: []
+        headers: []
+        querystring: []
+        uri: null
+    enabled: true
+    name: request-transformer
+    protocols:
+    - grpc
+    - grpcs
+    - http
+    - https
+  port: 443
+  protocol: https
+  read_timeout: 60000
+  retries: 5
+  routes:
+  - https_redirect_status_code: 426
+    name: request-transformer-route
+    path_handling: v0
+    paths:
+    - /request-transformer
+    preserve_host: false
+    protocols:
+    - http
+    - https
+    regex_priority: 0
+    request_buffering: true
+    response_buffering: true
+    strip_path: true
+  write_timeout: 60000

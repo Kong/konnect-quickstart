@@ -1,0 +1,48 @@
+_format_version: "3.0"
+_info:
+  defaults: {}
+  select_tags:
+  - ip-restriction-example
+_konnect:
+  runtime_group_name: default
+services:
+- connect_timeout: 60000
+  enabled: true
+  host: mockbin.org
+  name: ip-restriction-mockbin-service
+  path: /requests
+  plugins:
+  - config:
+      allow: null
+      deny:
+      - 172.17.0.1
+      message: You are denied
+      status: 500
+    enabled: true
+    name: ip-restriction
+    protocols:
+    - http
+    - https
+    - tcp
+    - tls
+    - grpc
+    - grpcs
+  port: 443
+  protocol: https
+  read_timeout: 60000
+  retries: 5
+  routes:
+  - https_redirect_status_code: 426
+    name: ip-restriction-route
+    path_handling: v0
+    paths:
+    - /ip-restriction
+    preserve_host: false
+    protocols:
+    - http
+    - https
+    regex_priority: 0
+    request_buffering: true
+    response_buffering: true
+    strip_path: true
+  write_timeout: 60000
