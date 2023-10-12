@@ -26,6 +26,8 @@ Plugins can be applied globally or scoped to specific services, consumers or rou
 
 ## Using Deck
 
+Each plugin directory has a Deck file that you can use to import a sample configuration to the control plane to test. The instructions on how to import are in the README files for each section.
+
 ## Using the Admin API with Insomnia
 
 You can leverage the insomnia collection [here](https://github.com/irishtek-solutions/kong-konnect-inso)
@@ -44,34 +46,34 @@ You can leverage the insomnia collection [here](https://github.com/irishtek-solu
 
 | Topic           | Content       | Slides        | Videos         |Insomnia        | KIC           |Deck           | Status         |
 |-----------------|---------------|---------------|----------------|----------------|---------------|---------------|----------------|
-| [Rate Limiting](./security/rate-limiting/) | <ul><li>  [ ]  </li>     | <ul><li>  [x]  </li>     |  <ul><li>  [ ]  </li>  | <ul><li>  [x]  </li>     |<ul><li>  [ ]  </li>     | <ul><li>  [x]  </li>   | In progress
-| [Rate limiting advanced](./security/rate-limiting-adv/) | <ul><li>  [ ]  </li>     | <ul><li>  [x]  </li>     |  <ul><li>  [ ]  </li>     |<ul><li>  [x]  </li>  | <ul><li>  [ ]  </li>     | <ul><li>  [x]  </li>   | In progress
-| [IP Restriction](./security/ip-restriction/) | <ul><li>  [ ]  </li>     | <ul><li>  [x]  </li>  | <ul><li>  [ ]  </li>  | <ul><li>  [x]  </li>    | <ul><li>  [ ]  </li>   | <ul><li>  [x]  </li>   | In progress
+| [Rate Limiting](./security/rate-limiting/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     |  <ul><li>  [ ]  </li>  | <ul><li>  [x]  </li>     |<ul><li>  [ ]  </li>     | <ul><li>  [x]  </li>   | In progress
+| [Rate limiting advanced](./security/rate-limiting-adv/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     |  <ul><li>  [ ]  </li>     |<ul><li>  [x]  </li>  | <ul><li>  [ ]  </li>     | <ul><li>  [x]  </li>   | In progress
+| [IP Restriction](./security/ip-restriction/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>  | <ul><li>  [ ]  </li>  | <ul><li>  [x]  </li>    | <ul><li>  [ ]  </li>   | <ul><li>  [x]  </li>   | In progress
 
 ### Traffic Control
 
 | Topic           | Content       | Slides        | Videos         | Insomnia       | KIC            |Deck           |Status         |
 |-----------------|---------------|---------------|----------------|----------------|----------------|---------------|---------------|
-| [ACL](./traffic-control/acl/) | <ul><li>  [ ]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [ ]  </li>  |<ul><li>  [x]  </li>   | In progress
-| [Canary](./traffic-control/canary/) | <ul><li>  [ ]  </li>     | <ul><li>  [x]  </li>     |  <ul><li>  [ ]  </li>  | <ul><li>  [x]  </li>     |<ul><li>  [ ]  </li>     |<ul><li>  [x]  </li>   | In progress
+| [ACL](./traffic-control/acl/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [ ]  </li>  |<ul><li>  [x]  </li>   | In progress
+| [Canary](./traffic-control/canary/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     |  <ul><li>  [ ]  </li>  | <ul><li>  [x]  </li>     |<ul><li>  [ ]  </li>     |<ul><li>  [x]  </li>   | In progress
 
 
 ### Analytics & Monitoring
 
 | Topic           | Content       | Slides        | Videos         | Insomnia       | KIC            |Deck           |Status         |
 |-----------------|---------------|---------------|----------------|----------------|----------------|---------------|---------------|
-| [Prometheus](./analytics-monitoring/prometheus/) | <ul><li>  [ ]  </li>     | <ul><li>  [x]  </li>     |  <ul><li>  [ ]  </li>  |<ul><li>  [x]  </li>     | <ul><li>  [ ]  </li>     |<ul><li>  [x]  </li>   | In progress
+| [Prometheus](./analytics-monitoring/prometheus/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     |  <ul><li>  [ ]  </li>  |<ul><li>  [x]  </li>     | <ul><li>  [ ]  </li>     |<ul><li>  [x]  </li>   | In progress
 
 ### Transformation
 
 | Topic           | Content       | Slides        | Videos         | Insomnia       | KIC            |Deck           |Status         |
 |-----------------|---------------|---------------|----------------|----------------|----------------|---------------|---------------|
-| [Correlation ID](./transformation/correlation-id/) | <ul><li>  [ ]  </li>     | <ul><li>  [x]  </li>     |  <ul><li>  [ ]  </li>  |<ul><li>  [x]  </li>     |<ul><li>  [ ]  </li>     | <ul><li>  [x]  </li>   | In progress
-| [Request Transformer](./transformation/req-transformer/) | <ul><li>  [ ]  </li>     | <ul><li>  [x]  </li>     |  <ul><li>  [ ]  </li>  |<ul><li>  [x]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [x]  </li>   | In progress
+| [Correlation ID](./transformation/correlation-id/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     |  <ul><li>  [ ]  </li>  |<ul><li>  [x]  </li>     |<ul><li>  [ ]  </li>     | <ul><li>  [x]  </li>   | In progress
+| [Request Transformer](./transformation/req-transformer/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     |  <ul><li>  [ ]  </li>  |<ul><li>  [x]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [x]  </li>   | In progress
 
 ### Logging
 
 | Topic           | Content       | Slides        | Videos         | Insomnia       | KIC            |Deck           | Status         |
 |-----------------|---------------|---------------|----------------|----------------|----------------|---------------|----------------|
-| [File Log](./logging/file-log/) | <ul><li>  [ ]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [ ]  </li>     |  <ul><li>  [x]  </li>  |<ul><li>  [ ]  </li>     |<ul><li>  [x]  </li>   | In progress
-| [HTTP log](./logging/http-log/) | <ul><li>  [ ]  </li>     | <ul><li>  [x]  </li>     |  <ul><li>  [ ]  </li>  | <ul><li>  [x]  </li>     | <ul><li>  [ ]  </li>     |<ul><li>  [x]  </li>   | In progress
+| [File Log](./logging/file-log/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [ ]  </li>     |  <ul><li>  [x]  </li>  |<ul><li>  [ ]  </li>     |<ul><li>  [x]  </li>   | In progress
+| [HTTP log](./logging/http-log/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     |  <ul><li>  [ ]  </li>  | <ul><li>  [x]  </li>     | <ul><li>  [ ]  </li>     |<ul><li>  [x]  </li>   | In progress
