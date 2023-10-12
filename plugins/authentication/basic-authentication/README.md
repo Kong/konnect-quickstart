@@ -1,10 +1,11 @@
 # How to Use the Basic Authentication Plugin
 
-[What is Basic Authentication](#what-is-the-Basic-Authentication)
-[Watch the video on how to use the Basic Authentication plugin](#watch-the-video-on-how-to-use-the-Basic-Authentication-plugin) \
-[Installation using Deck](Installation-using-Deck) \n
-[Installation using Admin API](Installation-using-Admin-API) \n
-[Installation using KIC](Installation-using-KIC) \n
+- [How to Use the Basic Authentication Plugin](#how-to-use-the-basic-authentication-plugin)
+  - [What is Basic Authentication?](#what-is-basic-authentication)
+  - [Watch the video on how to use the Basic Authentication plugin](#watch-the-video-on-how-to-use-the-basic-authentication-plugin)
+  - [Installation using Deck](#installation-using-deck)
+  - [Installation using Admin API](#installation-using-admin-api)
+  - [Installation using KIC](#installation-using-kic)
 
 ## What is Basic Authentication?
 

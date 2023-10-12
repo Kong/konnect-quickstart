@@ -1,10 +1,10 @@
 # How to Use the [INSERT PLUGIN] Plugin
 
-[What is [INSERT PLUGIN]](#what-is-the-[INSERT PLUGIN])
-[Watch the video on how to use the [INSERT PLUGIN] plugin](#watch-the-video-on-how-to-use-the-[INSERT PLUGIN]-plugin) \
-[Installation using Deck](Installation-using-Deck) \n
-[Installation using Admin API](Installation-using-Admin-API) \n
-[Installation using KIC](Installation-using-KIC) \n
+- [What is [INSERT PLUGIN]](#what-is-the-[INSERT PLUGIN]) \n
+- [Watch the video on how to use the [INSERT PLUGIN] plugin](#watch-the-video-on-how-to-use-the-[INSERT PLUGIN]-plugin) \
+- [Installation using Deck](Installation-using-Deck) \n
+- [Installation using Admin API](Installation-using-Admin-API) \n
+- [Installation using KIC](Installation-using-KIC) \n
 
 ## What is the [INSERT PLUGIN]?
 
