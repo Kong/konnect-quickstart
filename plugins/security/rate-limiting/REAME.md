@@ -1,10 +1,11 @@
 # How to Use the Rate Limiting Plugin
 
-[What is Rate Limiting](#what-is-the-Rate-Limiting)
-[Watch the video on how to use the Rate Limiting plugin](#watch-the-video-on-how-to-use-the-Rate-Limiting-plugin) \
-[Installation using Deck](Installation-using-Deck) \n
-[Installation using Admin API](Installation-using-Admin-API) \n
-[Installation using KIC](Installation-using-KIC) \n
+- [How to Use the Rate Limiting Plugin](#how-to-use-the-rate-limiting-plugin)
+  - [What is the Rate Limiting?](#what-is-the-rate-limiting)
+  - [Watch the video on how to use the Rate Limiting plugin](#watch-the-video-on-how-to-use-the-rate-limiting-plugin)
+  - [Installation using Deck](#installation-using-deck)
+  - [Installation using Admin API](#installation-using-admin-api)
+  - [Installation using KIC](#installation-using-kic)
 
 ## What is the Rate Limiting?
 
