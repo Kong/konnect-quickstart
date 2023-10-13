@@ -1,0 +1,8 @@
+apiVersion: configuration.konghq.com/v1
+kind: KongPlugin
+metadata:
+  name: key-auth-plugin
+  namespace: testing
+  annotations:
+    kubernetes.io/ingress.class: kong
+plugin: key-auth

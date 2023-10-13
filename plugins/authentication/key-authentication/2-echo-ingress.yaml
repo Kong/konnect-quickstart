@@ -1,0 +1,19 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: key-auth-plugin
+  namespace: testing
+  annotations:
+    konghq.com/plugins: key-auth-plugin
+spec:
+  ingressClassName: kong
+  rules:
+  - http:
+      paths:
+      - path: /key-auth
+        pathType: ImplementationSpecific
+        backend:
+          service:
+            name: echo
+            port:
+              number: 80
