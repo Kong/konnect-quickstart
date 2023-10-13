@@ -1,7 +1,7 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: demo
+  name: plugin-name-plugin
   namespace: testing
   annotations:
     konghq.com/plugins: proxy-cache-plugin

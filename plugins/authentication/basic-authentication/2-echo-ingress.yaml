@@ -1,16 +1,16 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: prometheus-example
+  name: basic-auth-plugin
   namespace: testing
   annotations:
-    konghq.com/plugins: prometheus-plugin
+    konghq.com/plugins: basic-auth-plugin
 spec:
   ingressClassName: kong
   rules:
   - http:
       paths:
-      - path: /prometheus
+      - path: /basic-auth
         pathType: ImplementationSpecific
         backend:
           service:

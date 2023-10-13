@@ -1,0 +1,10 @@
+apiVersion: configuration.konghq.com/v1
+kind: KongPlugin
+metadata:
+  name: basic-auth-plugin
+  namespace: testing
+  annotations:
+    kubernetes.io/ingress.class: kong
+plugin: basic-auth
+config:
+  hide_credentials: true

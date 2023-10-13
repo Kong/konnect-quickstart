@@ -1,21 +1,14 @@
 apiVersion: configuration.konghq.com/v1
 kind: KongPlugin
 metadata:
-  name: proxy-cache-plugin
+  name: prometheus-plugin
   namespace: testing
   annotations:
     kubernetes.io/ingress.class: kong
-config: 
-  response_code:
-  - 200
-  request_method:
-  - GET
-  - HEAD
-  content_type:
-#  - text/plain; charset=UTF-8
-#  - application/json; charset=utf-8
-#  - application/json
-  - text/plain
-  cache_ttl: 300
-  strategy: memory
-plugin: proxy-cache
+plugin: prometheus
+config:
+  per_consumer: true
+  status_code_metrics: true
+  latency_metrics: true
+  bandwidth_metrics: true
+  upstream_health_metrics: true
