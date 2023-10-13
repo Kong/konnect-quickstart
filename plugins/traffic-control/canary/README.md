@@ -33,3 +33,4 @@ You can leverage the insomnia repository [here](https://github.com/irishtek-solu
 
 ## Installation using KIC
 
+Note: The Canary plugin is not designed for a Kubernetes-native framework, and shouldn’t be used with the Kong Ingress Controller. Instead, use the [Gateway API](https://docs.konghq.com/kubernetes-ingress-controller/latest/concepts/gateway-api/) to manage canary deploys.

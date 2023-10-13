@@ -1,0 +1,19 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name:  file-log-plugin
+  namespace: testing
+  annotations:
+    konghq.com/plugins: file-log-plugin
+spec:
+  ingressClassName: kong
+  rules:
+  - http:
+      paths:
+      - path: /file-log
+        pathType: ImplementationSpecific
+        backend:
+          service:
+            name: echo
+            port:
+              number: 80

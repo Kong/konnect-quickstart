@@ -1,0 +1,20 @@
+apiVersion: configuration.konghq.com/v1
+kind: KongPlugin
+metadata:
+  name: rate-limiting-adv-plugin
+  namespace: testing
+  annotations:
+    kubernetes.io/ingress.class: kong
+plugin: rate-limiting-advanced
+config:
+  limit:
+  - 5
+  - 100
+  window_size:
+  - 60
+  - 3600
+  identifier: consumer
+  sync_rate: -1
+  namespace: example_namespace
+  strategy: local
+  hide_client_headers: false

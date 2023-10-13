@@ -39,41 +39,41 @@ You can leverage the insomnia collection [here](https://github.com/irishtek-solu
 
 | Topic           | Content       | Slides        | Videos         | Insomnia       | KIC           | Deck           |Status         |
 |-----------------|---------------|---------------|----------------|----------------|---------------|----------------|---------------|
-| [Key Authentication](./authentication/key-authentication/) | <ul><li>  [x]  </li>  |  <ul><li>  [x]  </li>  | <ul><li>  [ ]  </li>     | <ul><li>  [x]  </li>     |<ul><li>  [ ]  </li>   | <ul><li>  [x]  </li>   |In progress
-| [Basic Authentication](./authentication/basic-authentication/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>  | <ul><li>  [ ]  </li>     |<ul><li>  [x]  </li>   | <ul><li>  [ ]  </li>   | <ul><li>  [x]  </li>   | In progress
+| [Key Authentication](./authentication/key-authentication/) | <ul><li>  [x]  </li>  |  <ul><li>  [x]  </li>  | <ul><li>  [ ]  </li>     | <ul><li>  [x]  </li>     |<ul><li>  [x]  </li>   | <ul><li>  [x]  </li>   |In progress
+| [Basic Authentication](./authentication/basic-authentication/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>  | <ul><li>  [ ]  </li>     |<ul><li>  [x]  </li>   | <ul><li>  [x]  </li>   | <ul><li>  [x]  </li>   | In progress
 
 ### Security plugins
 
 | Topic           | Content       | Slides        | Videos         |Insomnia        | KIC           |Deck           | Status         |
 |-----------------|---------------|---------------|----------------|----------------|---------------|---------------|----------------|
-| [Rate Limiting](./security/rate-limiting/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     |  <ul><li>  [ ]  </li>  | <ul><li>  [x]  </li>     |<ul><li>  [ ]  </li>     | <ul><li>  [x]  </li>   | In progress
-| [Rate limiting advanced](./security/rate-limiting-adv/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     |  <ul><li>  [ ]  </li>     |<ul><li>  [x]  </li>  | <ul><li>  [ ]  </li>     | <ul><li>  [x]  </li>   | In progress
-| [IP Restriction](./security/ip-restriction/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>  | <ul><li>  [ ]  </li>  | <ul><li>  [x]  </li>    | <ul><li>  [ ]  </li>   | <ul><li>  [x]  </li>   | In progress
+| [Rate Limiting](./security/rate-limiting/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     |  <ul><li>  [ ]  </li>  | <ul><li>  [x]  </li>     |<ul><li>  [x]  </li>     | <ul><li>  [x]  </li>   | In progress
+| [Rate limiting advanced](./security/rate-limiting-adv/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     |  <ul><li>  [ ]  </li>     |<ul><li>  [x]  </li>  | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>   | In progress
+| [IP Restriction](./security/ip-restriction/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>  | <ul><li>  [ ]  </li>  | <ul><li>  [x]  </li>    | <ul><li>  [x]  </li>   | <ul><li>  [x]  </li>   | In progress
 
 ### Traffic Control
 
 | Topic           | Content       | Slides        | Videos         | Insomnia       | KIC            |Deck           |Status         |
 |-----------------|---------------|---------------|----------------|----------------|----------------|---------------|---------------|
 | [ACL](./traffic-control/acl/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [ ]  </li>  |<ul><li>  [x]  </li>   | In progress
-| [Canary](./traffic-control/canary/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     |  <ul><li>  [ ]  </li>  | <ul><li>  [x]  </li>     |<ul><li>  [ ]  </li>     |<ul><li>  [x]  </li>   | In progress
+| [Canary](./traffic-control/canary/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     |  <ul><li>  [ ]  </li>  | <ul><li>  [x]  </li>     |<ul><li>  [x]  </li>     |<ul><li>  [x]  </li>   | In progress
 
 
 ### Analytics & Monitoring
 
 | Topic           | Content       | Slides        | Videos         | Insomnia       | KIC            |Deck           |Status         |
 |-----------------|---------------|---------------|----------------|----------------|----------------|---------------|---------------|
-| [Prometheus](./analytics-monitoring/prometheus/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     |  <ul><li>  [ ]  </li>  |<ul><li>  [x]  </li>     | <ul><li>  [ ]  </li>     |<ul><li>  [x]  </li>   | In progress
+| [Prometheus](./analytics-monitoring/prometheus/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     |  <ul><li>  [ ]  </li>  |<ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     |<ul><li>  [x]  </li>   | In progress
 
 ### Transformation
 
 | Topic           | Content       | Slides        | Videos         | Insomnia       | KIC            |Deck           |Status         |
 |-----------------|---------------|---------------|----------------|----------------|----------------|---------------|---------------|
-| [Correlation ID](./transformation/correlation-id/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     |  <ul><li>  [ ]  </li>  |<ul><li>  [x]  </li>     |<ul><li>  [ ]  </li>     | <ul><li>  [x]  </li>   | In progress
-| [Request Transformer](./transformation/req-transformer/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     |  <ul><li>  [ ]  </li>  |<ul><li>  [x]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [x]  </li>   | In progress
+| [Correlation ID](./transformation/correlation-id/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     |  <ul><li>  [ ]  </li>  |<ul><li>  [x]  </li>     |<ul><li>  [x]  </li>     | <ul><li>  [x]  </li>   | In progress
+| [Request Transformer](./transformation/req-transformer/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     |  <ul><li>  [ ]  </li>  |<ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>   | In progress
 
 ### Logging
 
 | Topic           | Content       | Slides        | Videos         | Insomnia       | KIC            |Deck           | Status         |
 |-----------------|---------------|---------------|----------------|----------------|----------------|---------------|----------------|
-| [File Log](./logging/file-log/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [ ]  </li>     |  <ul><li>  [x]  </li>  |<ul><li>  [ ]  </li>     |<ul><li>  [x]  </li>   | In progress
-| [HTTP log](./logging/http-log/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     |  <ul><li>  [ ]  </li>  | <ul><li>  [x]  </li>     | <ul><li>  [ ]  </li>     |<ul><li>  [x]  </li>   | In progress
+| [File Log](./logging/file-log/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     |  <ul><li>  [x]  </li>  |<ul><li>  [x]  </li>     |<ul><li>  [x]  </li>   | In progress
+| [HTTP log](./logging/http-log/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     |  <ul><li>  [ ]  </li>  | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     |<ul><li>  [x]  </li>   | In progress
