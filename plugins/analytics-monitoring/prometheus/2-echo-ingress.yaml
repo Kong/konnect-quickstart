@@ -1,0 +1,19 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: demo
+  namespace: testing
+  annotations:
+    konghq.com/plugins: proxy-cache-plugin
+spec:
+  ingressClassName: kong
+  rules:
+  - http:
+      paths:
+      - path: /plugin-example
+        pathType: ImplementationSpecific
+        backend:
+          service:
+            name: echo
+            port:
+              number: 80

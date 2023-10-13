@@ -19,7 +19,14 @@ pod/kong-gateway-6bcb9d8d7c-6z8pr      1/1     Running   0          2m48s
 ```
 
 1. **Install Echo deployment:** kubectl apply -f 1-create-echo.yaml 
-2. **Add Ingress Resource :** kubectl apply -f 2-echo-ingress.yaml 
+
+```
+namespace/testing created
+service/echo created
+deployment.apps/echo created
+```
+
+2. **Add Ingress Resource:** kubectl apply -f 2-echo-ingress.yaml 
 3. **Note: `konghq.com/plugins: <plugin-name>` ingress annotation is already present for the plugin**
 4. **Proxy to the endpoint:** Using insomnia or `curl http://<kong-proxy-endpoint>:<port>/plugin-name-example`
 5. **Add the plugin resource:** kubectl apply -f 3-plugin-name-plugin.yaml 
