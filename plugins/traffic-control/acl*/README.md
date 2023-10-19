@@ -65,3 +65,26 @@ kubectl apply -f 5-create-engineer-consumer.yaml
 kubectl apply -f 6-create-partner-credentials.yaml
 kubectl apply -f 7-create-partner-consumer.yaml 
 ```
+
+8. **Add Engineer to internal group:**
+
+```
+ kubectl patch --type json kongconsumer engineer \
+   -p='[{
+     "op":"add",
+     "path":"/credentials",
+     "value":["internal-group"]
+   }]' -n testing
+```
+
+9. **Add Partner to external group:**
+
+```
+ kubectl patch --type json kongconsumer partner \
+   -p='[{
+     "op":"add",
+     "path":"/credentials",
+     "value":["external-group"]
+   }]' -n testing
+```
+

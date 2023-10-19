@@ -2,21 +2,25 @@
 
 ## Getting started with Kong Konnect
 
+This section walks through getting started with Konnect and helps with understanding the basic components.
+
+- Here is the [slide deck] for this section(https://docs.google.com/presentation/d/1FqR7kqyFT5cVF0QtXcghDaElVXxXBpycYe_bQsyGMxc/edit?usp=sharing)
+
+
 | Topic           | Content       | Slides        | Videos         | Status         |
 |-----------------|---------------|---------------|----------------|----------------|
-| [Overview of Kong Konnect](./getting-started/overview-konnect/) | <ul><li>  [x]  </li>     | <ul><li>  [ ]  </li>   | <ul><li>  [ ]  </li>     | In progress
-| [Architecture](./getting-started/konnect-architecture/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | <ul><li>  [ ]  </li>  | Not started
-| [Register for Kong Konnect](./getting-started/register-for-konnect/) | <ul><li>  [x]  </li>    | <ul><li>  [ ]  </li>   | <ul><li>  [ ]  </li>   |  In progress
-| [Product walk-through](./getting-started/product-walk-through/) | <ul><li>  [ ]  </li>    | <ul><li>  [ ]  </li>   | <ul><li>  [ ]  </li>   |  Not started
-| [Useful Resources](./getting-started/useful-resources/) | <ul><li>  [x]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | In progress
+| [Overview of Kong Konnect](./getting-started/overview-konnect/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>   | <ul><li>  [ ]  </li>     | In progress
+| [Architecture](./getting-started/konnect-architecture/) | <ul><li>  [ ]  </li>     | <ul><li>  [x]  </li>   | <ul><li>  [ ]  </li>  | In progress
+| [Register for Kong Konnect](./getting-started/register-for-konnect/) | <ul><li>  [ ]  </li>    | <ul><li>  [x]  </li>   | <ul><li>  [ ]  </li>   |  In progress
+| [Product walk-through](./getting-started/product-walk-through/) | <ul><li>  [ ]  </li>    | <ul><li>  [x]  </li>   | <ul><li>  [ ]  </li>   |  In progress
+| [Useful Resources](./getting-started/useful-resources/) | <ul><li>  [ ]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [ ]  </li>   | In progress
 
 ## Organization Overview
 
 
 | Topic           | Content       | Slides        | Videos         | Status         |
 |-----------------|---------------|---------------|----------------|----------------|
-| [Overview of Organization](./organization/overview-of-organization/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not starteds
-| [How to get your Organization ID](./organization/get-konnect-org-id/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
+| [Overview of Organization](./organization/overview-of-organization/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
 | [Create a new admin in Konnect](./organization/create-a-new-admin/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
 | [Sign up with SSO (OKTA)](./organization/sso-okta/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
 
@@ -26,7 +30,6 @@
 |-----------------|---------------|---------------|----------------|----------------|
 | [Overview of Runtime Groups](./runtime-groups-runtime-instances/overview-runtime-groups/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
 | [How to create a Runtime group](./runtime-groups-runtime-instances/get-runtime-group-id/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
-| [How to get your Runtime Group ID](./runtime-groups-runtime-instances/get-runtime-group-id/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
 
 ## Konnect Gateway Install
 
@@ -45,7 +48,6 @@
 | [Service and Routes in Konnect](./config/services-and-routes/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
 | [Upstreams and targets](./config/upstreams-targets/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
 | [Consumers](./config/consumers/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
-| [Plugins](./config/plugins/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
 
 ## Analytics
 
@@ -81,4 +83,7 @@ Plugins can be applied globally or scoped to specific services, consumers or rou
 
 ## How to guides
 
-COMING SOON...
+| Topic           | Status       |
+|-----------------|---------------|
+| [How to get your Runtime Group ID](./runtime-groups-runtime-instances/get-runtime-group-id/) | In Progress  | 
+| [How to get your Organization ID](./organization/get-konnect-org-id/)  | Not started  | 

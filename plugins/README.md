@@ -75,5 +75,5 @@ You can leverage the insomnia collection [here](https://github.com/irishtek-solu
 
 | Topic           | Content       | Slides        | Videos         | Insomnia       | KIC            |Deck           | Status         |
 |-----------------|---------------|---------------|----------------|----------------|----------------|---------------|----------------|
-| [File Log](./logging/file-log/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     |  <ul><li>  [x]  </li>  |<ul><li>  [x]  </li>     |<ul><li>  [x]  </li>   | In progress
+| [File Log](./logging/file-log/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [ ]  </li>     |  <ul><li>  [x]  </li>  |<ul><li>  [x]  </li>     |<ul><li>  [x]  </li>   | In progress
 | [HTTP log](./logging/http-log/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     |  <ul><li>  [ ]  </li>  | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     |<ul><li>  [x]  </li>   | In progress
