@@ -35,7 +35,7 @@ design. You can seamlessly scale up and down services and secure them with polic
 
 Kong Konnect includes a control plane and data planes. The global control plane is hosted as a cloud service by Kong, reducing operational risks and lowering the total cost of ownership. The SaaS-based control plane accelerates deployments and provides access to functionality modules.
 
-![Konnect Arch](../images/konnect-arch.png)
+![Konnect Overview](../images/overview.png)
 
 This video offers an introduction to the Konnect Control plane and gives an overview of each module or component. There are 6 major components:
 
