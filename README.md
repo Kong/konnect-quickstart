@@ -4,18 +4,20 @@
 
 This section walks through getting started with Konnect and helps with understanding the basic components.
 
-- Here is the [slide deck] for this section(https://docs.google.com/presentation/d/1FqR7kqyFT5cVF0QtXcghDaElVXxXBpycYe_bQsyGMxc/edit?usp=sharing)
+- Here is the [slide deck](https://docs.google.com/presentation/d/1FqR7kqyFT5cVF0QtXcghDaElVXxXBpycYe_bQsyGMxc/edit?usp=sharing) for this section
 
 
 | Topic           | Content       | Slides        | Videos         | Status         |
 |-----------------|---------------|---------------|----------------|----------------|
 | [Overview of Kong Konnect](./getting-started/overview-konnect/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>   | <ul><li>  [ ]  </li>     | In progress
-| [Architecture](./getting-started/konnect-architecture/) | <ul><li>  [ ]  </li>     | <ul><li>  [x]  </li>   | <ul><li>  [ ]  </li>  | In progress
-| [Register for Kong Konnect](./getting-started/register-for-konnect/) | <ul><li>  [ ]  </li>    | <ul><li>  [x]  </li>   | <ul><li>  [ ]  </li>   |  In progress
-| [Product walk-through](./getting-started/product-walk-through/) | <ul><li>  [ ]  </li>    | <ul><li>  [x]  </li>   | <ul><li>  [ ]  </li>   |  In progress
-| [Useful Resources](./getting-started/useful-resources/) | <ul><li>  [ ]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [ ]  </li>   | In progress
+| [Architecture](./getting-started/konnect-architecture/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>   | <ul><li>  [ ]  </li>  | In progress
+| [Register for Kong Konnect](./getting-started/register-for-konnect/) | <ul><li>  [x]  </li>    | <ul><li>  [x]  </li>   | <ul><li>  [ ]  </li>   |  In progress
+| [Product walk-through](./getting-started/product-walk-through/) | <ul><li>  [x]  </li>    | <ul><li>  [x]  </li>   | <ul><li>  [ ]  </li>   |  In progress
+| [Useful Resources](./getting-started/useful-resources/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [ ]  </li>   | In progress
 
 ## Organization Overview
+
+- Here is the [slide deck](https://docs.google.com/presentation/d/1MSfHY3J8WrLgwGLsat4KcKFBXPTP1Td3vCtlLlbVJY4/edit?usp=sharing) for this section
 
 
 | Topic           | Content       | Slides        | Videos         | Status         |

@@ -6,13 +6,13 @@
 
 ## Watch video to get Organization ID
 
-[![Get Konnect Organization ID](./images/konnect.png)](https://youtu.be/954jOuCe6kg "Get Konnect Organization ID")
+[![Get Konnect Organization ID](../images/konnect.png)](https://youtu.be/954jOuCe6kg "Get Konnect Organization ID")
 
 ## How to get the Konnect Org ID
 
 1. Log in to Konnect: `https://cloud.konghq.com/login`
 2. In the top right-hand corner:
 
-![Copy Organization ID](./images/konnect-org-id.png)
+![Copy Organization ID](../images/konnect-org-id.png)
 
 3. Select `Copy Organization ID`

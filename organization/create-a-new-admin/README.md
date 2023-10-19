@@ -14,11 +14,11 @@
 3. Select User
 4. Select `+ Invite`
 
-![Copy Organization ID](./images/invite-user.png)
+![Copy Organization ID](../images/invite-user.png)
 
 5. User will then receive an email to activate the account. 
    
-![Activate Account](./images/activate.png)
+![Activate Account](../images/activate.png)
 
 6. Activate the account by clicking on the link
 
