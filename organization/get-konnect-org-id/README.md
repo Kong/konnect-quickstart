@@ -6,7 +6,9 @@
 
 ## Watch video to get Organization ID
 
-[![Get Konnect Organization ID](../images/konnect.png)](https://youtu.be/954jOuCe6kg "Get Konnect Organization ID")
+<!---
+[![Architecture Overview](./images/overview.png)](https://youtu.be/ "Architecture Overview")
+-->
 
 ## How to get the Konnect Org ID
 
