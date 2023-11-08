@@ -1,4 +1,6 @@
-# Kong Konnect POC Guides and Material
+# Kong Konnect Guides and Material
+
+![GitHub last commit](https://img.shields.io/github/last-commit/irishtek-solutions/kong-konnect-inso)
 
 <!--
 ## Getting started with Kong Konnect
