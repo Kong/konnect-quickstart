@@ -1,6 +1,6 @@
 # Kong Konnect Guides and Material
 
-![GitHub last commit](https://img.shields.io/github/last-commit/irishtek-solutions/kong-konnect-inso)
+![Last commit](https://img.shields.io/github/last-commit/irishtek-solutions/kong-konnect-inso)
 
 <!--
 ## Getting started with Kong Konnect
@@ -49,11 +49,29 @@ This section is all about installing the Data Plane. Click on the option that be
 
 ## Basic Config
 
+
+Kong Konnect is an API management platform that provides a comprehensive set of core main entities for managing and securing APIs and microservices. Here is a summary of these core entities:
+
+**Service:** A "Service" in Kong Konnect represents an API or microservice that you want to manage. It defines the backend API you want to expose, including the URL, name, and other related information.
+
+**Route:** A "Route" is used to define how requests to a particular Service should be processed. It specifies rules for routing incoming requests to the appropriate Service, including path matching, host names, and other criteria.
+
+**Consumer:** A "Consumer" represents an entity or application that consumes your APIs. It can be an end-user, application, or system that interacts with your APIs. Consumers can be authenticated and authorized to access specific Services.
+
+**Plugins:** "Plugins" are extensions that enhance the functionality of Kong Konnect. They can be applied at different levels, such as globally, for specific Services, or for individual Routes. Plugins enable features like authentication, rate limiting, logging, and more.
+
+**Upstream and Targets:** "Upstream" refers to the backend servers that provide the actual implementation of a Service. "Targets" are specific instances of these backend servers. Kong Konnect can be configured to load balance and distribute incoming requests across these Targets, improving scalability and fault tolerance.
+
+**Certificates:** "Certificates" are used to secure the communication between clients and Kong Konnect by enabling HTTPS. You can associate SSL/TLS certificates with Services and Routes to ensure data encryption and secure API access.
+
+These core entities in Kong Konnect allow you to effectively manage, secure, and control the flow of API traffic within your organization, making it a powerful tool for API gateway and microservices management.
+
 | Topic           | Content       | Slides        | Videos         | Status         |
 |-----------------|---------------|---------------|----------------|----------------|
 | [Service and Routes in Konnect](./config/services-and-routes/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
 | [Upstreams and targets](./config/upstreams-targets/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
 | [Consumers](./config/consumers/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
+
 <!--
 ## Analytics
 | Topic           | Content       | Slides        | Videos         | Status         |
@@ -83,7 +101,7 @@ Plugins can be applied globally or scoped to specific services, consumers or rou
 
 - Here is a link to our [plugin hub](https://docs.konghq.com/hub/) which has documentation for all available plugins
 - Here is the [slide deck](https://docs.google.com/presentation/d/1Rl_bCmI0dSlw-ydvprb3UkZCFhllkkorwwOGqHc5At4/edit?usp=sharing) for this plugin section.
-- Here is the link to the [insomnia collection]() when configuring using the Admin API
+- Here is the link to the [insomnia collection](https://github.com/irishtek-solutions/kong-konnect-inso) when configuring using the Admin API
 
 
 ### Using the Admin API with Insomnia
