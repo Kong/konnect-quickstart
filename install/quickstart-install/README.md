@@ -1,6 +1,6 @@
-# Install Guide for installing Konnect Gateway using [Install method] 
+# Install Guide for installing Konnect Gateway using the Quickstart method (docker)
 
-## Video on Installing Konnect Gateway using [Install method] 
+## Video on Installing Konnect Gateway using Quickstart method (docker)
 
 <!--
 [![INSTALL METHOD Install](./images/image.png)](https://youtu.be/ "INSTALL METHOD Install")
@@ -42,4 +42,13 @@ CONTAINER ID   IMAGE                   COMMAND                  CREATED         
 
 `curl http://localhost:8000/`
 
+the resopinse should look something like this:
+
+```
+{
+	"message": "no Route matched with those values"
+}
+```
+
+The result is that we now have a fully working and connect Data Plane that we can now start to work on.
 

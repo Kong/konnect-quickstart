@@ -1,7 +1,5 @@
 # Basic configuration settings when it comes to Konnect
 
-IMPORTA
-
 It is broken up into the following sections:
 
 - [Services and Routes](./services-and-routes/) 

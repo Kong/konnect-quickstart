@@ -43,5 +43,22 @@ CONTAINER ID   IMAGE                   COMMAND                  CREATED         
 `curl http://localhost:8000/`
 
 
+9.  Call the proxy endpoint on port 8000 either using curl or insomnia
+
+`curl http://localhost:8000/`
+
+the response should look something like this:
+
+```
+{
+	"message": "no Route matched with those values"
+}
+```
+
+The result is that we now have a fully working and connected Data Plane that we can now start to work on.
+
+
+
+
 
 
