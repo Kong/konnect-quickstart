@@ -2,6 +2,22 @@
 
 ![Last commit](https://img.shields.io/github/last-commit/irishtek-solutions/kong-konnect-inso)
 
+## Table of Contents
+
+- [Kong Konnect Guides and Material](#kong-konnect-guides-and-material)
+  - [Table of Contents](#table-of-contents)
+  - [Konnect Gateway Install](#konnect-gateway-install)
+  - [Basic Config](#basic-config)
+  - [Plugins](#plugins)
+    - [Using the Admin API with Insomnia](#using-the-admin-api-with-insomnia)
+      - [Authentication plugins](#authentication-plugins)
+      - [Security plugins](#security-plugins)
+      - [Traffic Control](#traffic-control)
+      - [Analytics \& Monitoring](#analytics--monitoring)
+      - [Transformation](#transformation)
+      - [Logging](#logging)
+  - [How to guides](#how-to-guides)
+
 <!--
 ## Getting started with Kong Konnect
 
