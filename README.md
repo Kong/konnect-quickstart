@@ -9,7 +9,6 @@
   - [Konnect Gateway Install](#konnect-gateway-install)
   - [Basic Config](#basic-config)
   - [Plugins](#plugins)
-    - [Using the Admin API with Insomnia](#using-the-admin-api-with-insomnia)
       - [Authentication plugins](#authentication-plugins)
       - [Security plugins](#security-plugins)
       - [Traffic Control](#traffic-control)
@@ -118,11 +117,7 @@ Plugins can be applied globally or scoped to specific services, consumers or rou
 - Here is a link to our [plugin hub](https://docs.konghq.com/hub/) which has documentation for all available plugins
 - Here is the [slide deck](https://docs.google.com/presentation/d/1Rl_bCmI0dSlw-ydvprb3UkZCFhllkkorwwOGqHc5At4/edit?usp=sharing) for this plugin section.
 - Here is the link to the [insomnia collection](https://github.com/irishtek-solutions/kong-konnect-inso) when configuring using the Admin API
-
-
-### Using the Admin API with Insomnia
-
-You can leverage the insomnia collection [here](https://github.com/irishtek-solutions/kong-konnect-inso)
+- You can leverage the insomnia collection [here](https://github.com/irishtek-solutions/kong-konnect-inso)
 <!--
 [![Using Insomnia](./images/activate.png)](https://youtu.be/ "First [PLUGIN NAME]")
 -->
