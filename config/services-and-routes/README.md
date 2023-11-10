@@ -64,3 +64,4 @@ pod/kong-gateway-6bcb9d8d7c-6z8pr      1/1     Running   0          2m48s
 
 1. **Install Echo deployment:** `kubectl apply -f 1-create-echo.yaml`
 2. **Add Ingress Resource:** `kubectl apply -f 2-echo-ingress.yaml`
+3. **Proxy request to your proxy endpoint**

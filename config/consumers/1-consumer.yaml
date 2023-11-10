@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: testing
+  labels:
+    name: testing
+---
+apiVersion: configuration.konghq.com/v1
+kind: KongConsumer
+metadata:
+  name: paul
+  namespace: testing
+  annotations:
+    kubernetes.io/ingress.class: kong
+username: paul

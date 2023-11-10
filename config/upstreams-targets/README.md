@@ -1,6 +1,6 @@
 # Working with your first Upstream and Target
 
-In Kong, "Upstream" and "Target" are concepts related to load balancing, which is a mechanism for distributing incoming requests across multiple instances of a backend service to improve performance, scalability, and fault tolerance.
+In Kong, "Upstreams" and "Targets" are concepts related to load balancing, which is a mechanism for distributing incoming requests across multiple instances of a backend service to improve performance, scalability, and fault tolerance.
 
 **Upstream:**
 
@@ -14,7 +14,7 @@ In Kong, "Upstream" and "Target" are concepts related to load balancing, which i
 - Targets are the actual endpoints where Kong forwards incoming requests for load balancing. Each target is associated with an Upstream, and Kong dynamically distributes traffic among the available targets based on the configured load-balancing algorithm.
 - When a request arrives at Kong, it selects a target within the associated Upstream and forwards the request to that target.
 
-
+![Upstream Targets](../images/upstream-targets.png)
 
 **Pre-requisite:** Konnect data plane up and running. If you do not, refer to the [installation guides](../../install/) for setting up Data Planes.
 
@@ -36,8 +36,26 @@ To install this using deck:
 2. Make sure you have deck [installed](https://docs.konghq.com/deck/latest/installation/)
 3. Make sure your konnect token is set `export KONG_TOKEN=kpat_abcdedf....................yz`
 4. Make sure you can connect: `deck ping --konnect-token $KONNECT_TOKEN` should return a successful response `Successfully Konnected to the Kong organization!`
-5. Run deck sync: `deck sync --konnect-token $KONNECT_TOKEN --select-tag first-service-route`
+5. Run deck sync: `deck sync --konnect-token $KONNECT_TOKEN --select-tag first-upstream-target`
 
+```
+creating service Upstream-Example
+creating upstream upstream-example
+creating route Upstream-example
+creating target google.com:80 for upstream deebcedd-7be5-4fce-83fb-c954c81603e4
+creating target httpbin.org:80 for upstream deebcedd-7be5-4fce-83fb-c954c81603e4
+Summary:
+  Created: 5
+  Updated: 0
+  Deleted: 0
+```
+
+6. You should now see it toggle between `google.com` and `httpbin.org` when calling the `/api` endpoint for the proxy for 50% of the time.
+
+![target 1](../images/target-1.png)
+
+
+![target 2](../images/target-2.png)
 
 ## Deploy your firstUpstream and Target using the Admin API
 
@@ -73,5 +91,5 @@ pod/kong-gateway-6bcb9d8d7c-6z8pr      1/1     Running   0          2m48s
 
 1. **Install Echo deployment:** `kubectl apply -f 1-create-echo.yaml`
 2. **Add Ingress Resource:** `kubectl apply -f 2-echo-ingress.yaml` 
-3. Upstreams and target get automatically set.
-4. Scale the echo deployment. You'll notice additional targetsb get added automatically
+3. **Upstreams and targets get automatically set**
+4. **Scale the echo deployment. You'll notice additional targetsb get added automatically:**  `kubectl scale deployment echo --replicas=1 -n testing`
