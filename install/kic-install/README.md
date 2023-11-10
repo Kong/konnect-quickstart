@@ -14,7 +14,7 @@
 **Install Steps**
 
 1. Log into Konnect
-2. Select `New Runtime Group` 
+2. Select `Gateway Manager` > `New Control Plane`
 3. Select `Kong Ingress Controller`
 
 ![RTG](images/1-rtg.png)
@@ -24,7 +24,7 @@
 ![RTG Config](images/2-rtg-config.png)
 
 5. Select `Generate Script`
-6. Follow the instructions as outputted by the `Generate Script` option.
+6. Follow the instructions provided by the `Generate Script` option.
 7. Run the following command `kubectl get po,svc -n kong` to see if everything is up and running:
 
 ```

@@ -12,8 +12,40 @@
 
 1. Access to Konnect
 2. Kubernetes cluster access
+3. helm 3 installed
 
 **Install Steps**
 
-1. Connect to your Kubernetes cluster
-2. Go 
+1. Connect to your Kubernetes cluster. In my example I'm connecting to a GKE cluster (could be any cluster)
+
+`gcloud container clusters get-credentials cluster-1 --zone us-central1-c --project sales-engineering-scratch`
+
+2. Run a basic command to make sure you can connect. Like `kubectl get namespace`.
+
+```
+$ kubectl get namespace
+NAME              STATUS   AGE
+default           Active   6d7h
+gmp-public        Active   6d7h
+gmp-system        Active   6d7h
+kube-node-lease   Active   6d7h
+kube-public       Active   6d7h
+```
+3. Log into Konnect and got to `Gateway Manager` and then `default` Control plane
+4. Select `Create a new Data Plane Node`  
+5. From the drop-down list select `Kubernetes`
+
+6. Follow the instructions as provide. The first will be to create a namespace, add the helm chart, update helm :
+
+- `kubectl create namespace kong`
+- `helm repo add kong https://charts.konghq.com`
+- `helm repo update`
+
+7. Next you need to generate the certificates and save them locally. `tls.crt` for the cluster certificate and then`tls.key` for the certificate key. 
+8. Next you need to create the secret fir the certificate and key pair. Run `kubectl create secret tls kong-cluster-cert -n kong --cert=./tls.crt --key=./tls.key` . If you run `kubectl get secrets -n kong` you should see the secrets
+9. Save the values.yaml locally in a `values.yaml` file.
+10. Run the helm install command `helm install my-kong kong/kong -n kong --values ./values.yaml`
+
+11. You should see it running like here in your terminal
+
+12. It should also be connected to in the Control plane
