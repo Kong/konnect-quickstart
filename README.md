@@ -85,11 +85,11 @@ Kong Konnect is an API management platform that provides a comprehensive set of 
 
 These core entities in Kong Konnect allow you to effectively manage, secure, and control the flow of API traffic within your organization, making it a powerful tool for API gateway and microservices management.
 
-| Topic           | Content       | Slides        | Videos         | Status         |
-|-----------------|---------------|---------------|----------------|----------------|
-| [Service and Routes in Konnect](./config/services-and-routes/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
-| [Upstreams and targets](./config/upstreams-targets/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
-| [Consumers](./config/consumers/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
+| Topic           | Content       |  Videos         | Status         |
+|-----------------|---------------|-----------------|----------------|
+| [Service and Routes in Konnect](./config/services-and-routes/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     |  Not started
+| [Upstreams and targets](./config/upstreams-targets/) | <ul><li>  [ ]  </li>    | <ul><li>  [ ]  </li>   | Not started
+| [Consumers](./config/consumers/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
 
 <!--
 ## Analytics
