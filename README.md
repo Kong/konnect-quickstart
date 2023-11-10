@@ -87,7 +87,7 @@ These core entities in Kong Konnect allow you to effectively manage, secure, and
 
 | Topic           | Content       |  Videos         | Status         |
 |-----------------|---------------|-----------------|----------------|
-| [Service and Routes in Konnect](./config/services-and-routes/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     |  Not started
+| [Service and Routes](./config/services-and-routes/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     |  Not started
 | [Upstreams and targets](./config/upstreams-targets/) | <ul><li>  [ ]  </li>    | <ul><li>  [ ]  </li>   | Not started
 | [Consumers](./config/consumers/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
 
