@@ -174,5 +174,5 @@ Plugins can be applied globally or scoped to specific services, consumers or rou
 
 | Topic           | Status       |
 |-----------------|---------------|
-| [How to get your Runtime Group ID](./gateway-manager/) |  Not started  | 
-| [How to get your Organization ID](./organization/get-konnect-org-id/)  | Not started  | 
+| [How to get your Runtime Group ID](./gateway-manager/get-runtime-group-id/) |  Completed  | 
+| [How to get your Organization ID](./organization/get-konnect-org-id/)  | Completed  | 
