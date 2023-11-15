@@ -6,7 +6,7 @@ Welcome to the Kong Konnect Kickstart Repository! This comprehensive collection 
 
 ## Table of Contents
 
-- [Kong Konnect Kickstart](#kong-konnect-kickstart
+- [Kong Konnect Kickstart](#kong-konnect-kickstart)
   - [Table of Contents](#table-of-contents)
   - [Konnect Gateway Install](#konnect-gateway-install)
   - [Basic Configuration](#basic-configuration)

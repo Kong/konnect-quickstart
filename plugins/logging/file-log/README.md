@@ -11,6 +11,17 @@
 
 **File Logging:**  Logging requests and responses to a file involves capturing data related to incoming requests and outgoing responses and writing it to a log file on the server or a designated storage location.
 
+**How it works with Konnect**
+
+1. Create a Service and Route
+2. Test to see if we can proxy request with a key or no key
+3. Enable Kong’s File Log Plugin
+   - Path: /tmp/logs.txt
+4. Send requests to the proxy endpoint
+5. You will now see logs present
+
+![File log](../../images/File-Log.png)
+
 ## Watch the video on how to use the File Logging plugin
 
 <!--

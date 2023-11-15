@@ -1,16 +1,14 @@
 _format_version: "3.0"
 _info:
   defaults: {}
-  select_tags:
-  - canary-example
 _konnect:
   runtime_group_name: default
 services:
 - connect_timeout: 60000
   enabled: true
-  host: mockbin.org
+  host: httpbin.org
   name: canary-service
-  path: /requests
+  path: /ip
   plugins:
   - config:
       canary_by_header_name: null

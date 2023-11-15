@@ -1,8 +1,6 @@
 _format_version: "3.0"
 _info:
   defaults: {}
-  select_tags:
-  - request-transformer-example
 _konnect:
   runtime_group_name: default
 services:
@@ -10,7 +8,7 @@ services:
   enabled: true
   host: mockbin.org
   name: request-transformer-service
-  path: /requests
+  path: /anything
   plugins:
   - config:
       add:

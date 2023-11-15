@@ -26,14 +26,13 @@ Plugins can be applied globally or scoped to specific services, consumers or rou
 
 ## Using Deck
 
+IMPORTANT: Set your $KONNECT_TOKEN in order to interact with the Konnect Control plane (Example: `export KONNECT_TOKEN=kpat_qWQeKAqoSVbOTAemeYHfHkso2RQ4vefYl.....`)
+
 Each plugin directory has a Deck file that you can use to import a sample configuration to the control plane to test. The instructions on how to import are in the README files for each section.
 
 ## Using the Admin API with Insomnia
 
-You can leverage the insomnia collection [here](https://github.com/irishtek-solutions/kong-konnect-inso)
-<!--
-[![Using Insomnia](./images/activate.png)](https://youtu.be/ "First [PLUGIN NAME]")
--->
+You can leverage the insomnia collection for this repository [here](https://github.com/irishtek-solutions/kong-konnect-inso).
 
 ### Authentication plugins
 

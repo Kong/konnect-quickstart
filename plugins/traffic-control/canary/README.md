@@ -11,6 +11,22 @@
 
 **Canary Releases:**  Canary requests is a deployment strategy which involve routing a small percentage of incoming traffic to a new or updated version of an API to test its functionality and performance before rolling it out to all users.
 
+**How it works with Konnect**
+
+1. Create a Service and Route
+2. Test to see if we can proxy request
+3. Enable Kong’s Canary Plugin
+4. For the plugin configuration, we will specify a new endpoint to connect to for a certain percentage of the traffic. In this case we will use https://httpbin.org/anything
+   - Upstream host: httpbin.org
+   - Upstream port: 443
+   - Upstream URI: /anything
+   - Percentage: 50
+   - Steps: 100
+   - Hash: none
+5. Test to see if 50% of the traffic goes to https://httpbin.org/anything & https://httpbin.org/ip
+
+![Canary](../../images/Canary.png)
+
 ## Watch the video on how to use the Canary plugin
 
 <!--

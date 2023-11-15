@@ -11,6 +11,16 @@
 
 **Rate Limiting:** allows businesses to control the number of requests a client or application can make to an API within a specified time frame (e.g., requests per second or requests per minute). When a client exceeds the defined rate limit, the API gateway can respond with an response code as well as additional information. Rate Limiting ensures fair usage of the API's resources.
 
+**How it works with Konnect**
+
+1. Create a Service and Route
+2. Test to see if we can proxy request
+3. Inspect headers
+4. Enable Kong’s Rate Limiting Plugin
+5. Test my sending multiple requests
+
+![Rate Limiting](../../images/Rate-Limiting.png)
+
 ## Watch the video on how to use the Rate Limiting plugin
 
 <!--

@@ -1,16 +1,14 @@
 _format_version: "3.0"
 _info:
   defaults: {}
-  select_tags:
-  - ip-restriction-example
 _konnect:
   runtime_group_name: default
 services:
 - connect_timeout: 60000
   enabled: true
-  host: mockbin.org
-  name: ip-restriction-mockbin-service
-  path: /requests
+  host: httpbin.org
+  name: ip-restriction-service
+  path: /anything
   plugins:
   - config:
       allow: null

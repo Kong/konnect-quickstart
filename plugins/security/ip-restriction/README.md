@@ -11,6 +11,16 @@
 
 **IP Restriction:** allows businesses to control which IP addresses or ranges are allowed or denied access to the API. It can be used to whitelist trusted IPs or blacklist malicious IPs.
 
+**How it works with Konnect**
+
+1. Create a Service and Route
+2. Test to see if we can proxy request
+3. Enable Kong’s IP Restriction Plugin to deny my IP address
+4. Test to see if I can now access the API
+
+
+![IP Restriction](../../images/IP-Restriction.png)
+
 ## Watch the video on how to use the IP Restriction plugin
 
 <!--

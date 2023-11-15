@@ -1,8 +1,6 @@
 _format_version: "3.0"
 _info:
   defaults: {}
-  select_tags:
-  - key-auth-example
 _konnect:
   runtime_group_name: default
 consumers:
@@ -13,9 +11,9 @@ consumers:
 services:
 - connect_timeout: 60000
   enabled: true
-  host: mockbin.org
+  host: httpbin.org
   name: key-auth-mockbin-service
-  path: /requests
+  path: /anything
   plugins:
   - config:
       anonymous: null

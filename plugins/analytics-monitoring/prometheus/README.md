@@ -9,6 +9,20 @@
 
 ## What is the Prometheus?
 
+Prometheus metrics or Prometheus metrics scraping involves collecting and exposing various performance and operational metrics about the API in a specific format. The advantage of it being in a specific format would be that other tools can support ingestion of this format.
+
+**How it works with Konnect**
+
+1. Create a Service and Route
+2. Test to see if we can proxy request
+3. Enable Kong’s Prometheus Plugin
+4. Setup Grafana to scrape metrics
+5. Send some requests through on the proxy endpoint
+6. Check Grafana to see metrics
+
+
+![Prometheus Diagram](../../images/Prometheus.png)
+
 ## Watch the video on how to use the Prometheus plugin
 
 <!--

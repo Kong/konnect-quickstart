@@ -1,16 +1,14 @@
 _format_version: "3.0"
 _info:
   defaults: {}
-  select_tags:
-  - correlation-id-example
 _konnect:
   runtime_group_name: default
 services:
 - connect_timeout: 60000
   enabled: true
-  host: mockbin.org
+  host: httpbin.org
   name: correlation-id-service
-  path: /requests
+  path: /anything
   plugins:
   - config:
       echo_downstream: true

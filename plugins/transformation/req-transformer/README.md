@@ -11,6 +11,18 @@
 
 **Request Transformer:** Transforming a request involves modifying the content or structure of incoming requests before they are forwarded to backend services. This can include request payload conversion, header modification, or URL rewriting.
 
+**How it works with Konnect**
+
+1. Create a Service and Route
+2. Test to see if we can proxy request
+3. Enable Kong’s Request Transformer Plugin
+   - Add Header: kong-header:jungle-header
+   - Add Querystring: kong-querystring:jungle-querystring
+4. Test request and inspect header, body and query string elements
+
+
+![Req Transformer](../../images/Request-Transformer.png)
+
 ## Watch the video on how to use the Request Transformer plugin
 
 <!--

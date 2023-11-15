@@ -11,6 +11,18 @@
 
 **Key authentication:** also known as API key authentication or token-based authentication, involves using a unique API key or token to authenticate and authorize access to an API. When a client sends a request to an API, they include their API key in the request (typically via a header). When it comes to Key Authentication and using it at the Gateway, the API gateway then validates the key and grants access if it's valid.
 
+**How to do it with Konnect**
+
+1. Create a Service and Route
+2. Test to see if we can proxy request with a key or no key
+3. Enable Kong’s Key Authentication Plugin
+4. Try to access the API now. We will not be able to access the API.
+5. Create a consumer in Kong
+6. Provision that Consumer a Key
+7. Test the API with the newly create key credential
+
+![Key Auth](../../images/Key-Auth.png)
+
 ## Watch the video on how to use the Key Authentication plugin
 
 <!--

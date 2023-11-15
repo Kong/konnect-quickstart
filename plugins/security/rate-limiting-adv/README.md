@@ -11,6 +11,16 @@
 
 **Rate Limiting Advanced** in Kong goes beyond basic rate limiting by allowing for more complex policies and rate limiting based on various factors such as HTTP headers, query parameters, or user roles.It enables conditional rate limiting, which means different clients or requests can have different rate limits based on their characteristics.
 
+**How it works with Konnect**
+
+1. Create a Service and Route
+2. Test to see if we can proxy request
+3. Inspect headers
+4. Enable Kong’s Rate Limiting Advanced Plugin
+5. Test my sending multiple requests
+
+![Rate Limiting Adv](../../images/Rate-Limiting-Adv.png)
+
 ## Watch the video on how to use the Rate Limiting Advanced plugin
 
 <!--

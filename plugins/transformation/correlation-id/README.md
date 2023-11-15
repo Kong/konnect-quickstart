@@ -11,6 +11,17 @@
 
 **Correlation ID:** Adding a correlation ID to API requests involves including a unique identifier with each incoming request. This ID is then passed through the each networking component and downstream services to trace and correlate requests and responses. An example of a UUID would be this: 550e8400-e29b-41d4-a716-446655440000
 
+**How it works with Konnect**
+
+1. Create a Service and Route
+2. Test to see if we can proxy request
+3. Inspect headers
+4. Enable Kong’s Correlation ID Plugin
+5. Test to see if Correlation ID was added to the request/response
+
+
+![Correlation ID](../../images/Correlation-ID.png)
+
 ## Watch the video on how to use the Correlation ID plugin
 
 <!--

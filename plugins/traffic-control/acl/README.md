@@ -11,6 +11,20 @@
 
 **Access Control Lists (ACL’s):** Access Control Lists (ACLs) in an API gateway allow businesses to specify which clients or applications are allowed or denied access to specific API endpoints. ACLs are a set of rules that define who can access what resources.
 
+**How it works with Konnect**
+
+1. Create a Service and Route
+2. Enable key authentication on the Service
+3. Create two consumers “Engineer” and “Partner”
+4. Provision both consumers a key “Engineer-Key” and “Partner-Key”
+5. Test to see if we can proxy requests with a key
+6. Add consumer “Engineer” to the “Internal-Group” and “Partner” to the “External-Group”
+7. Enable Kong’s ACL Plugin to only allow users in the “Internal-Group” to get access to the API
+8. Test to see that only internal users can now get access
+
+
+![ACL](../../images/ACL.png)
+
 ## Watch the video on how to use the ACL plugin
 
 <!--

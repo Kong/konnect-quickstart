@@ -9,6 +9,20 @@
 
 ## What is the HTTP Logging?
 
+Logging API requests and responses to an external HTTP endpoint involves sending data related to API interactions to an external server or service via HTTP requests.
+
+**How it works with Konnect**
+
+1. Create a Service and Route
+2. Test to see if we can proxy request with a key or no key
+3. Enable Kong’s HTTP Plugin
+   -  HTTP endpoint
+   -  Header
+4. Proxy to endpoint
+5. Check http logging platform (New Relic) to see logs
+
+![Http log](../../images/HTTP-Log.png)
+
 ## Watch the video on how to use the HTTP Logging plugin
 
 <!--

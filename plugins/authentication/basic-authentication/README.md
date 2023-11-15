@@ -11,6 +11,18 @@
 
 **Basic Authentication:** Basic authentication is a method where clients send a username and password in the request (usually in a header(s)) to authenticate with an API. The credentials are typically Base64-encoded.
 
+**How to do it with Konnect**
+
+1. Create a Service and Route
+2. Test to see if we can proxy request with a username and password
+3. Enable Kong’s Basic Authentication Plugin
+4. Try to access the API now
+5. Create a consumer in Kong
+6. Provision that Consumer an authentication credentials
+7. Test the API with the newly create credential
+
+![Basic Auth](../../images/Basic-Auth.png)
+
 ## Watch the video on how to use the Basic Authentication plugin
 
 <!--
