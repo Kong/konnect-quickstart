@@ -1,12 +1,12 @@
-# Kong Konnect Guides and Material
+# Kong Konnect Kickstart
 
 ![Last commit](https://img.shields.io/github/last-commit/irishtek-solutions/kong-konnect-inso)
 
-Welcome to the Kong Konnect Guides and Material Repository! This comprehensive collection of documentation and guides is designed to assist you in seamlessly setting up, configuring, and harnessing the full potential of Kong Konnect. Whether you're a seasoned developer, a DevOps professional, or just getting started with API management, this repository is your go-to source for unlocking the power of Kong Konnect.
+Welcome to the Kong Konnect Kickstart Repository! This comprehensive collection of documentation and guides is designed to assist you in seamlessly setting up, configuring, and harnessing the full potential of Kong Konnect. Whether you're a seasoned developer, a DevOps professional, or just getting started with API management, this repository is your go-to source for unlocking the power of Kong Konnect.
 
 ## Table of Contents
 
-- [Kong Konnect Guides and Material](#kong-konnect-guides-and-material)
+- [Kong Konnect Kickstart](#kong-konnect-kickstart
   - [Table of Contents](#table-of-contents)
   - [Konnect Gateway Install](#konnect-gateway-install)
   - [Basic Configuration](#basic-configuration)

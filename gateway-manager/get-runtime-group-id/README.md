@@ -14,4 +14,6 @@
 
 ## Watch the video instead
 
+<!--
 [![Get Konnect Organization ID](./images/konnect.png)](https://youtu.be/3y0sSWLRPq4 "Get Konnect Runtime Group ID")
+>
