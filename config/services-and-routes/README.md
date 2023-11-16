@@ -12,15 +12,11 @@ A Route is essentially a mapping between a specific path or host and a Service. 
 
 ## How to create a Service and Route in the UI
 
-<!--
-[![Adding new Service and Route using the UI](./images/)](https://youtu.be/ "Adding new Service and Route using the Admin API")
--->
+[Youtube video on creating a Service and Route](https://youtu.be/BuRgGjUUduk?si=Fg_LYRlt8iTv8r8I)
 
 ## Video on how to create a Service and Route using Deck
 
-<!--
-[![Adding new Service and Route using the Admin API](./images/)](https://youtu.be/ "Adding new Service and Route using Deck")
--->
+[Youtube video on creating a Service and Route using Deck](https://youtu.be/U8EDdXINxTY?si=6N79Gp7m-l5YPOa5)
 
 To install this using deck:
 
@@ -32,17 +28,14 @@ To install this using deck:
 
 ## Deploy your first Service and Route using the Admin API
 
-You can leverage the insomnia repository [here](https://github.com/irishtek-solutions/kong-konnect-inso) for Admin API usage.
+[Youtube video on creating a Service and Route using the Konnect Admin API](https://youtu.be/qCiVPfkvM38?si=-_vIZ8Hm9Hapo7IE)
 
-<!--
-[![Adding new Service and Route using the Admin API](./images/)](https://youtu.be/ "Adding new Service and Route using the Admin API")
--->
+You can leverage the insomnia repository [here](https://github.com/irishtek-solutions/kong-konnect-inso) for Admin API usage.
 
 ## Deploy your first Service and Route using KIC
 
-<!--
-[![Adding new Service and Route using KIC(./images/)](https://youtu.be/ "Adding new Service and Route using the Admin API")
--->
+[Youtube video on creating a Service and Route using KIC](https://youtu.be/8e9FutXQi68?si=LhxTSwdjP1kFK2LF)
+
 
 **Pre-requisite**
 

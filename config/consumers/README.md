@@ -8,13 +8,11 @@ Consumers in Kong are often associated with key authentication, OAuth, or other 
 
 ## How to create a Consumer in the UI - Video
 
-
+[Youtube video on creating a Consumer](https://youtu.be/oF_gy_GFGlg?si=5UpBgK9p7en8D6K1)
 
 ## Video on how to create a Consumer using Deck
 
-<!--
-[![Adding new Consumer using the Admin API](./images/)](https://youtu.be/ "Adding new Consumer using Deck")
--->
+[Youtube video on creating a Consumer using Deck](https://youtu.be/fbABlx_HMJI?si=7vdEWM9HKsS8tDjD)
 
 To install this using deck:
 
@@ -26,17 +24,14 @@ To install this using deck:
 
 ## Deploy your first Consumer using the Admin API
 
-You can leverage the insomnia repository [here](https://github.com/irishtek-solutions/kong-konnect-inso) for Admin API usage.
+[Youtube video on creating a Consumer using the Admin API](https://youtu.be/b9zvWLHjxT8?si=PXQqxIwsvAwTZHNX)
 
-<!--
-[![Adding new Consumer using the Admin API](./images/)](https://youtu.be/ "Adding new Consumer using the Admin API")
--->
+You can leverage the insomnia repository [here](https://github.com/irishtek-solutions/kong-konnect-inso) for Admin API usage.
 
 ## Deploy your first Consumer using KIC
 
-<!--
-[![Adding new Consumer using KIC(./images/)](https://youtu.be/ "Adding new Consumer using the Admin API")
--->
+[Youtube video on creating a Consumer using the KIC](https://youtu.be/0t5nsOUbJ8U?si=OTs6v9FTZsx02oST)
+
 
 **Pre-requisite**
 

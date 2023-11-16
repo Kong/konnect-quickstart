@@ -23,16 +23,14 @@
 
 ## Watch the video on how to use the IP Restriction plugin
 
-<!--
-[![First [PLUGIN NAME]](./images/activate.png)](https://youtu.be/ "First [PLUGIN NAME]")
--->
+[Youtube video on IP Restriction Plugin](https://youtu.be/A3aR7GkaCoU?si=2zz_IPFCZKPP_Opk)
 
 ## Installation using Deck
 
-To install this using deck:
+To install this using Deck:
 
 1. Navigate to this directory
-2. Make sure you have deck [installed](https://docs.konghq.com/deck/latest/installation/)
+2. Make sure you have eck [installed](https://docs.konghq.com/deck/latest/installation/)
 3. Make sure your konnect token is set `export KONNECT_TOKEN=kpat_abcdedf....................yz`
 4. Make sure you can connect: `deck ping --konnect-token $KONNECT_TOKEN` should return a successful response `Successfully Konnected to the Kong organization!`
 5. Run deck sync: `deck sync --konnect-token $KONNECT_TOKEN --select-tag ip-restriction-example`
