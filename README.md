@@ -130,16 +130,16 @@ Plugins can be applied globally or scoped to specific services, consumers or rou
 
 | Topic           | Content       | Slides        | Videos         | Insomnia       | KIC           | Deck           |Status         |
 |-----------------|---------------|---------------|----------------|----------------|---------------|----------------|---------------|
-| [Key Authentication](./plugins/authentication/key-authentication/) | <ul><li>  [x]  </li>  |  <ul><li>  [x]  </li>  | <ul><li>  [ ]  </li>     | <ul><li>  [x]  </li>     |<ul><li>  [x]  </li>   | <ul><li>  [x]  </li>   |In progress
-| [Basic Authentication](./plugins/authentication/basic-authentication/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>  | <ul><li>  [ ]  </li>     |<ul><li>  [x]  </li>   | <ul><li>  [x]  </li>   | <ul><li>  [x]  </li>   | In progress
+| [Key Authentication](./plugins/authentication/key-authentication/) | <ul><li>  [x]  </li>  |  <ul><li>  [x]  </li>  | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     |<ul><li>  [x]  </li>   | <ul><li>  [x]  </li>   |Completed
+| [Basic Authentication](./plugins/authentication/basic-authentication/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>  | <ul><li>  [x]  </li>     |<ul><li>  [x]  </li>   | <ul><li>  [x]  </li>   | <ul><li>  [x]  </li>   | Completed
 
 #### Security plugins
 
 | Topic           | Content       | Slides        | Videos         |Insomnia        | KIC           |Deck           | Status         |
 |-----------------|---------------|---------------|----------------|----------------|---------------|---------------|----------------|
-| [Rate Limiting](./plugins/security/rate-limiting/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     |  <ul><li>  [ ]  </li>  | <ul><li>  [x]  </li>     |<ul><li>  [x]  </li>     | <ul><li>  [x]  </li>   | In progress
+| [Rate Limiting](./plugins/security/rate-limiting/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     |  <ul><li>  [x]  </li>  | <ul><li>  [x]  </li>     |<ul><li>  [x]  </li>     | <ul><li>  [x]  </li>   | Completed
 | [Rate limiting advanced](./plugins/security/rate-limiting-adv/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     |  <ul><li>  [ ]  </li>     |<ul><li>  [x]  </li>  | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>   | In progress
-| [IP Restriction](./plugins/security/ip-restriction/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>  | <ul><li>  [ ]  </li>  | <ul><li>  [x]  </li>    | <ul><li>  [x]  </li>   | <ul><li>  [x]  </li>   | In progress
+| [IP Restriction](./plugins/security/ip-restriction/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>  | <ul><li>  [x]  </li>  | <ul><li>  [x]  </li>    | <ul><li>  [x]  </li>   | <ul><li>  [x]  </li>   | Completed
 
 #### Traffic Control
 
