@@ -62,8 +62,8 @@ Here is the [link](https://docs.google.com/presentation/d/14ubtR1t_36_wPRLizdFud
 |-----------------|---------------|---------------|----------------|----------------|
 | [Quick install (Docker)](./install/quickstart-install/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [ ]  </li>   | In progress
 | [Docker Compose Install](./install/docker-compose/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [ ]  </li>   | In progress
-| [Install on VM (EC2)](./install/vm-install/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
-| [Install on Kubernetes (EKS)](./install/kubernetes-install/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
+| [Install on VM (EC2)](./install/vm-install/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [ ]  </li>   | In progress
+| [Install on Kubernetes (EKS)](./install/kubernetes-install/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [ ]  </li>   | In progress
 | [KIC install](./install/kic-install/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [ ]  </li>   | In progress
 
 ## Basic Configuration
