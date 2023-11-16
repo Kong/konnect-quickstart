@@ -25,9 +25,7 @@
 
 ## Watch the video on how to use the Basic Authentication plugin
 
-<!--
-[![First [PLUGIN NAME]](./images/activate.png)](https://youtu.be/ "First [PLUGIN NAME]")
--->
+[Youtube video on Basic Authentication Plugin](https://youtu.be/uIKCIWMPLAI?si=t0R_B4pXfhOd4PEj)
 
 ## Installation using Deck
 

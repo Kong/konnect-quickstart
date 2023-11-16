@@ -23,9 +23,7 @@
 
 ## Watch the video on how to use the Rate Limiting plugin
 
-<!--
-[![First [PLUGIN NAME]](./images/activate.png)](https://youtu.be/ "First [PLUGIN NAME]")
--->
+[Youtube video on IP restriction Plugin](https://www.youtube.com/watch?v=A3aR7GkaCoU)
 
 ## Installation using Deck
 

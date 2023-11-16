@@ -6,11 +6,9 @@ Consumers in Kong are often associated with key authentication, OAuth, or other 
 
 **Pre-requisite:** Konnect data plane up and running. If you do not, refer to the [installation guides](../../install/) for setting up Data Planes.
 
-## How to create a Consumer in the UI
+## How to create a Consumer in the UI - Video
 
-<!--
-[![Adding new Consumer using the UI](./images/)](https://youtu.be/ "Adding new Consumer using the Admin API")
--->
+
 
 ## Video on how to create a Consumer using Deck
 

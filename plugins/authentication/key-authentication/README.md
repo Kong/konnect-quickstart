@@ -25,9 +25,7 @@
 
 ## Watch the video on how to use the Key Authentication plugin
 
-<!--
-[![First [PLUGIN NAME]](./images/activate.png)](https://youtu.be/ "First [PLUGIN NAME]")
--->
+[Youtube video on Key Authentication Plugin](https://youtu.be/ORhip-Stcs4?si=A9p2wWW2skOd2OBv)
 
 ## Installation using Deck
 
