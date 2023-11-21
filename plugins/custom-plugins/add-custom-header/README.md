@@ -1,10 +1,10 @@
-# Add Custom headw 
+# Add Custom header Custom Plugin
 
 ## Video for adding a custom plugin to Konnect
 
 Watch the video on how to add this custom plugin by clicking [this link](https://youtu.be/utqH-zGzReY).
 
-## Step by step for adding this custom plugin with Konnect with Konnect
+## Step by step for adding this custom plugin with Konnect
 
 This simple plugin adds a configurable custom header (example: `"X-Custom-Header": "Default-Value"` to your request) to your request upstream. 
 
@@ -47,6 +47,9 @@ The two important files for the custom plugin:
 8. Paste the environment variables from what was copied in step 6 into the .env file. It should look like this:
 
 ![Env File](../../install/images/env.png)
+
+
+NOTE: It's important to note you need to set `KONG_UNTRUSTED_LUA: "on"` in your docker-compose file. This is already set.
 
 9. In this directory, run `docker-compose up -d`. By running this command it will build a new docker image using the `kong.Dockerfile` and use that image in our Kong Konnect dataplane proxy. 
 10. Run `docker container ls`
