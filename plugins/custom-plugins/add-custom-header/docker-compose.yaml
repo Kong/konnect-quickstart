@@ -1,0 +1,26 @@
+version: "3"
+
+services:
+  kong-dp:
+    build: 
+      context: .
+      dockerfile: kong.Dockerfile
+    ports:
+      - "8000:8000/tcp"
+      - "8443:8443/tcp"
+    environment:
+      KONG_ROLE: data_plane
+      KONG_DATABASE: "off"
+      KONG_VITALS: "off"
+      KONG_CLUSTER_MTLS: pki
+      KONG_CLUSTER_CONTROL_PLANE: ${KONG_CLUSTER_CONTROL_PLANE}
+      KONG_CLUSTER_SERVER_NAME: ${KONG_CLUSTER_SERVER_NAME}
+      KONG_CLUSTER_TELEMETRY_ENDPOINT:  ${KONG_CLUSTER_TELEMETRY_ENDPOINT}
+      KONG_CLUSTER_TELEMETRY_SERVER_NAME: ${KONG_CLUSTER_TELEMETRY_SERVER_NAME}
+      KONG_CLUSTER_CERT: ${KONG_CLUSTER_CERT}
+      KONG_CLUSTER_CERT_KEY: ${KONG_CLUSTER_CERT_KEY}
+      KONG_LUA_SSL_TRUSTED_CERTIFICATE: system
+      KONG_KONNECT_MODE: "on"
+      KONG_LOG_LEVEL: debug
+      KONG_PLUGINS: bundled,kong-customheader
+      KONG_UNTRUSTED_LUA: "on"
