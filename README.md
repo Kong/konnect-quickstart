@@ -176,3 +176,4 @@ Plugins can be applied globally or scoped to specific services, consumers or rou
 |-----------------|---------------|
 | [How to get your Runtime Group ID](./gateway-manager/get-runtime-group-id/) |  Completed  | 
 | [How to get your Organization ID](./organization/get-konnect-org-id/)  | Completed  | 
+| [Add a Custom Plugin to Konnect](./how-to/add-a-custom-plugin/)  | Completed  | 
