@@ -2,9 +2,7 @@
 
 ## Video for adding a custom plugin to Konnect
 
-<!--
-[![INSTALL METHOD Install](./images/image.png)](https://youtu.be/ "INSTALL METHOD Install")
--->
+Watch the video on how to add a custom plugin by clicking [this link](https://youtu.be/utqH-zGzReY).
 
 ## Step by step for adding your first custom plugin with Konnect
 
