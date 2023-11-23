@@ -40,7 +40,7 @@ The two important files for the custom plugin:
 4. Click on `Create A New Data Plane Node`
 5. Generate certificates 
 
-![Quickstart](../../install/images/quickstart.png)
+![Quickstart](../../../install/images/quickstart.png)
 
 6. Copy the script so we can get the environment variables.
 7. Save the `.env.template` file in this directory as `.env `
@@ -82,15 +82,15 @@ the response should look something like this:
 2. Navigate to the plugin section
 3. Select `+ new plugin`. You should see the following screen:
 
-![Adding custom plugin](../images/adding-custom-plugin.png)
+![Adding custom plugin](../../images/adding-custom-plugin.png)
 4. Click on `Create`
 5. Add the schema 
 
 
-![Adding custom plugin](../images/adding-custom-plugin-schema.png)
+![Adding custom plugin](../../images/adding-custom-plugin-schema.png)
 6. You should now see the custom plugin available as an option to select
 
-![Custom plugin available](../images/custom-plugin-created.png)
+![Custom plugin available](../../images/custom-plugin-created.png)
 
 **Testing the plugin**
 
@@ -124,7 +124,7 @@ $ curl localhost:8000/api
 
 3. Add the new plugin on the service, you can leave the options as default
 
-![Adding config for plugin](../images/adding-custom-plugin-config.png)
+![Adding config for plugin](../../images/adding-custom-plugin-config.png)
 
 1. When testing now, you should see the new header `"X-Custom-Header": "Default-Value"` added.
 

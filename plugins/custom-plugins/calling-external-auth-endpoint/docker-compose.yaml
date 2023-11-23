@@ -22,6 +22,6 @@ services:
       KONG_LUA_SSL_TRUSTED_CERTIFICATE: system
       KONG_KONNECT_MODE: "on"
       KONG_LOG_LEVEL: debug
-      KONG_PLUGINS: bundled,kong-customheader
+      KONG_PLUGINS: bundled,kong-externalcall
       KONG_UNTRUSTED_LUA: "on"
       KONG_UNTRUSTED_LUA_SANDBOX_REQUIRES: resty.http
