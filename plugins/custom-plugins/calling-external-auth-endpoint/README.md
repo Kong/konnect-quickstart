@@ -121,7 +121,7 @@ $ curl localhost:8000/api
 
 ![Adding config for plugin](../../images/add-custom-external-callout.png)
 
-1. Specify the endpoint that you want to call out to for token/key authentication. If you send a request with a valid token, you will get a `200` response. If its invalid, you will get a `401` ot `403` response. 
+4. Specify the endpoint that you want to call out to for token/key authentication. If you send a request with a valid token, you will get a `200` response. If its invalid, you will get a `401` ot `403` response. 
 
 ```
 $ curl localhost:8000/api
