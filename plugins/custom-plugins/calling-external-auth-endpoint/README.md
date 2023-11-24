@@ -81,9 +81,9 @@ the response should look something like this:
 
 ![Adding custom plugin](../../images/adding-custom-plugin.png)
 
-1. Click on `Create`
-2. Add the schema 
-3. You should now see the custom plugin available as an option to select
+4. Click on `Create`
+5. Add the schema 
+6. You should now see the custom plugin available as an option to select
 
 ![Custom plugin available](../../images/custom-plugin-external.png)
 
