@@ -55,11 +55,7 @@ CONTAINER ID   IMAGE                         COMMAND                  CREATED   
 ec1350dd5cd6   add-a-custom-plugin-kong-dp   "/entrypoint.sh kong…"   15 minutes ago   Up 15 minutes (healthy)   0.0.0.0:8000->8000/tcp, 8001-8004/tcp, 0.0.0.0:8443->8443/tcp, 8444-8447/tcp   add-a-custom-plugin-kong-dp-1
 ```
 
-11. Call the proxy endpoint on port 8000 either using curl or insomnia
-
-`curl http://localhost:8000/`
-
-12.  Call the proxy endpoint on port 8000 either using curl or insomnia
+11.   Call the proxy endpoint on port 8000 either using curl or insomnia
 
 `curl http://localhost:8000/`
 
@@ -78,9 +74,9 @@ the response should look something like this:
 3. Select `+ new plugin`. You should see the following screen:
 
 ![Adding custom plugin](../images/adding-custom-plugin.png)
+
 4. Click on `Create`
 5. Add the schema 
-
 
 ![Adding custom plugin](../images/adding-custom-plugin-schema.png)
 6. You should now see the custom plugin available as an option to select

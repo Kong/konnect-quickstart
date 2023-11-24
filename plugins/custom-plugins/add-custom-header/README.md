@@ -1,12 +1,14 @@
 # Add Custom header Custom Plugin
 
+NOTE: This is an example only. Should NOT be used in production. 
+
 ## Video for adding a custom plugin to Konnect
 
 Watch the video on how to add this custom plugin by clicking [this link](https://youtu.be/utqH-zGzReY).
 
 ## Step by step for adding this custom plugin with Konnect
 
-This simple plugin adds a configurable custom header (example: `"X-Custom-Header": "Default-Value"` to your request) to your request upstream. 
+This simple plugin adds a configurable custom header (example: `"X-Custom-Header": "Default-Value"`) to your request upstream. 
 
 In this directory, there is a folder called `kong-customheader` which contains the code for our custom plugin. The directory structure looks like this:
 
@@ -48,7 +50,6 @@ The two important files for the custom plugin:
 
 ![Env File](../../install/images/env.png)
 
-
 NOTE: It's important to note you need to set `KONG_UNTRUSTED_LUA: "on"` in your docker-compose file. This is already set.
 
 9. In this directory, run `docker-compose up -d`. By running this command it will build a new docker image using the `kong.Dockerfile` and use that image in our Kong Konnect dataplane proxy. 
@@ -60,11 +61,8 @@ CONTAINER ID   IMAGE                         COMMAND                  CREATED   
 ec1350dd5cd6   add-a-custom-plugin-kong-dp   "/entrypoint.sh kong…"   15 minutes ago   Up 15 minutes (healthy)   0.0.0.0:8000->8000/tcp, 8001-8004/tcp, 0.0.0.0:8443->8443/tcp, 8444-8447/tcp   add-a-custom-plugin-kong-dp-1
 ```
 
-11. Call the proxy endpoint on port 8000 either using curl or insomnia
 
-`curl http://localhost:8000/`
-
-12.  Call the proxy endpoint on port 8000 either using curl or insomnia
+11.   Call the proxy endpoint on port 8000 either using curl or insomnia
 
 `curl http://localhost:8000/`
 
@@ -88,6 +86,7 @@ the response should look something like this:
 
 
 ![Adding custom plugin](../../images/adding-custom-plugin-schema.png)
+
 6. You should now see the custom plugin available as an option to select
 
 ![Custom plugin available](../../images/custom-plugin-created.png)
