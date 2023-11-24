@@ -2,9 +2,8 @@
 
 ## Video on Installing Konnect Gateway using Quickstart method (docker)
 
-<!--
-[![INSTALL METHOD Install](./images/image.png)](https://youtu.be/ "INSTALL METHOD Install")
--->
+[Link](https://www.youtube.com/watch?v=taTm3JfEwcw) to Youtube video.
+
 ## Step by step for installing Konnect Gateway using Docker Quickstart
 
 **Pre-Requisites**
