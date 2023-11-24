@@ -85,7 +85,7 @@ the response should look something like this:
 5. Add the schema 
 6. You should now see the custom plugin available as an option to select
 
-![Custom plugin available](../../images/add-custom-external-callout.png)
+![Custom plugin available](../../images/custom-plugin-external.png)
 
 **Testing the plugin**
 
@@ -120,8 +120,6 @@ $ curl localhost:8000/api
 3. Add the new plugin on the service, you can leave the options as default or configure them
 
 ![Adding config for plugin](../../images/add-custom-external-callout.png)
-
-
 
 4. Specify the endpoint that you want to call out to for token/key authentication. If you send a request with a valid token, you will get a `200` response. If its invalid, you will get a `401` ot `403` response. 
 
