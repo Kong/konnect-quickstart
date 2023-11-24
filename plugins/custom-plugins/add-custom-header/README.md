@@ -1,6 +1,6 @@
 # Add Custom header Custom Plugin
 
-NOTE: This is an example only. Should NOT be used in production. 
+`NOTE: This is an example only. Should NOT be used in production.`
 
 ## Video for adding a custom plugin to Konnect
 
@@ -48,7 +48,7 @@ The two important files for the custom plugin:
 7. Save the `.env.template` file in this directory as `.env `
 8. Paste the environment variables from what was copied in step 6 into the .env file. It should look like this:
 
-![Env File](../../install/images/env.png)
+![Env File](../../../install/images/env.png)
 
 NOTE: It's important to note you need to set `KONG_UNTRUSTED_LUA: "on"` in your docker-compose file. This is already set.
 
@@ -121,11 +121,11 @@ $ curl localhost:8000/api
 }
 ```
 
-3. Add the new plugin on the service, you can leave the options as default
+3. Add the new plugin on the service, you can leave the options as default or configure them
 
 ![Adding config for plugin](../../images/adding-custom-plugin-config.png)
 
-1. When testing now, you should see the new header `"X-Custom-Header": "Default-Value"` added.
+4. When testing now, you should see the new header `"X-Custom-Header": "Default-Value"` added.
 
 ```
 $ curl localhost:8000/api
