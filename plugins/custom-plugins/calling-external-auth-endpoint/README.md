@@ -85,7 +85,7 @@ the response should look something like this:
 5. Add the schema 
 6. You should now see the custom plugin available as an option to select
 
-![Custom plugin available](../../images/custom-plugin-external.png)
+![Custom plugin available](../../images/add-custom-external-callout.png)
 
 **Testing the plugin**
 
