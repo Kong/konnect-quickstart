@@ -1,6 +1,6 @@
 # Add Custom header Custom Plugin
 
-`NOTE: This is an example only. Should NOT be used in production.`
+`NOTE: This is an example only. This plugin should NOT be used in production.`
 
 ## Video for adding a custom plugin to Konnect
 
