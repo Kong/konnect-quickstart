@@ -18,6 +18,7 @@ Welcome to the Kong Konnect Kickstart Repository! This comprehensive collection 
       - [Transformation](#transformation)
       - [Logging](#logging)
   - [How to guides](#how-to-guides)
+  - [Workshops](#workshops)
 
 <!--
 ## Getting started with Kong Konnect
@@ -177,3 +178,13 @@ Plugins can be applied globally or scoped to specific services, consumers or rou
 | [How to get your Runtime Group ID](./gateway-manager/get-runtime-group-id/) |  Completed  | 
 | [How to get your Organization ID](./organization/get-konnect-org-id/)  | Completed  | 
 | [Add a Custom Plugin to Konnect](./how-to/add-a-custom-plugin/)  | Completed  | 
+
+
+## Workshops
+
+| Topic           | Description       |
+|-----------------|---------------|
+| [Konnect Academy FREE](https://education.konghq.com/) | Kon Konnect free academy for multiple courses on the Konnect platform  | 
+| [AWS - API Management with Kong Konnect](https://catalog.workshops.aws/kong-konnect) |  Explore the Kong Konnect platform through an architectural overview, then install Konnect runtime on Amazon EKS. Understand key concepts like services, routes, and plugins. Deploy a sample microservice, access it via a defined route, and utilize Konnect for authentication, authorization, rate limiting, response transformation, AWS Lambda invocation, and proxy caching. Lastly, learn observability features for comprehensive platform monitoring.  | 
+| [AWS - EKS Terraform Blueprints with Kong Konnect Ingress Controller](https://catalog.workshops.aws/kong-konnect-kic)  | Gain insight into the architecture of Kong Ingress Controller, then install it on Amazon EKS using the EKS Blueprint Addon for Konnect KIC. Familiarize yourself with ingresses and Kong plugins. Deploy a sample microservice, access it through the defined ingress, and leverage Kong Ingress Controller for authentication, authorization, rate limiting, response transformation, and proxy caching. Additionally, explore observability features for effective monitoring.  | 
+| [AWS - Service Mesh Implementation with Kong Mesh in Konnect](https://catalog.workshops.aws/kong-konnect-mesh)  | Discover the Service Mesh Pattern, explore the architectural overview of Kong Mesh, and install Kong Mesh runtime on Amazon EKS. Deploy a microservice-based app, managing component communication. Employ Kong Mesh policies for zero-trust security, Canary Releases, and Traffic Permission.  | 
