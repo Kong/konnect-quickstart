@@ -96,7 +96,7 @@ These core entities in Kong Konnect allow you to effectively manage, secure, and
 ## Analytics
 | Topic           | Content       | Slides        | Videos         | Status         |
 |-----------------|---------------|---------------|----------------|----------------|
-| [Overview of Analytics](./analytics/overview-analytics/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [x]  </li>   | Completed
+| [Overview of Analytics](https://youtu.be/FfDfdKX1QHs) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [x]  </li>   | Completed
 
 ## API Products
 
