@@ -1,0 +1,19 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: oas-validation-plugin
+  namespace: testing
+  annotations:
+    konghq.com/plugins: oas-validation-plugin
+spec:
+  ingressClassName: kong
+  rules:
+    - http:
+        paths:
+          - path: /oasValidation
+            pathType: ImplementationSpecific
+            backend:
+              service:
+                name: echo
+                port:
+                  number: 80
