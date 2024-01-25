@@ -23,9 +23,7 @@
 
 ## Watch the video on how to use the Rate Limiting Advanced plugin
 
-<!--
-[![First [PLUGIN NAME]](./images/activate.png)](https://youtu.be/ "First [PLUGIN NAME]")
--->
+[Link to youtube video](https://youtu.be/Pfv6Fh-GPxQ)
 
 ## Installation using Deck
 
