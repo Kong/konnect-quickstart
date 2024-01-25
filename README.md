@@ -1,5 +1,7 @@
 # Kong Konnect Kickstart
 
+![Konnect Image](./getting-started/images/Kong-Konnect-logo.jpeg)
+
 ![Last commit](https://img.shields.io/github/last-commit/irishtek-solutions/kong-konnect-inso)
 
 Welcome to the Kong Konnect Kickstart Repository! This comprehensive collection of documentation and guides is designed to assist you in seamlessly setting up, configuring, and harnessing the full potential of Kong Konnect. Whether you're a seasoned developer, a DevOps professional, or just getting started with API management, this repository is your go-to source for unlocking the power of Kong Konnect.
