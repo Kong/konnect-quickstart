@@ -10,6 +10,8 @@ Welcome to the Kong Konnect Kickstart Repository! This comprehensive collection 
   - [Table of Contents](#table-of-contents)
   - [Konnect Gateway Install](#konnect-gateway-install)
   - [Basic Configuration](#basic-configuration)
+  - [Analytics](#analytics)
+  - [API Products](#api-products)
   - [Plugins](#plugins)
       - [Authentication plugins](#authentication-plugins)
       - [Security plugins](#security-plugins)
@@ -61,8 +63,8 @@ Here is the [link](https://docs.google.com/presentation/d/14ubtR1t_36_wPRLizdFud
 
 | Topic           | Content       | Slides        | Videos         | Status         |
 |-----------------|---------------|---------------|----------------|----------------|
-| [Quick install (Docker)](./install/quickstart-install/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [ ]  </li>   | In progress
-| [Docker Compose Install](./install/docker-compose/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [ ]  </li>   | In progress
+| [Quick install (Docker)](./install/quickstart-install/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>   | Completed
+| [Docker Compose Install](./install/docker-compose/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>   | Completed
 | [Install on VM (EC2)](./install/vm-install/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [ ]  </li>   | In progress
 | [Install on Kubernetes (EKS)](./install/kubernetes-install/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [ ]  </li>   | In progress
 | [KIC install](./install/kic-install/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [ ]  </li>   | In progress
