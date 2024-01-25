@@ -61,8 +61,6 @@ This section walks through getting started with Konnect and helps with understan
 
 This section is all about installing the Data Plane. Click on the option that best suits your needs. Each section provides a video on how to install the Data Plane.
 
-Here is the [link](https://docs.google.com/presentation/d/14ubtR1t_36_wPRLizdFudCoBze7MDgtJvwGXydY7FQ8/edit?usp=sharing) to the associated slides.
-
 | Topic           | Content       | Slides        | Videos         | Status         |
 |-----------------|---------------|---------------|----------------|----------------|
 | [Quick install (Docker)](./install/quickstart-install/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>   | Completed

@@ -2,7 +2,7 @@
 
 ## Video on Installing Konnect Gateway using Docker Compose
 
-[Link](https://www.youtube.com/watch?v=qPcbIEkKZK0) to Youtube Video.
+[Link to Youtube Video.](https://www.youtube.com/watch?v=qPcbIEkKZK0)
 
 ## Step by step for installing Konnect Gateway using Docker Compose
 
