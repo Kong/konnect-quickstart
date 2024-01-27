@@ -90,9 +90,9 @@ These core entities in Kong Konnect allow you to effectively manage, secure, and
 
 | Topic           | Content       |  Videos         | Status         |
 |-----------------|---------------|-----------------|----------------|
-| [Service and Routes](./config/services-and-routes/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     |  Completed
-| [Upstreams and targets](./config/upstreams-targets/) | <ul><li>  [x]  </li>    | <ul><li>  [x]  </li>   | Completed
-| [Consumers](./config/consumers/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>   | Completed
+| [Service and Routes](./config/services-and-routes/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     |  In Progress
+| [Upstreams and targets](./config/upstreams-targets/) | <ul><li>  [ ]  </li>    | <ul><li>  [ ]  </li>   | In Progress
+| [Consumers](./config/consumers/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | In Progress
 
 
 ## Analytics
@@ -125,9 +125,6 @@ Plugins can be applied globally or scoped to specific services, consumers or rou
 - Here is the [slide deck](https://docs.google.com/presentation/d/1Rl_bCmI0dSlw-ydvprb3UkZCFhllkkorwwOGqHc5At4/edit?usp=sharing) for this plugin section.
 - Here is the link to the [insomnia collection](https://github.com/irishtek-solutions/kong-konnect-inso) when configuring using the Admin API
 - You can leverage the insomnia collection [here](https://github.com/irishtek-solutions/kong-konnect-inso)
-<!--
-[![Using Insomnia](./images/activate.png)](https://youtu.be/ "First [PLUGIN NAME]")
--->
 
 #### Authentication plugins
 
