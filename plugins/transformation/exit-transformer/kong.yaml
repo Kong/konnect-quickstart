@@ -1,0 +1,78 @@
+_format_version: "3.0"
+services:
+- connect_timeout: 60000
+  enabled: true
+  host: httpbin.org
+  name: exit-transfomer-example-service
+  path: /anything
+  plugins:
+  - config:
+      functions:
+      - |2-
+             -- transform.lua
+             return function(status, body, headers)
+               if not body or not body.message then
+                 return status, body, headers
+               end
+               headers = { ["x-some-header"] = "some value" }
+               local new_body = {
+                 error = true,
+                 status = status,
+                 message = body.message .. ", please provide one via the apikey header!",
+               }
+               return status, new_body, headers
+             end
+      handle_unexpected: false
+      handle_unknown: false
+    enabled: true
+    name: exit-transformer
+    protocols:
+    - grpc
+    - grpcs
+    - http
+    - https
+    tags:
+    - exit-transfomer-example
+  - config:
+      anonymous: null
+      hide_credentials: false
+      key_in_body: false
+      key_in_header: true
+      key_in_query: true
+      key_names:
+      - apikey
+      run_on_preflight: true
+    enabled: true
+    name: key-auth
+    protocols:
+    - grpc
+    - grpcs
+    - http
+    - https
+    - ws
+    - wss
+    tags:
+    - exit-transfomer-example
+  port: 80
+  protocol: http
+  read_timeout: 60000
+  retries: 5
+  routes:
+  - https_redirect_status_code: 426
+    name: exit-transfomer-example-route
+    path_handling: v0
+    paths:
+    - /exit-transformer
+    preserve_host: false
+    protocols:
+    - http
+    - https
+    regex_priority: 0
+    request_buffering: true
+    response_buffering: true
+    strip_path: true
+    tags:
+    - exit-transfomer-example
+  tags:
+  - exit-transfomer-example
+  write_timeout: 60000
