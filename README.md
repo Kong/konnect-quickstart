@@ -90,15 +90,15 @@ These core entities in Kong Konnect allow you to effectively manage, secure, and
 
 | Topic           | Content       |  Videos         | Status         |
 |-----------------|---------------|-----------------|----------------|
-| [Service and Routes](./config/services-and-routes/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     |  In Progress
-| [Upstreams and targets](./config/upstreams-targets/) | <ul><li>  [ ]  </li>    | <ul><li>  [ ]  </li>   | In Progress
-| [Consumers](./config/consumers/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | In Progress
+| [Service and Routes](./config/services-and-routes/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     |  Completed
+| [Upstreams and targets](./config/upstreams-targets/) | <ul><li>  [ ]  </li>    | <ul><li>  [x]  </li>   | Completed
+| [Consumers](./config/consumers/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>   | Completed
 
 
 ## Analytics
 | Topic           | Content       | Slides        | Videos         | Status         |
 |-----------------|---------------|---------------|----------------|----------------|
-| [Overview of Analytics](https://youtu.be/FfDfdKX1QHs) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [x]  </li>   | Completed
+| [Overview of Analytics](https://youtu.be/FfDfdKX1QHs) | <ul><li>  [ ]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>   | In Progress
 
 ## API Products
 
