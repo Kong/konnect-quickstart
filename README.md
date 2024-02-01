@@ -188,6 +188,5 @@ Plugins can be applied globally or scoped to specific services, consumers or rou
 
 | Topic           | Description       |
 |-----------------|---------------|
-| [How to get your Control Plane ID](./gateway-manager/get-runtime-group-id/) |  How to get your Control Plane ID. Useful for when interacting with the Konnect Admin API  | 
-| [How to get your Organization ID](./organization/get-konnect-org-id/)  |  Organization ID unique to your Konnect organization | 
+| [How to get your Control Plane ID](./gateway-manager/get-runtime-group-id/) |  Sign up To Kong Konnect | 
 | [Add a Custom Plugin to Konnect](./how-to/add-a-custom-plugin/)  | Step by step guide on how to add a custom plugin to Konnect  | 
