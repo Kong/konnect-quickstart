@@ -66,7 +66,7 @@ This section is all about installing the Data Plane. Click on the option that be
 | [Quick install (Docker)](./install/quickstart-install/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>   | Completed
 | [Docker Compose Install](./install/docker-compose/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>   | Completed
 | [Install on VM (EC2)](./install/vm-install/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [ ]  </li>   | In progress
-| [Install on Kubernetes (EKS)](./install/kubernetes-install/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [ ]  </li>   | In progress
+| [Install on Kubernetes](./install/kubernetes-install/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>   | Completed
 | [KIC install](./install/kic-install/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [ ]  </li>   | In progress
 
 ## Basic Configuration
@@ -91,14 +91,14 @@ These core entities in Kong Konnect allow you to effectively manage, secure, and
 | Topic           | Content       |  Videos         | Status         |
 |-----------------|---------------|-----------------|----------------|
 | [Service and Routes](./config/services-and-routes/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     |  Completed
-| [Upstreams and targets](./config/upstreams-targets/) | <ul><li>  [ ]  </li>    | <ul><li>  [x]  </li>   | Completed
+| [Upstreams and targets](./config/upstreams-targets/) | <ul><li>  [x]  </li>    | <ul><li>  [x]  </li>   | Completed
 | [Consumers](./config/consumers/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>   | Completed
 
 
 ## Analytics
 | Topic           | Content       | Slides        | Videos         | Status         |
 |-----------------|---------------|---------------|----------------|----------------|
-| [Overview of Analytics](https://youtu.be/FfDfdKX1QHs) | <ul><li>  [ ]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>   | In Progress
+| [Overview of Analytics](./analytics/overview-analytics/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>   | Completed
 
 ## API Products
 
