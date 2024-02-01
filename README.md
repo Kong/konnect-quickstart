@@ -6,6 +6,10 @@
 
 Welcome to the Kong Konnect Kickstart Repository! This comprehensive collection of documentation and guides is designed to assist you in seamlessly setting up, configuring, and harnessing the full potential of Kong Konnect. Whether you're a seasoned developer, a DevOps professional, or just getting started with API management, this repository is your go-to source for unlocking the power of Kong Konnect.
 
+If you haven't already, sign up for Kong Konnect by following the Konnect Registration page [here](https://docs.konghq.com/konnect/getting-started/access-account/).
+
+Or watch the video on how to sign up which is available [here](https://youtu.be/5dpc4Xcfdy4).
+
 ## Table of Contents
 
 - [Kong Konnect Kickstart](#kong-konnect-kickstart)

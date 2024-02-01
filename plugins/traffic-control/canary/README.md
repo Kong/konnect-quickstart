@@ -29,9 +29,7 @@
 
 ## Watch the video on how to use the Canary plugin
 
-<!--
-[![First [PLUGIN NAME]](./images/activate.png)](https://youtu.be/ "First [PLUGIN NAME]")
--->
+[Watch the video on how to set up the Canary Plugin](https://youtu.be/QGWtFP7BIuw)
 
 ## Installation using Deck
 
