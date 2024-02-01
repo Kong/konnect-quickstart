@@ -2,9 +2,9 @@
 
 ## Video on Installing Konnect Gateway using Kubernetes install 
 
-<!--
-[![INSTALL METHOD Install](./images/image.png)](https://youtu.be/ "INSTALL METHOD Install")
--->
+
+[Video on Konnect Kubernetes Install](https://youtu.be/Q1I12PWmJCY?feature=shared)
+
 
 ## Step by step for installing Konnect Gateway using Kubernetes install option
 

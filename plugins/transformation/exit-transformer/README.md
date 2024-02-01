@@ -47,8 +47,8 @@ Transform and customize Kong Gateway response exit messages using Lua functions.
 1. Navigate to this directory
 2. Make sure you have deck [installed](https://docs.konghq.com/deck/latest/installation/)
 3. Make sure your konnect token is set `export KONNECT_TOKEN=kpat_abcdedf....................yz`
-4. Make sure you can connect: `deck ping --konnect-token $KONNECT_TOKEN` should return a successful response `Successfully Konnected to the Kong organization!`
-5. Run deck sync: `deck sync --konnect-token $KONNECT_TOKEN --select-tag rate-limiting-example`
+4. Make sure you can connect: `deck gateway ping --konnect-token $KONNECT_TOKEN` should return a successful response `Successfully Konnected to the Kong organization!`
+5. Run deck sync: `deck gateway sync --konnect-token $KONNECT_TOKEN --select-tag exit-transformer-example kong.yaml`
 ![Exit Transformer](./images/../../../images/exit-trans.png)
 
 ## Installation using KIC
