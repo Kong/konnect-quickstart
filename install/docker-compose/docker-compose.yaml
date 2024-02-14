@@ -6,6 +6,7 @@ services:
     ports:
       - "8005:8000/tcp"
       - "8443:8443/tcp"
+      - "8100:8100/tcp"
     environment:
       KONG_ROLE: data_plane
       KONG_DATABASE: "off"
@@ -19,4 +20,5 @@ services:
       KONG_CLUSTER_CERT_KEY: ${KONG_CLUSTER_CERT_KEY}
       KONG_LUA_SSL_TRUSTED_CERTIFICATE: system
       KONG_KONNECT_MODE: "on"
+      KONG_STATUS_LISTEN: "0.0.0.0:8100"
       KONG_LOG_LEVEL: debug

@@ -1,28 +1,31 @@
 _format_version: "3.0"
 _info:
   defaults: {}
+  select_tags:
+  - prometheus-example
 _konnect:
-  runtime_group_name: default
+  control_plane_name: default
+plugins:
+- config:
+    bandwidth_metrics: true
+    latency_metrics: true
+    per_consumer: true
+    status_code_metrics: true
+    upstream_health_metrics: true
+  enabled: true
+  instance_name: prometheus
+  name: prometheus
+  protocols:
+  - grpc
+  - grpcs
+  - http
+  - https
 services:
 - connect_timeout: 60000
   enabled: true
   host: httpbin.org
   name: prometheus-service
   path: /anything
-  plugins:
-  - config:
-      bandwidth_metrics: true
-      latency_metrics: true
-      per_consumer: true
-      status_code_metrics: true
-      upstream_health_metrics: true
-    enabled: true
-    name: prometheus
-    protocols:
-    - grpc
-    - grpcs
-    - http
-    - https
   port: 443
   protocol: https
   read_timeout: 60000
