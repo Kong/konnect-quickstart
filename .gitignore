@@ -1,3 +1,5 @@
 *.key
 *.mov
 *.env
+*.DS_Store
+*.ignore
