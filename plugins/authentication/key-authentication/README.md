@@ -21,7 +21,7 @@
 6. Provision that Consumer a Key
 7. Test the API with the newly create key credential
 
-![Key Auth](../../images/Key-Auth.png)
+![Key Auth](../../images/key-auth.png)
 
 ## Watch the video on how to use the Key Authentication plugin
 

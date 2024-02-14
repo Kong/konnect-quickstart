@@ -23,9 +23,7 @@
 
 ## Watch the video on how to use the Rate Limiting Advanced plugin
 
-<!--
-[![First [PLUGIN NAME]](./images/activate.png)](https://youtu.be/ "First [PLUGIN NAME]")
--->
+[Link to youtube video](https://youtu.be/mIK0294iVNY?si=Z1QMztFB0YeObQJO)
 
 ## Installation using Deck
 
@@ -67,4 +65,4 @@ pod/kong-gateway-6bcb9d8d7c-6z8pr      1/1     Running   0          2m48s
 3. **Note: `konghq.com/plugins: <plugin-name>` ingress annotation is already present for the plugin**
 4. **Proxy to the endpoint:** Using insomnia or `curl http://<kong-proxy-endpoint>:<port>/rate-limiting-adv`
 5. **Add the plugin resource:** `kubectl apply -f 3-rate-limiting-adv-plugin.yaml`
-6. **Proxy to the endpoint, plugin is now enabled:** Using insomnia or `curl http://<kong-proxy-endpoint>:<port>/rate-limiting-adv`
+6. **Proxy to the endpoint, plugin is now enabled. If you send more than 5 requests in a minute. A rate limit will be applied:** Using insomnia or `curl http://<kong-proxy-endpoint>:<port>/rate-limiting-adv`. Response will look like this `{"message":"API rate limit exceeded"}`

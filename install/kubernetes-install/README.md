@@ -2,9 +2,9 @@
 
 ## Video on Installing Konnect Gateway using Kubernetes install 
 
-<!--
-[![INSTALL METHOD Install](./images/image.png)](https://youtu.be/ "INSTALL METHOD Install")
--->
+
+[Video on Konnect Kubernetes Install](https://youtu.be/Q1I12PWmJCY?feature=shared)
+
 
 ## Step by step for installing Konnect Gateway using Kubernetes install option
 
@@ -46,6 +46,24 @@ kube-public       Active   6d7h
 9. Save the values.yaml locally in a `values.yaml` file.
 10. Run the helm install command `helm install my-kong kong/kong -n kong --values ./values.yaml`
 
-11. You should see it running like here in your terminal
+11. You should see it running like here in your terminal:
+    
+```
+$ kubectl get svc,po -n kong
 
-12. It should also be connected to in the Control plane
+NAME                                         TYPE           CLUSTER-IP     EXTERNAL-IP      PORT(S)                         AGE
+service/kong-controller-validation-webhook   ClusterIP      10.23.42.46    <none>           443/TCP                         2m50s
+service/kong-gateway-admin                   ClusterIP      None           <none>           8444/TCP                        2m50s
+service/kong-gateway-manager                 NodePort       10.23.41.176   <none>           8002:32214/TCP,8445:31304/TCP   2m50s
+service/kong-gateway-proxy                   LoadBalancer   10.23.37.74    <ip-address>     80:32018/TCP,443:30662/TCP      2m50s
+
+NAME                                   READY   STATUS    RESTARTS   AGE
+pod/kong-controller-65c79f48bf-8vjp5   1/1     Running   0          2m48s
+pod/kong-gateway-6bcb9d8d7c-6z8pr      1/1     Running   0          2m48s
+```
+
+
+12.  It should also be connected to in the Control plane
+
+![Terminal](../images/data-plane-nodes.png)
+

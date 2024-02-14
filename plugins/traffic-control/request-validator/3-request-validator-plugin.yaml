@@ -1,0 +1,10 @@
+apiVersion: configuration.konghq.com/v1
+kind: KongPlugin
+metadata:
+  name: request-validator-plugin
+  namespace: testing
+  annotations:
+    kubernetes.io/ingress.class: kong
+config:
+  body_schema: '[{"name":{"type":"string","required":true,"match":"^%a*%s%a*$"}},{"age":{"type":"integer","required":true}},{"address":{"type":"record","required":true,"fields":[{"street":{"type":"string","required":true}},{"zipcode":{"type":"string","required":true,"match":"^[A-Z]?[A-Z]?[0-9]+$"}}]}}]'
+plugin: request-validator

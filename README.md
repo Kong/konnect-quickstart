@@ -1,8 +1,14 @@
 # Kong Konnect Kickstart
 
+![Konnect Image](./getting-started/images/Kong-Konnect-logo.jpeg)
+
 ![Last commit](https://img.shields.io/github/last-commit/irishtek-solutions/kong-konnect-inso)
 
 Welcome to the Kong Konnect Kickstart Repository! This comprehensive collection of documentation and guides is designed to assist you in seamlessly setting up, configuring, and harnessing the full potential of Kong Konnect. Whether you're a seasoned developer, a DevOps professional, or just getting started with API management, this repository is your go-to source for unlocking the power of Kong Konnect.
+
+If you haven't already, sign up for Kong Konnect by following the Konnect Registration page [here](https://docs.konghq.com/konnect/getting-started/access-account/).
+
+Or watch the video on how to sign up which is available [here](https://youtu.be/5dpc4Xcfdy4).
 
 ## Table of Contents
 
@@ -10,6 +16,8 @@ Welcome to the Kong Konnect Kickstart Repository! This comprehensive collection 
   - [Table of Contents](#table-of-contents)
   - [Konnect Gateway Install](#konnect-gateway-install)
   - [Basic Configuration](#basic-configuration)
+  - [Analytics](#analytics)
+  - [API Products](#api-products)
   - [Plugins](#plugins)
       - [Authentication plugins](#authentication-plugins)
       - [Security plugins](#security-plugins)
@@ -17,6 +25,7 @@ Welcome to the Kong Konnect Kickstart Repository! This comprehensive collection 
       - [Analytics \& Monitoring](#analytics--monitoring)
       - [Transformation](#transformation)
       - [Logging](#logging)
+  - [Workshops](#workshops)
   - [How to guides](#how-to-guides)
 
 <!--
@@ -56,14 +65,12 @@ This section walks through getting started with Konnect and helps with understan
 
 This section is all about installing the Data Plane. Click on the option that best suits your needs. Each section provides a video on how to install the Data Plane.
 
-Here is the [link](https://docs.google.com/presentation/d/14ubtR1t_36_wPRLizdFudCoBze7MDgtJvwGXydY7FQ8/edit?usp=sharing) to the associated slides.
-
 | Topic           | Content       | Slides        | Videos         | Status         |
 |-----------------|---------------|---------------|----------------|----------------|
-| [Quick install (Docker)](./install/quickstart-install/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [ ]  </li>   | In progress
-| [Docker Compose Install](./install/docker-compose/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [ ]  </li>   | In progress
+| [Quick install (Docker)](./install/quickstart-install/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>   | Completed
+| [Docker Compose Install](./install/docker-compose/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>   | Completed
 | [Install on VM (EC2)](./install/vm-install/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [ ]  </li>   | In progress
-| [Install on Kubernetes (EKS)](./install/kubernetes-install/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [ ]  </li>   | In progress
+| [Install on Kubernetes](./install/kubernetes-install/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>   | Completed
 | [KIC install](./install/kic-install/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [ ]  </li>   | In progress
 
 ## Basic Configuration
@@ -91,15 +98,15 @@ These core entities in Kong Konnect allow you to effectively manage, secure, and
 | [Upstreams and targets](./config/upstreams-targets/) | <ul><li>  [x]  </li>    | <ul><li>  [x]  </li>   | Completed
 | [Consumers](./config/consumers/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>   | Completed
 
-<!--
+
 ## Analytics
 | Topic           | Content       | Slides        | Videos         | Status         |
 |-----------------|---------------|---------------|----------------|----------------|
-| [Overview of Analytics](./analytics/overview-analytics/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
-| [Create a report](./analytics/create-report/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
+| [Overview of Analytics](./analytics/overview-analytics/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>   | Completed
 
 ## API Products
 
+<!--
 | Topic           | Content       | Slides        | Videos         | Status         |
 |-----------------|---------------|---------------|----------------|----------------|
 | [Overview of API Products](./api-products/api-products-overview/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
@@ -122,9 +129,6 @@ Plugins can be applied globally or scoped to specific services, consumers or rou
 - Here is the [slide deck](https://docs.google.com/presentation/d/1Rl_bCmI0dSlw-ydvprb3UkZCFhllkkorwwOGqHc5At4/edit?usp=sharing) for this plugin section.
 - Here is the link to the [insomnia collection](https://github.com/irishtek-solutions/kong-konnect-inso) when configuring using the Admin API
 - You can leverage the insomnia collection [here](https://github.com/irishtek-solutions/kong-konnect-inso)
-<!--
-[![Using Insomnia](./images/activate.png)](https://youtu.be/ "First [PLUGIN NAME]")
--->
 
 #### Authentication plugins
 
@@ -147,6 +151,9 @@ Plugins can be applied globally or scoped to specific services, consumers or rou
 |-----------------|---------------|---------------|----------------|----------------|----------------|---------------|---------------|
 | [ACL](./plugins/traffic-control/acl/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [ ]  </li>  |<ul><li>  [x]  </li>   | In progress
 | [Canary](./plugins/traffic-control/canary/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     |  <ul><li>  [ ]  </li>  | <ul><li>  [x]  </li>     |<ul><li>  [x]  </li>     |<ul><li>  [x]  </li>   | In progress
+| [OAS Validation](./plugins/traffic-control/oas-validation/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     |  <ul><li>  [ ]  </li>  | <ul><li>  [x]  </li>     |<ul><li>  [x]  </li>     |<ul><li>  [x]  </li>   | In progress
+| [Request Validator](./plugins/traffic-control/request-validator/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     |  <ul><li>  [ ]  </li>  | <ul><li>  [x]  </li>     |<ul><li>  [x]  </li>     |<ul><li>  [x]  </li>   | In progress
+
 
 
 #### Analytics & Monitoring
@@ -161,6 +168,7 @@ Plugins can be applied globally or scoped to specific services, consumers or rou
 |-----------------|---------------|---------------|----------------|----------------|----------------|---------------|---------------|
 | [Correlation ID](./plugins/transformation/correlation-id/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     |  <ul><li>  [ ]  </li>  |<ul><li>  [x]  </li>     |<ul><li>  [x]  </li>     | <ul><li>  [x]  </li>   | In progress
 | [Request Transformer](./plugins/transformation/req-transformer/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     |  <ul><li>  [ ]  </li>  |<ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>   | In progress
+| [Exit Transformer](./plugins/transformation/exit-transformer/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     |  <ul><li>  [ ]  </li>  |<ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>   | In progress
 
 #### Logging
 
@@ -170,9 +178,19 @@ Plugins can be applied globally or scoped to specific services, consumers or rou
 | [HTTP log](./plugins/logging/http-log/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     |  <ul><li>  [ ]  </li>  | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     |<ul><li>  [x]  </li>   | In progress
 
 
+## Workshops
+
+| Topic           | Description       |
+|-----------------|---------------|
+| [Konnect Academy](https://education.konghq.com/) | Kong Konnect free academy for multiple courses on the Konnect platform  | 
+| [AWS - API Management with Kong Konnect](https://catalog.workshops.aws/kong-konnect) |  Explore the Kong Konnect platform through an architectural overview, then install Konnect runtime on Amazon EKS. Understand key concepts like services, routes, and plugins. Deploy a sample microservice, access it via a defined route, and utilize Konnect for authentication, authorization, rate limiting, response transformation, AWS Lambda invocation, and proxy caching. Lastly, learn observability features for comprehensive platform monitoring.  | 
+| [AWS - EKS Terraform Blueprints with Kong Konnect Ingress Controller](https://catalog.workshops.aws/kong-konnect-kic)  | Gain insight into the architecture of Kong Ingress Controller, then install it on Amazon EKS using the EKS Blueprint Addon for Konnect KIC. Familiarize yourself with ingresses and Kong plugins. Deploy a sample microservice, access it through the defined ingress, and leverage Kong Ingress Controller for authentication, authorization, rate limiting, response transformation, and proxy caching. Additionally, explore observability features for effective monitoring.  | 
+| [AWS - Service Mesh Implementation with Kong Mesh in Konnect](https://catalog.workshops.aws/kong-konnect-mesh)  | Discover the Service Mesh Pattern, explore the architectural overview of Kong Mesh, and install Kong Mesh runtime on Amazon EKS. Deploy a microservice-based app, managing component communication. Employ Kong Mesh policies for zero-trust security, Canary Releases, and Traffic Permission.  | 
+
+
 ## How to guides
 
-| Topic           | Status       |
+| Topic           | Description       |
 |-----------------|---------------|
-| [How to get your Runtime Group ID](./gateway-manager/get-runtime-group-id/) |  Completed  | 
-| [How to get your Organization ID](./organization/get-konnect-org-id/)  | Completed  | 
+| [How to get your Control Plane ID](./gateway-manager/get-runtime-group-id/) |  Sign up To Kong Konnect | 
+| [Add a Custom Plugin to Konnect](./how-to/add-a-custom-plugin/)  | Step by step guide on how to add a custom plugin to Konnect  | 

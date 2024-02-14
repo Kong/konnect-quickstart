@@ -1,0 +1,19 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: exit-transformer-plugin
+  namespace: testing
+  annotations:
+    konghq.com/plugins: exit-transformer-plugin,key-auth-plugin
+spec:
+  ingressClassName: kong
+  rules:
+  - http:
+      paths:
+      - path: /exit-transformer
+        pathType: ImplementationSpecific
+        backend:
+          service:
+            name: echo
+            port:
+              number: 80

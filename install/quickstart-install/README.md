@@ -2,9 +2,8 @@
 
 ## Video on Installing Konnect Gateway using Quickstart method (docker)
 
-<!--
-[![INSTALL METHOD Install](./images/image.png)](https://youtu.be/ "INSTALL METHOD Install")
--->
+[Link to video using Docker Quickstart](https://www.youtube.com/watch?v=taTm3JfEwcw)
+
 ## Step by step for installing Konnect Gateway using Docker Quickstart
 
 **Pre-Requisites**
@@ -50,5 +49,5 @@ the resopinse should look something like this:
 }
 ```
 
-The result is that we now have a fully working and connect Data Plane that we can now start to work on.
+The result is that we now have a fully working and connected Data Plane that we can now start to work on.
 
