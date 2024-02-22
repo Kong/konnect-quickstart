@@ -53,3 +53,7 @@ service/kong-gateway-proxy                   LoadBalancer   10.72.5.81   34.30.5
 ```
 
 ![Testing Insomnia](images/4-request.png)
+
+10. **To test your first proxy request install the Echo deployment:** `kubectl apply -f 1-create-echo.yaml`
+11. **Add Ingress Resource:** `kubectl apply -f 2-echo-ingress.yaml`
+12. **Proxy request to your proxy endpoint**

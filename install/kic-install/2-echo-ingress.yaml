@@ -1,16 +1,14 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: plugin-name-plugin
+  name: first-service-route
   namespace: testing
-  annotations:
-    konghq.com/plugins: plugin-name-plugin
 spec:
   ingressClassName: kong
   rules:
   - http:
       paths:
-      - path: /plugin-example
+      - path: /api
         pathType: ImplementationSpecific
         backend:
           service:
