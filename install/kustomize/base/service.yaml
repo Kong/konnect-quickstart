@@ -1,0 +1,32 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: proxy-service # Use "nameOverride" if provided, else a default name like "proxy-service"
+  namespace: kong
+  annotations:
+    # Example annotations for AWS ELB, uncomment or modify as needed
+    # "service.beta.kubernetes.io/aws-load-balancer-backend-protocol": "*"
+    # "service.beta.kubernetes.io/aws-load-balancer-cross-zone-load-balancing-enabled": "true"
+    # "service.beta.kubernetes.io/aws-load-balancer-ssl-cert": "arn:aws:acm:REGION:ACCOUNT:certificate/XXXXXX-XXXXXXX-XXXXXXX-XXXXXXXX"
+    # "service.beta.kubernetes.io/aws-load-balancer-ssl-ports": "kong-proxy-tls"
+    # "service.beta.kubernetes.io/aws-load-balancer-type": "elb"
+  labels:
+    enable-metrics: "true"
+spec:
+  type: LoadBalancer
+  loadBalancerClass: null # Specify the class if needed
+  ports:
+    - name: http
+      port: 80
+      targetPort: 8000
+      # Uncomment if you need a specific nodePort for HTTP
+      # nodePort: 32080
+    - name: https
+      port: 443
+      targetPort: 8443
+      # Additional parameters like HTTP/2 can be configured at the ingress or proxy itself, not here.
+      # Uncomment if you need a specific nodePort for HTTPS
+      # nodePort: 32443
+  selector:
+    # The selector should match the labels of the Pods that the Service is intended to target.
+    app: kong-gateway # Replace "your-app-label" with the appropriate label key-value pair

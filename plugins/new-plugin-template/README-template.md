@@ -1,4 +1,6 @@
-## Kubernetes instructions
+## [INSERT PLUGIN] - Install
+
+
 # How to use the [INSERT PLUGIN] Plugin
 
 - [What is [INSERT PLUGIN]](#what-is-the-[INSERT PLUGIN])
