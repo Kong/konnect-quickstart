@@ -2,7 +2,7 @@
 
 ## Video on Installing Konnect Gateway using Quickstart method (docker)
 
-[Link to video using Docker Quickstart](https://www.youtube.com/watch?v=taTm3JfEwcw)
+[Link to video using Docker Quickstart](https://youtu.be/MCJoNX7TwT8?si=ulffB3LRgyTCeei9)
 
 ## Step by step for installing Konnect Gateway using Docker Quickstart
 
@@ -41,7 +41,7 @@ CONTAINER ID   IMAGE                   COMMAND                  CREATED         
 
 `curl http://localhost:8000/`
 
-the resopinse should look something like this:
+the resoponse should look something like this:
 
 ```
 {
