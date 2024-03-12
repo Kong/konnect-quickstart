@@ -2,13 +2,11 @@
 
 ![Konnect Image](./getting-started/images/Kong-Konnect-logo.jpeg)
 
-![Last commit](https://img.shields.io/github/last-commit/irishtek-solutions/kong-konnect-inso)
-
 Welcome to the Kong Konnect Kickstart Repository! This comprehensive collection of documentation and guides is designed to assist you in seamlessly setting up, configuring, and harnessing the full potential of Kong Konnect. Whether you're a seasoned developer, a DevOps professional, or just getting started with API management, this repository is your go-to source for unlocking the power of Kong Konnect.
 
 If you haven't already, sign up for Kong Konnect by following the Konnect Registration page [here](https://docs.konghq.com/konnect/getting-started/access-account/).
 
-Or watch the video on how to sign up which is available [here](https://youtu.be/5dpc4Xcfdy4).
+Or watch the video on how to sign up which is available [here](https://youtu.be/-SVxHxcztd0?si=_J_OJhSnYlxK5HG1).
 
 ## Table of Contents
 
@@ -17,7 +15,6 @@ Or watch the video on how to sign up which is available [here](https://youtu.be/
   - [Konnect Gateway Install](#konnect-gateway-install)
   - [Basic Configuration](#basic-configuration)
   - [Analytics](#analytics)
-  - [API Products](#api-products)
   - [Plugins](#plugins)
       - [Authentication plugins](#authentication-plugins)
       - [Security plugins](#security-plugins)
@@ -28,39 +25,6 @@ Or watch the video on how to sign up which is available [here](https://youtu.be/
   - [Workshops](#workshops)
   - [How to guides](#how-to-guides)
 
-<!--
-## Getting started with Kong Konnect
-
-This section walks through getting started with Konnect and helps with understanding the basic components.
-
-- Here is the [slide deck]() for this section
-
-
-| Topic           | Content       | Slides        | Videos         | Status         |
-|-----------------|---------------|---------------|----------------|----------------|
-| [Overview of Kong Konnect](./getting-started/overview-konnect/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>   | <ul><li>  [ ]  </li>     | In progress
-| [Architecture](./getting-started/konnect-architecture/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>   | <ul><li>  [ ]  </li>  | In progress
-| [Register for Kong Konnect](./getting-started/register-for-konnect/) | <ul><li>  [x]  </li>    | <ul><li>  [x]  </li>   | <ul><li>  [ ]  </li>   |  In progress
-| [Product walk-through](./getting-started/product-walk-through/) | <ul><li>  [x]  </li>    | <ul><li>  [x]  </li>   | <ul><li>  [ ]  </li>   |  In progress
-| [Useful Resources](./getting-started/useful-resources/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [ ]  </li>   | In progress
-
-## Organization Overview
-
-- Here is the [slide deck](https://docs.google.com/presentation/d/1MSfHY3J8WrLgwGLsat4KcKFBXPTP1Td3vCtlLlbVJY4/edit?usp=sharing) for this section
-
-| Topic           | Content       | Slides        | Videos         | Status         |
-|-----------------|---------------|---------------|----------------|----------------|
-| [Overview of Organization](./organization/overview-of-organization/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
-| [Create a new admin in Konnect](./organization/create-a-new-admin/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
-| [Sign up with SSO (OKTA)](./organization/sso-okta/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
-
-## Gateway Manager and Data plane 
-
-| Topic           | Content       | Slides        | Videos         | Status         |
-|-----------------|---------------|---------------|----------------|----------------|
-| [Overview of Gateway Manager](./runtime-groups-runtime-instances/overview-runtime-groups/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
-| [How to create a Runtime group](./runtime-groups-runtime-instances/get-runtime-group-id/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
--->
 ## Konnect Gateway Install
 
 This section is all about installing the Data Plane. Click on the option that best suits your needs. Each section provides a video on how to install the Data Plane.
@@ -74,7 +38,6 @@ This section is all about installing the Data Plane. Click on the option that be
 | [KIC install](./install/kic-install/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [ ]  </li>   | In progress
 
 ## Basic Configuration
-
 
 Kong Konnect is an API management platform that provides a comprehensive set of core main entities for managing and securing APIs and microservices. Here is a summary of these core entities:
 
@@ -104,14 +67,6 @@ These core entities in Kong Konnect allow you to effectively manage, secure, and
 |-----------------|---------------|---------------|----------------|----------------|
 | [Overview of Analytics](./analytics/overview-analytics/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>   | Completed
 
-## API Products
-
-<!--
-| Topic           | Content       | Slides        | Videos         | Status         |
-|-----------------|---------------|---------------|----------------|----------------|
-| [Overview of API Products](./api-products/api-products-overview/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
-| [Creating an API product](./api-products/creating-api-product/) | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [ ]  </li>   | Not started
--->
 
 ## Plugins
 
