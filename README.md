@@ -66,6 +66,8 @@ These core entities in Kong Konnect allow you to effectively manage, secure, and
 | Topic           | Content       | Slides        | Videos         | Status         |
 |-----------------|---------------|---------------|----------------|----------------|
 | [Overview of Analytics](./analytics/overview-analytics/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>   | Completed
+| [Generate a report on API usage](./analytics/overview-analytics/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>   | Completed
+| [Externalizing logs from gateway to observability stack](./plugins/logging/http-log/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>   | Completed
 
 
 ## Plugins
@@ -104,7 +106,7 @@ Plugins can be applied globally or scoped to specific services, consumers or rou
 
 | Topic           | Content       | Slides        | Videos         | Insomnia       | KIC            |Deck           |Status         |
 |-----------------|---------------|---------------|----------------|----------------|----------------|---------------|---------------|
-| [ACL](./plugins/traffic-control/acl/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [ ]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [ ]  </li>  |<ul><li>  [x]  </li>   | In progress
+| [ACL](./plugins/traffic-control/acl/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [ ]  </li>  |<ul><li>  [x]  </li>   | Completed
 | [Canary](./plugins/traffic-control/canary/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     |  <ul><li>  [ ]  </li>  | <ul><li>  [x]  </li>     |<ul><li>  [x]  </li>     |<ul><li>  [x]  </li>   | In progress
 | [OAS Validation](./plugins/traffic-control/oas-validation/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     |  <ul><li>  [ ]  </li>  | <ul><li>  [x]  </li>     |<ul><li>  [x]  </li>     |<ul><li>  [x]  </li>   | In progress
 | [Request Validator](./plugins/traffic-control/request-validator/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     |  <ul><li>  [ ]  </li>  | <ul><li>  [x]  </li>     |<ul><li>  [x]  </li>     |<ul><li>  [x]  </li>   | In progress

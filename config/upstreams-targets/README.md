@@ -20,11 +20,11 @@ In Kong, "Upstreams" and "Targets" are concepts related to load balancing, which
 
 ## How to create an Upstream and Target the UI
 
-[Youtube video on creating A Upstream and Target](https://youtu.be/YJkzcTl2rBU?si=wqRd7VBP0hCbI73F)
+[Youtube video on creating A Upstream and Target](https://youtu.be/vwrSEZ58fqA?si=oEXDE0K_qD-0wJHm)
 
 ## Video on how to create an Upstream and Target using Deck
 
-[Youtube video on creating A Upstream and Target using Deck](https://youtu.be/4HI6AA2GBgU?si=8LCE1mRu1Wg0Huix)
+[Youtube video on creating A Upstream and Target using Deck](https://youtu.be/VJMbFLlSfsc?si=AaP6Yq5S1BSvry9I)
 
 To install this using deck:
 
@@ -57,11 +57,11 @@ Summary:
 
 You can leverage the insomnia repository [here](https://github.com/irishtek-solutions/kong-konnect-inso) for Admin API usage.
 
-[Youtube video on creating A Upstream and Target using the Konnect Admin API](https://youtu.be/eDr-p0F-azY?si=VRCTRWziok332ejC)
+[Youtube video on creating A Upstream and Target using the Konnect Admin API](https://youtu.be/RBwPSnzqEYs?si=rsEOhdPH1VLWm3Im)
 
 ## Deploy your firstUpstream and Target using KIC
 
-[Youtube video on creating A Upstream and Target using KIC](https://youtu.be/lT9tzxePCHw?si=fBkYuFALn9KSJ0yS)
+[Youtube video on creating A Upstream and Target using KIC](https://youtu.be/BmD6OBN8iXw?si=f1g8gz58nOwmMahq)
 
 **Pre-requisite**
 

@@ -12,11 +12,11 @@ A Route is essentially a mapping between a specific path or host and a Service. 
 
 ## How to create a Service and Route in the UI
 
-[Youtube video on creating a Service and Route](https://youtu.be/BuRgGjUUduk?si=Fg_LYRlt8iTv8r8I)
+[Youtube video on creating a Service and Route](https://youtu.be/BBV0mP2cgdo?si=bEGXLlA5o6X_Un2z)
 
 ## Video on how to create a Service and Route using Deck
 
-[Youtube video on creating a Service and Route using Deck](https://youtu.be/U8EDdXINxTY?si=6N79Gp7m-l5YPOa5)
+[Youtube video on creating a Service and Route using Deck](https://youtu.be/DzNQuG3V_Cs?si=ckAXvHPMxqFqI-e5)
 
 To install this using deck:
 
@@ -28,13 +28,11 @@ To install this using deck:
 
 ## Deploy your first Service and Route using the Admin API
 
-[Youtube video on creating a Service and Route using the Konnect Admin API](https://youtu.be/qCiVPfkvM38?si=-_vIZ8Hm9Hapo7IE)
-
-You can leverage the insomnia repository [here](https://github.com/irishtek-solutions/kong-konnect-inso) for Admin API usage.
+[Youtube video on creating a Service and Route using the Konnect Admin API](https://youtu.be/vryyB8B1ZoU?si=Xe8WtEj1jgUe0GCB)
 
 ## Deploy your first Service and Route using KIC
 
-[Youtube video on creating a Service and Route using KIC](https://youtu.be/8e9FutXQi68?si=LhxTSwdjP1kFK2LF)
+[Youtube video on creating a Service and Route using KIC](https://youtu.be/p8zbYSXj_ak?si=wXgJ0WfyveOy02AC)
 
 
 **Pre-requisite**
