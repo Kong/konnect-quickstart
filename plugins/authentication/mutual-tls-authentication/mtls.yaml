@@ -1,0 +1,92 @@
+_format_version: "3.0"
+_info:
+  defaults: {}
+  select_tags:
+  - mutual-tls-auth-example
+ca_certificates:
+- cert: |-
+    -----BEGIN CERTIFICATE-----
+    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
+    -----END CERTIFICATE-----
+  cert_digest: e89163ce8114f9c8a45de7b24965e9bf569d9f4778821cad4aa9ab4cb7ec1f44
+  id: fb38aab5-ad26-43fd-bf6c-7911618e58c6
+services:
+- connect_timeout: 60000
+  enabled: true
+  host: httpbin.org
+  name: httpbin.org
+  path: /anything
+  port: 80
+  protocol: http
+  read_timeout: 60000
+  retries: 5
+  routes:
+  - https_redirect_status_code: 426
+    name: mTLS
+    path_handling: v0
+    paths:
+    - /mtls-auth
+    plugins:
+    - config:
+        allow_partial_chain: true
+        anonymous: null
+        authenticated_group_by: CN
+        ca_certificates:
+        - fb38aab5-ad26-43fd-bf6c-7911618e58c6
+        cache_ttl: 60
+        cert_cache_ttl: 60000
+        consumer_by:
+        - username
+        - custom_id
+        http_proxy_host: null
+        http_proxy_port: null
+        http_timeout: 30000
+        https_proxy_host: null
+        https_proxy_port: null
+        revocation_check_mode: IGNORE_CA_ERROR
+        send_ca_dn: false
+        skip_consumer_lookup: true
+      enabled: false
+      name: mtls-auth
+      protocols:
+      - grpc
+      - grpcs
+      - http
+      - https
+    preserve_host: false
+    protocols:
+    - https
+    regex_priority: 0
+    request_buffering: true
+    response_buffering: true
+    strip_path: true
+  write_timeout: 60000
