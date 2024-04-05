@@ -53,13 +53,13 @@ Summary:
 
 ![target 2](../images/target-2.png)
 
-## Deploy your firstUpstream and Target using the Admin API
+## Deploy your first Upstream and Target using the Admin API
 
-You can leverage the insomnia repository [here](https://github.com/irishtek-solutions/kong-konnect-inso) for Admin API usage.
+You can leverage the insomnia repository [here](https://github.com/Kong/konnect-quickstart-inso.git) for Admin API usage.
 
 [Youtube video on creating A Upstream and Target using the Konnect Admin API](https://youtu.be/RBwPSnzqEYs?si=rsEOhdPH1VLWm3Im)
 
-## Deploy your firstUpstream and Target using KIC
+## Deploy your first Upstream and Target using KIC
 
 [Youtube video on creating A Upstream and Target using KIC](https://youtu.be/BmD6OBN8iXw?si=f1g8gz58nOwmMahq)
 

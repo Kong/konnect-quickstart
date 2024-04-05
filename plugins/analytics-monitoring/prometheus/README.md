@@ -1,11 +1,12 @@
 # How to use the Prometheus Plugin
 
 - [How to use the Prometheus Plugin](#how-to-use-the-prometheus-plugin)
-  - [What is the Prometheus?](#what-is-the-prometheus)
-  - [Watch the video on how to use the Prometheus plugin](#watch-the-video-on-how-to-use-the-prometheus-plugin)
-  - [Installation using Deck](#installation-using-deck)
-  - [Installation using Admin API](#installation-using-admin-api)
-  - [Installation using KIC](#installation-using-kic)
+  - [What is Prometheus?](#what-is-prometheus)
+  - [Plugin Installation using Deck](#plugin-installation-using-deck)
+  - [Plugin Installation using Admin API](#plugin-installation-using-admin-api)
+  - [Plugin Installation using KIC](#plugin-installation-using-kic)
+  - [Prometheus and Grafana Installation](#prometheus-and-grafana-installation)
+  - [Wrapping up](#wrapping-up)
 
 ## What is Prometheus?
 
