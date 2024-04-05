@@ -8,7 +8,7 @@ To watch an overview of API Analytics, check out this in-depth [video that discu
 
 ## Generate a report for API Usage
 
-[Generate a report for API Usage]([Link to video](https://www.youtube.com/watch?v=9t_znZa9Y9s))
+[Generate a report for API Usage Video Link]((https://www.youtube.com/watch?v=9t_znZa9Y9s))
 
 Custom reporting in Kong Konnect enables you to save, revisit, and share views created during data exploration, facilitating analysis over different time intervals. These reports can be used to analyze metrics, investigate anomalies, and you can share a saved report to communicate these insights with others. Let’s go through some example situations where you could leverage custom reports.
 
