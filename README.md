@@ -92,7 +92,7 @@ Plugins can be applied globally or scoped to specific services, consumers or rou
 |-----------------|---------------|---------------|----------------|----------------|---------------|----------------|---------------|
 | [Key Authentication](./plugins/authentication/key-authentication/) | <ul><li>  [x]  </li>  |  <ul><li>  [x]  </li>  | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     |<ul><li>  [x]  </li>   | <ul><li>  [x]  </li>   |Completed
 | [Basic Authentication](./plugins/authentication/basic-authentication/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>  | <ul><li>  [x]  </li>     |<ul><li>  [x]  </li>   | <ul><li>  [x]  </li>   | <ul><li>  [x]  </li>   | Completed
-| [Mutual TLS](./plugins/authentication/mtls/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>  | <ul><li>  [x]  </li>     |<ul><li>  [x]  </li>   | <ul><li>  [x]  </li>   | <ul><li>  [x]  </li>   | Completed
+| [Mutual TLS](./plugins/authentication/mutual-tls-authentication/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>  | <ul><li>  [x]  </li>     |<ul><li>  [x]  </li>   | <ul><li>  [x]  </li>   | <ul><li>  [x]  </li>   | Completed
 | [OpenID Connect](./plugins/authentication/oidc/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>  | <ul><li>  [x]  </li>     |<ul><li>  [x]  </li>   | <ul><li>  [x]  </li>   | <ul><li>  [x]  </li>   | Completed
 
 #### Security plugins
