@@ -4,11 +4,11 @@ You can monitor the health and performance of any API product, route, or applica
 
 Analytics provides traffic reports to help you track the performance and behavior of your APIs and data plane nodes. Use these reports to quickly access key statistics, monitor vital signs, and pinpoint anomalies in real-time.
 
-To watch an overview of API Analytics, check out this in-depth [video that discusses API Analytics ](https://www.youtube.com/watch?v=FfDfdKX1QHs)
+To watch an overview of API Analytics, check out this in-depth [video that discusses API Analytics ](https://youtu.be/h5Ld38gQI0M?si=XqiEPCy1ljwDgCHV)
 
 ## Generate a report for API Usage
 
-[Generate a report for API Usage Video Link]((https://www.youtube.com/watch?v=9t_znZa9Y9s))
+[Generate a report for API Usage Video Link](https://www.youtube.com/watch?v=9t_znZa9Y9s)
 
 Custom reporting in Kong Konnect enables you to save, revisit, and share views created during data exploration, facilitating analysis over different time intervals. These reports can be used to analyze metrics, investigate anomalies, and you can share a saved report to communicate these insights with others. Let’s go through some example situations where you could leverage custom reports.
 
