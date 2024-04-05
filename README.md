@@ -132,9 +132,10 @@ Plugins can be applied globally or scoped to specific services, consumers or rou
 
 | Topic           | Content       | Slides        | Videos         | Insomnia       | KIC            |Deck           | Status         |
 |-----------------|---------------|---------------|----------------|----------------|----------------|---------------|----------------|
-| [File Log](./plugins/logging/file-log/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [ ]  </li>     |  <ul><li>  [x]  </li>  |<ul><li>  [x]  </li>     |<ul><li>  [x]  </li>   | In progress
 | [HTTP log](./plugins/logging/http-log/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     |  <ul><li>  [x]  </li>  | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     |<ul><li>  [x]  </li>   | Completed
-
+<!--
+| [File Log](./plugins/logging/file-log/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     | <ul><li>  [ ]  </li>     |  <ul><li>  [x]  </li>  |<ul><li>  [x]  </li>     |<ul><li>  [x]  </li>   | In progress
+-->
 
 ## Workshops
 
