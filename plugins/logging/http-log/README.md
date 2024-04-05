@@ -25,9 +25,9 @@ Logging API requests and responses to an external HTTP endpoint involves sending
 
 ## Watch the video on how to use the HTTP Logging plugin
 
-<!--
-[![First [PLUGIN NAME]](./images/activate.png)](https://youtu.be/ "First [PLUGIN NAME]")
--->
+
+[HTTP Log Plugin Video](https://www.youtube.com/watch?v=IPP-hEzDXFQ)
+
 
 ## Installation using Deck
 
