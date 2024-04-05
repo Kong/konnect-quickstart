@@ -35,7 +35,7 @@ To install this using deck:
 2. Make sure you have deck [installed](https://docs.konghq.com/deck/latest/installation/)
 3. Make sure your konnect token is set `export KONNECT_TOKEN=kpat_abcdedf....................yz`
 4. Make sure you can connect: `deck ping --konnect-toksen $KONNECT_TOKEN` should return a successful response `Successfully Konnected to the Kong organization!`
-5. Run deck sync: `deck sync --konnect-token $KONNECT_TOKEN --select-tag basic-auth-example`
+5. Run deck gateway sync: `deck gateway sync --konnect-token $KONNECT_TOKEN --select-tag basic-auth-example`
 
 ## Installation using Admin API
 

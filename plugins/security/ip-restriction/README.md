@@ -33,7 +33,7 @@ To install this using Deck:
 2. Make sure you have eck [installed](https://docs.konghq.com/deck/latest/installation/)
 3. Make sure your konnect token is set `export KONNECT_TOKEN=kpat_abcdedf....................yz`
 4. Make sure you can connect: `deck ping --konnect-token $KONNECT_TOKEN` should return a successful response `Successfully Konnected to the Kong organization!`
-5. Run deck sync: `deck sync --konnect-token $KONNECT_TOKEN --select-tag ip-restriction-example`
+5. Run deck gateway sync: `deck gateway sync --konnect-token $KONNECT_TOKEN --select-tag ip-restriction-example`
 
 ## Installation using Admin API
 

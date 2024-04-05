@@ -2,7 +2,9 @@
 
 ## Video on Installing Konnect Gateway using Virtual Machine (VM)
 
-[Youtube Link for VM install EC2](https://youtu.be/)
+[Part 1 - EC2 Instance Install](https://youtu.be/mtxH0pbWn78)
+
+[Part 2 - Install Konnect DP on EC2](https://youtu.be/DAO7Eqg_J-A)
 
 ## Step by step for installing Konnect Gateway using Virtual Machine (VM)
 

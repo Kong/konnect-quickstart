@@ -1,8 +1,6 @@
 _format_version: "3.0"
 _info:
   defaults: {}
-  select_tags:
-  - prometheus-example
 _konnect:
   control_plane_name: default
 plugins:

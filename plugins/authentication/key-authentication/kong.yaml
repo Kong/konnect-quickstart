@@ -2,7 +2,7 @@ _format_version: "3.0"
 _info:
   defaults: {}
 _konnect:
-  runtime_group_name: default
+  control_plane_name: default
 consumers:
 - custom_id: john-id
   keyauth_credentials:

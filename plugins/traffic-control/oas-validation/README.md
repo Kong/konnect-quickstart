@@ -1,11 +1,12 @@
 ## Kubernetes instructions
 # How to use the OAS Validation Plugin
 
-- [What is OAS Validation](#what-is-oas-validation)
-- [Watch the video on how to use the OAS Validation plugin](#watch-the-video-on-how-to-use-the-oas-validation-plugin) 
-- [Installation using Deck](#installation-using-deck)
-- [Installation using Admin API](#installation-using-admin-api)
-- [Installation using KIC](#installation-using-kic)
+- [How to use the OAS Validation Plugin](#how-to-use-the-oas-validation-plugin)
+  - [What is OAS Validation?](#what-is-oas-validation)
+  - [Watch the video on how to use the OAS Validation plugin](#watch-the-video-on-how-to-use-the-oas-validation-plugin)
+  - [Installation using Deck](#installation-using-deck)
+  - [Installation using Admin API](#installation-using-admin-api)
+  - [Installation using KIC](#installation-using-kic)
 
 ## What is OAS Validation?
 This plugin allows you to validate HTTP requests and responses based on an API specification. This plugin supports both Swagger v2 and OpenAPI v3 specifications JSON request and response bodies, with support for schema definitions described using JSON Schema draft v4. 
@@ -24,7 +25,7 @@ To install this using deck:
 2. Make sure you have deck [installed](https://docs.konghq.com/deck/latest/installation/)
 3. Make sure your konnect token is set `export KONNECT_TOKEN=kpat_abcdedf....................yz`
 4. Make sure you can connect: `deck ping --konnect-token $KONNECT_TOKEN` should return a successful response `Successfully Konnected to the Kong organization!`
-5. Run deck sync: `deck sync --konnect-token $KONNECT_TOKEN --select-tag oas-validation-example`
+5. Run deck gateway sync: `deck gateway sync --konnect-token $KONNECT_TOKEN --select-tag oas-validation-example`
 
 ## Installation using Admin API
 

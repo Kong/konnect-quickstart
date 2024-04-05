@@ -1,6 +1,8 @@
 _format_version: "3.0"
 _info:
   defaults: {}
+_konnect:
+  control_plane_name: default
 consumers:
 - acls:
   - group: internal-group
