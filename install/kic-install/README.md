@@ -2,9 +2,9 @@
 
 ## Video on Installing KIC with Kong Konnect
 
-<!--
-[KIC Install)])
--->
+
+[KIC Install Video](https://youtu.be/rGCG8lSK3SE)
+
 ## Steps for installing KIC with Kong Konnect
 
 **Pre-Requisites**

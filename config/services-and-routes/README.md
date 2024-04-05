@@ -28,6 +28,8 @@ To install this using deck:
 
 ## Deploy your first Service and Route using the Admin API
 
+You can leverage the insomnia repository [here](https://github.com/Kong/konnect-quickstart-inso.git) for Admin API usage.
+
 [Youtube video on creating a Service and Route using the Konnect Admin API](https://youtu.be/vryyB8B1ZoU?si=Xe8WtEj1jgUe0GCB)
 
 ## Deploy your first Service and Route using KIC
