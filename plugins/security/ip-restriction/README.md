@@ -23,7 +23,7 @@
 
 ## Watch the video on how to use the IP Restriction plugin
 
-[Youtube video on IP Restriction Plugin](https://youtu.be/A3aR7GkaCoU?si=2zz_IPFCZKPP_Opk)
+[Youtube video on IP Restriction Plugin](https://youtu.be/WJeI9_7grFI?si=AitYlATxK9ig_uFa)
 
 ## Installation using Deck
 

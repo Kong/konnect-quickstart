@@ -23,7 +23,7 @@
 
 ## Watch the video on how to use the Rate Limiting plugin
 
-[Youtube video on Rate Limiting Plugin](https://www.youtube.com/watch?v=A3aR7GkaCoU)
+[Youtube video on Rate Limiting Plugin](https://youtu.be/G71HWhewo6E?si=yAwjuvPtd9aByu00)
 
 ## Installation using Deck
 
