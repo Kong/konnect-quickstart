@@ -40,7 +40,7 @@ Transform and customize Kong Gateway response exit messages using Lua functions.
 
 ## Watch the video on how to use the exit-transformer plugin
 
-[Using the Exit Transformer Plugin]()
+[Youtube video using the Exit Transformer Plugin](https://youtu.be/GQuSTuGuOZQ?si=6n2A6o7yrgqA-lOc)
 
 ## Installation using Deck
 
