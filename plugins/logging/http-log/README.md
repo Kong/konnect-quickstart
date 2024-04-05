@@ -5,7 +5,6 @@
   - [Watch the video on how to use the HTTP Logging plugin](#watch-the-video-on-how-to-use-the-http-logging-plugin)
   - [Installation using Deck](#installation-using-deck)
   - [Installation using Admin API](#installation-using-admin-api)
-  - [Installation using KIC](#installation-using-kic)
 
 ## What is the HTTP Logging?
 
@@ -42,6 +41,3 @@ To install this using deck:
 ## Installation using Admin API
 
 You can leverage the insomnia repository [here](https://github.com/irishtek-solutions/kong-konnect-inso) for Admin API usage.
-
-## Installation using KIC
-
