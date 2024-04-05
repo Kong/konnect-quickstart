@@ -46,10 +46,10 @@ The Kong OIDC plugin is designed to be generic and should work with any IDP that
 
 The IDP I will pick for these examples will be OKTA. However you should be able to use any Identity provider that supports OpenID Connect. There are some nuances with every provider. But in general, it should be similar
 
-- TODO VIDEO on setting up OIDC (OKTA) Application
-- TODO VIDEO Authorization Code Flow Example
-- TODO VIDEO Bearer Token Example
-- TODO VIDEO Authorization based on Claims
+- [VIDEO on setting up OIDC (OKTA) Application]()
+- [VIDEO Authorization Code Flow Example]()
+- [VIDEO Bearer Token Example]()
+- [VIDEO Authorization based on Claims]()
 
 ### Setting up the OKTA Application and Authorization Server
 

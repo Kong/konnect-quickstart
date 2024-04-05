@@ -84,8 +84,7 @@ Plugins can be applied globally or scoped to specific services, consumers or rou
 
 - Here is a link to our [plugin hub](https://docs.konghq.com/hub/) which has documentation for all available plugins
 - Here is the [slide deck](https://docs.google.com/presentation/d/1Rl_bCmI0dSlw-ydvprb3UkZCFhllkkorwwOGqHc5At4/edit?usp=sharing) for this plugin section.
-- Here is the link to the [insomnia collection](https://github.com/irishtek-solutions/kong-konnect-inso) when configuring using the Admin API
-- You can leverage the insomnia collection [here](https://github.com/irishtek-solutions/kong-konnect-inso)
+- Here is the link to the [insomnia collection](https://github.com/Kong/konnect-quickstart-inso.git) when configuring using the Admin API
 
 #### Authentication plugins
 
@@ -93,7 +92,8 @@ Plugins can be applied globally or scoped to specific services, consumers or rou
 |-----------------|---------------|---------------|----------------|----------------|---------------|----------------|---------------|
 | [Key Authentication](./plugins/authentication/key-authentication/) | <ul><li>  [x]  </li>  |  <ul><li>  [x]  </li>  | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>     |<ul><li>  [x]  </li>   | <ul><li>  [x]  </li>   |Completed
 | [Basic Authentication](./plugins/authentication/basic-authentication/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>  | <ul><li>  [x]  </li>     |<ul><li>  [x]  </li>   | <ul><li>  [x]  </li>   | <ul><li>  [x]  </li>   | Completed
-| [Mutual TLS](./plugins/authentication/mtls/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>  | <ul><li>  [x]  </li>     |<ul><li>  [x]  </li>   | <ul><li>  [x]  </li>   | <ul><li>  [x]  </li>   | In Progress
+| [Mutual TLS](./plugins/authentication/mtls/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>  | <ul><li>  [x]  </li>     |<ul><li>  [x]  </li>   | <ul><li>  [x]  </li>   | <ul><li>  [x]  </li>   | Completed
+| [Mutual TLS](./plugins/authentication/oidc/) | <ul><li>  [x]  </li>     | <ul><li>  [x]  </li>  | <ul><li>  [x]  </li>     |<ul><li>  [x]  </li>   | <ul><li>  [x]  </li>   | <ul><li>  [x]  </li>   | Completed
 
 #### Security plugins
 

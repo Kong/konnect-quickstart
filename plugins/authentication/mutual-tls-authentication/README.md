@@ -1,6 +1,6 @@
 # How to Use the Mutual TLS Authentication
 
-- [How to Use the Mutual TLS Authentication](#how-to-use-the-mutual-tls-authentication-plugin)
+- [How to Use the Mutual TLS Authentication](#how-to-use-the-mutual-tls-authentication)
   - [What is Mutual TLS Authentication?](#what-is-mutual-tls-authentication)
   - [Watch the video on how to use the Mutual TLS Authentication plugin](#watch-the-video-on-how-to-use-the-mutual-tls-authentication-plugin)
   - [Installation using Deck](#installation-using-deck)
@@ -26,7 +26,7 @@ Inluded in this directory is the CA certificate in PEM format in file ca.cert.pe
 
 ## Watch the video on how to use the Mutual TLS Authentication plugin
 
-[Youtube video on Mutual TLS Authentication Plugin](https://youtu.be/uIKCIWMPLAI?si=t0R_B4pXfhOd4PEj)
+[Youtube video on Mutual TLS Authentication Plugin](https://youtu.be/ZZqDEZjxRYM)
 
 ## Installation using Deck
 
