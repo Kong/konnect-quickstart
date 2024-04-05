@@ -25,7 +25,7 @@
 
 ## Watch the video on how to use the Key Authentication plugin
 
-[Youtube video on Key Authentication Plugin](https://youtu.be/VS37Kb5pIGs?si=VfCHBLwCKBJkFG8v)
+[Youtube video on Key Authentication Plugin](https://youtu.be/AbfUwETBocw?si=wvvqJT_27zwsEiF6)
 
 ## Installation using Deck
 
