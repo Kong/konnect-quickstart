@@ -29,7 +29,7 @@
 
 ## Watch the video on how to use the Canary plugin
 
-[Watch the video on how to set up the Canary Plugin](https://youtu.be/QGWtFP7BIuw)
+[Watch the video on how to set up the Canary Plugin](https://youtu.be/4bN_5yycms4?si=Rt5cC7x-kVlR6HYp)
 
 ## Installation using Deck
 

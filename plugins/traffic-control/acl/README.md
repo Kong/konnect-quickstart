@@ -27,9 +27,7 @@
 
 ## Watch the video on how to use the ACL plugin
 
-<!--
-[![First [PLUGIN NAME]](./images/activate.png)](https://youtu.be/ "First [PLUGIN NAME]")
--->
+[Youtube video on ACL PLugin](https://www.youtube.com/watch?v=eZl-QzZedBg)
 
 ## Installation using Deck
 
