@@ -100,8 +100,9 @@
    2. **Destination CIDRS *(This needs to match the CIDR of your VPC. My VPC ID is `vpc-0dcd709048de67290`)*:** `172.31.0.0/16`
 
    ![VPC CIDR](../images/dcgw/vpc-cidr.png)
+
    3. **RAM Share ARN *(copied in part 3, point 8)*:** `arn:aws:ram:us-west-2:975050302835:resource-share/f5ac65dd-8ec1-442c-9e68-a046bd0ad34d` 
-   4. **Transit Gateway ID *(part 2, point 5)*:** `tgw-0b125db58a939a8a6` 
+   4. 4. **Transit Gateway ID *(part 2, point 5)*:** `tgw-0b125db58a939a8a6` 
    5. **[Optional] DNS config.**
 3. Click on `create`, it should look like this:
 
