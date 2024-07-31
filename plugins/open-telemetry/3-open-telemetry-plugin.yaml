@@ -1,0 +1,9 @@
+apiVersion: configuration.konghq.com/v1
+kind: KongPlugin
+metadata:
+  name: open-telemetry-plugin
+plugin: opentelemetry
+config:
+  endpoint: https://9d21361376594d278a2e4f03611ee9bf.apm.us-central1.gcp.cloud.es.io:443/v1/traces
+  headers:
+    Authorization: Bearer 1qaw7Cwf3RRZOnzVuC 

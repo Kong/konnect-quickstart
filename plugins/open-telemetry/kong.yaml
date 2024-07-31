@@ -1,0 +1,158 @@
+_format_version: "3.0"
+_konnect:
+  runtime_group_name: amrita-kic
+services:
+- connect_timeout: 60000
+  enabled: true
+  host: echo.default.1027.svc
+  name: default.echo.1027
+  path: /
+  plugins:
+  - config:
+      batch_flush_delay: null
+      batch_span_count: null
+      connect_timeout: 1000
+      endpoint: https://f920216e1f3941b48a730f39efc86e27.apm.us-central1.gcp.cloud.es.io:443/v1/traces
+      header_type: preserve
+      headers:
+        Authorization: Bearer WcaaKUppFBEUvuzIVJ
+      http_response_header_for_traceid: null
+      propagation:
+        clear: null
+        default_format: w3c
+        extract: null
+        inject: null
+      queue:
+        initial_retry_delay: 0.01
+        max_batch_size: 200
+        max_bytes: null
+        max_coalescing_delay: 1
+        max_entries: 10000
+        max_retry_delay: 60
+        max_retry_time: 60
+      read_timeout: 5000
+      resource_attributes: null
+      sampling_rate: null
+      send_timeout: 5000
+    enabled: true
+    name: opentelemetry
+    protocols:
+    - grpc
+    - grpcs
+    - http
+    - https
+    tags:
+    - k8s-name:opentelemetry-example
+    - k8s-namespace:default
+    - k8s-kind:KongPlugin
+    - k8s-uid:dd5ebd2c-0adb-47c7-8069-7c818dd779a6
+    - k8s-group:configuration.konghq.com
+    - k8s-version:v1
+  port: 1027
+  protocol: http
+  read_timeout: 60000
+  retries: 5
+  routes:
+  - https_redirect_status_code: 426
+    name: default.echo.echo..1027
+    path_handling: v0
+    paths:
+    - /echo
+    preserve_host: true
+    protocols:
+    - http
+    - https
+    regex_priority: 0
+    request_buffering: true
+    response_buffering: true
+    strip_path: true
+    tags:
+    - k8s-name:echo
+    - k8s-namespace:default
+    - k8s-kind:Ingress
+    - k8s-uid:90a86b46-b1fc-4e59-89b7-25b9c2c60d28
+    - k8s-group:networking.k8s.io
+    - k8s-version:v1
+  tags:
+  - k8s-name:echo
+  - k8s-namespace:default
+  - k8s-kind:Service
+  - k8s-uid:c773b1f9-4a40-474c-ac19-031ad379c172
+  - k8s-version:v1
+  write_timeout: 60000
+upstreams:
+- algorithm: round-robin
+  hash_fallback: none
+  hash_on: none
+  hash_on_cookie_path: /
+  healthchecks:
+    active:
+      concurrency: 10
+      healthy:
+        http_statuses:
+        - 200
+        - 302
+        interval: 0
+        successes: 0
+      http_path: /
+      https_verify_certificate: true
+      timeout: 1
+      type: http
+      unhealthy:
+        http_failures: 0
+        http_statuses:
+        - 429
+        - 404
+        - 500
+        - 501
+        - 502
+        - 503
+        - 504
+        - 505
+        interval: 0
+        tcp_failures: 0
+        timeouts: 0
+    passive:
+      healthy:
+        http_statuses:
+        - 200
+        - 201
+        - 202
+        - 203
+        - 204
+        - 205
+        - 206
+        - 207
+        - 208
+        - 226
+        - 300
+        - 301
+        - 302
+        - 303
+        - 304
+        - 305
+        - 306
+        - 307
+        - 308
+        successes: 0
+      type: http
+      unhealthy:
+        http_failures: 0
+        http_statuses:
+        - 429
+        - 500
+        - 503
+        tcp_failures: 0
+        timeouts: 0
+    threshold: 0
+  name: echo.default.1027.svc
+  slots: 10000
+  tags:
+  - k8s-name:echo
+  - k8s-namespace:default
+  - k8s-kind:Service
+  - k8s-uid:c773b1f9-4a40-474c-ac19-031ad379c172
+  - k8s-version:v1
+  targets:
+  - target: 10.1.2.108:1027
+    weight: 100

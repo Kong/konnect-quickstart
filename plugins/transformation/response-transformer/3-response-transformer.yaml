@@ -1,0 +1,11 @@
+apiVersion: configuration.konghq.com/v1
+kind: KongPlugin
+metadata:
+  name: response-transformer
+plugin: response-transformer
+config:
+  add:
+    headers:
+    - x-new-header:value
+    - x-another-header:something
+
